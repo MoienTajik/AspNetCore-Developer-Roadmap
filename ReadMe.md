@@ -68,10 +68,15 @@ If you like or are using this project to learn or start your solution, please gi
         2. [Memcached](https://memcached.org/)
     3. [Memory Cache](https://docs.microsoft.com/en-us/aspnet/core/performance/caching/memory?view=aspnetcore-2.2)
 
-6. Log Frameworks
-    * [Serilog](https://github.com/serilog/serilog)
-    * [NLog](https://github.com/NLog/NLog)
-    * [Elmah](https://elmah.github.io/)
+6. Logging
+      1. Log Frameworks
+            * [NLog](https://github.com/NLog/NLog)
+            * [Serilog](https://github.com/serilog/serilog)
+            * [Elmah](https://elmah.github.io/)
+      2. Log Management System
+            * [Sentry.io](http://sentry.io)
+            * [Loggly.com](https://loggly.com)
+            * [Elmah.io](http://elmah.io)
 
 7. Object Mapping
     * [AutoMapper](https://github.com/AutoMapper/AutoMapper)
@@ -106,13 +111,14 @@ If you like or are using this project to learn or start your solution, please gi
 			* [NSubstitute](https://github.com/nsubstitute/NSubstitute)
 		3. Assertion
 			* [FluentAssertion](https://github.com/fluentassertions/fluentassertions)
-			* [Shoudly](https://github.com/shouldly/shouldly)
+			* [Shouldly](https://github.com/shouldly/shouldly)
 	2. Behavior Testing
 		* [BDDfy](https://github.com/TestStack/TestStack.BDDfy)
 		* [SpecFlow](https://github.com/techtalk/SpecFlow/tree/DotNetCore)
 		* [LightBDD](https://github.com/LightBDD/LightBDD)
 	3. Integration Testing
-		* [AspNetCore.TestServer](https://docs.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-2.2)
+		* [WebApplicationFactory](https://docs.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-2.2)
+		* [TestServer](https://koukia.ca/integration-testing-in-asp-net-core-2-0-51d14ede3968)
 	4. E2E Testing
 		* [Selenium](https://www.automatetheplanet.com/webdriver-dotnetcore2/)
 		* [Puppeteer-Sharp](https://github.com/kblok/puppeteer-sharp)
@@ -122,20 +128,18 @@ If you like or are using this project to learn or start your solution, please gi
     * [Coravel](https://github.com/jamesmh/coravel)
     * [Fluent Scheduler](https://github.com/fluentscheduler/FluentScheduler)
 
-12. Static Site Generator
-    * [Wyam](https://github.com/Wyamio/Wyam)
-
-13. MicroServices
+12. MicroServices
 	1. Message-Broker
 	    * [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
 	    * [Apache Kafka](https://github.com/confluentinc/confluent-kafka-dotnet)
 	    * [ActiveMQ](https://github.com/apache/activemq)
+	    * [Azure Service Bus](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview)
 	2. Message-Bus
 		* [MassTransit](https://github.com/MassTransit/MassTransit)
 		* [NServiceBus](https://github.com/Particular/NServiceBus)
 		* [CAP](https://github.com/dotnetcore/CAP)
 
-14. Design-Patterns
+13. Design-Patterns
 	* [Decorator](https://www.dofactory.com/net/decorator-design-pattern)
 	* [Singleton](https://www.dofactory.com/net/singleton-design-pattern)
 	* [Observer](https://www.dofactory.com/net/observer-design-pattern)
