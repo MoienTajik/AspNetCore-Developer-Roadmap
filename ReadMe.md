@@ -54,9 +54,10 @@ If you like or are using this project to learn or start your solution, please gi
         * [Sphinx](http://sphinxsearch.com/)
     4. NoSQL
 	    * [MongoDB](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mongo-app?view=aspnetcore-2.2&tabs=visual-studio)
+	    * [Redis](https://redis.io/)
 	    * [Apache Cassandra](http://cassandra.apache.org/)
 	    * [LiteDB](https://github.com/mbdavid/LiteDB)
-	    * [Redis](https://redis.io/)
+	    * [RavenDB](https://github.com/ravendb/ravendb)
 	    * [CouchDB](http://couchdb.apache.org/)
 
 5. Caching
@@ -70,28 +71,37 @@ If you like or are using this project to learn or start your solution, please gi
 
 6. Logging
       1. Log Frameworks
-            * [NLog](https://github.com/NLog/NLog)
             * [Serilog](https://github.com/serilog/serilog)
+            * [NLog](https://github.com/NLog/NLog)
             * [Elmah](https://elmah.github.io/)
       2. Log Management System
             * [Sentry.io](http://sentry.io)
             * [Loggly.com](https://loggly.com)
             * [Elmah.io](http://elmah.io)
+	    
+7. Template Engines
+      1. Razor
+      2. [DotLiquid](https://github.com/dotliquid/dotliquid)
+      3. [Scriban](https://github.com/lunet-io/scriban)
+      4. [Fluid](https://github.com/sebastienros/fluid)
+      
+8. Real-Time Communication
+      1. [SignalR](https://docs.microsoft.com/en-us/aspnet/core/signalr)
 
-7. Object Mapping
+9. Object Mapping
     * [AutoMapper](https://github.com/AutoMapper/AutoMapper)
     * [Mapster](https://github.com/MapsterMapper/Mapster)
     * [AgileMapper](https://github.com/agileobjects/AgileMapper)
     * [ExpressMapper](http://expressmapper.org/)
 
-8. API Clients
+10. API Clients
       1. REST
 	        * [OData](https://blogs.msdn.microsoft.com/odatateam/2018/07/03/asp-net-core-odata-now-available/)
 	        * [Sieve](https://github.com/Biarity/Sieve)
     2. GraphQL
         * [GraphQL-dotnet](https://github.com/graphql-dotnet/graphql-dotnet)
 
-9. Good to Know
+11. Good to Know
     * [MediatR](https://github.com/jbogard/MediatR)
     * [Fluent Validation](https://github.com/JeremySkinner/FluentValidation)
     * [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
@@ -100,7 +110,7 @@ If you like or are using this project to learn or start your solution, please gi
     * [NodaTime](https://github.com/nodatime/nodatime)
     * [GenFu](https://github.com/MisterJames/GenFu)
 
-10. Testing
+12. Testing
 	1. Unit Testing
 		1. Frameworks
 		    * [MSTest](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-mstest)
@@ -123,12 +133,12 @@ If you like or are using this project to learn or start your solution, please gi
 		* [Selenium](https://www.automatetheplanet.com/webdriver-dotnetcore2/)
 		* [Puppeteer-Sharp](https://github.com/kblok/puppeteer-sharp)
 
-11. Task Scheduling
+13. Task Scheduling
     * [HangFire](https://github.com/HangfireIO/Hangfire)
     * [Coravel](https://github.com/jamesmh/coravel)
     * [Fluent Scheduler](https://github.com/fluentscheduler/FluentScheduler)
 
-12. MicroServices
+14. MicroServices
 	1. Message-Broker
 	    * [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
 	    * [Apache Kafka](https://github.com/confluentinc/confluent-kafka-dotnet)
@@ -139,14 +149,14 @@ If you like or are using this project to learn or start your solution, please gi
 		* [NServiceBus](https://github.com/Particular/NServiceBus)
 		* [CAP](https://github.com/dotnetcore/CAP)
 
-13. Design-Patterns
-	* [Decorator](https://www.dofactory.com/net/decorator-design-pattern)
+15. Design-Patterns
 	* [Singleton](https://www.dofactory.com/net/singleton-design-pattern)
-	* [Observer](https://www.dofactory.com/net/observer-design-pattern)
-	* [Strategy](https://www.dofactory.com/net/strategy-design-pattern)
-	* [Builder](https://www.dofactory.com/net/builder-design-pattern)
-	* [Facade](https://www.dofactory.com/net/facade-design-pattern)
 	* [CQRS](https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs)
+	* [Strategy](https://www.dofactory.com/net/strategy-design-pattern)
+	* [Observer](https://www.dofactory.com/net/observer-design-pattern)
+	* [Builder](https://www.dofactory.com/net/builder-design-pattern)
+	* [Decorator](https://www.dofactory.com/net/decorator-design-pattern)
+	* [Facade](https://www.dofactory.com/net/facade-design-pattern)
 	* [Mediator](https://www.dofactory.com/net/mediator-design-pattern)
 
 ## Wrap Up
