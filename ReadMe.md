@@ -149,15 +149,43 @@ If you like or are using this project to learn or start your solution, please gi
 		* [NServiceBus](https://github.com/Particular/NServiceBus)
 		* [CAP](https://github.com/dotnetcore/CAP)
 
-15. Design-Patterns
-	* [Singleton](https://www.dofactory.com/net/singleton-design-pattern)
+15. SOLID
+    * [Single Responsibility Principle (SRP)](https://www.dotnetcurry.com/software-gardening/1148/solid-single-responsibility-principle)
+    * [Open-Closed Principle (OCP)](https://www.dotnetcurry.com/software-gardening/1176/solid-open-closed-principle)
+    * [Liskov Substitution Principle (LSP)](https://www.dotnetcurry.com/software-gardening/1235/liskov-substitution-principle-lsp-solid-patterns)
+    * [Interface Segregation Principle (ISP)](https://www.dotnetcurry.com/software-gardening/1257/interface-segregation-principle-isp-solid-principle)
+    * [Dependency Inversion Principle (DIP)](https://www.dotnetcurry.com/software-gardening/1284/dependency-injection-solid-principles)
+
+16. Design-Patterns
+    * Gof (Gang of Four)
+      * **Creational**
+        * [Abstract Factory](https://www.dofactory.com/net/abstract-factory-design-pattern)
+        * [Builder](https://www.dofactory.com/net/builder-design-pattern)
+        * [Factory Method](https://www.dofactory.com/net/factory-method-design-pattern)
+        * [Prototype](https://www.dofactory.com/net/prototype-design-pattern)
+ 	    * [Singleton](https://www.dofactory.com/net/singleton-design-pattern)
+      * **Structural**
+        * [Adapter](https://www.dofactory.com/net/adapter-design-pattern)
+        * [Bridge](https://www.dofactory.com/net/bridge-design-pattern)
+        * [Composite](https://www.dofactory.com/net/composite-design-pattern)
+        * [Decorator](https://www.dofactory.com/net/decorator-design-pattern)
+        * [Facade](https://www.dofactory.com/net/facade-design-pattern)
+        * [Flyweight](https://www.dofactory.com/net/flyweight-design-pattern)
+        * [Proxy](https://www.dofactory.com/net/proxy-design-pattern)
+      * **Behavioral**
+        * [Chain of Resp.](https://www.dofactory.com/net/chain-of-responsibility-design-pattern)
+        * [Command](https://www.dofactory.com/net/command-design-pattern)
+        * [Interpreter](https://www.dofactory.com/net/interpreter-design-pattern)
+        * [Iterator](https://www.dofactory.com/net/iterator-design-pattern)
+        * [Mediator](https://www.dofactory.com/net/mediator-design-pattern)
+        * [Memento](https://www.dofactory.com/net/memento-design-pattern)
+        * [Observer](https://www.dofactory.com/net/observer-design-pattern)
+        * [State](https://www.dofactory.com/net/state-design-pattern)
+        * [Strategy](https://www.dofactory.com/net/strategy-design-pattern)
+        * [Template Method](https://www.dofactory.com/net/template-method-design-pattern)
+        * [Visitor](https://www.dofactory.com/net/visitor-design-pattern)
+
 	* [CQRS](https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs)
-	* [Strategy](https://www.dofactory.com/net/strategy-design-pattern)
-	* [Observer](https://www.dofactory.com/net/observer-design-pattern)
-	* [Builder](https://www.dofactory.com/net/builder-design-pattern)
-	* [Decorator](https://www.dofactory.com/net/decorator-design-pattern)
-	* [Facade](https://www.dofactory.com/net/facade-design-pattern)
-	* [Mediator](https://www.dofactory.com/net/mediator-design-pattern)
 
 ## Wrap Up
 
