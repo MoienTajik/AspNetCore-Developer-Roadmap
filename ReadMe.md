@@ -149,7 +149,14 @@ If you like or are using this project to learn or start your solution, please gi
 		* [NServiceBus](https://github.com/Particular/NServiceBus)
 		* [CAP](https://github.com/dotnetcore/CAP)
 
-15. Design-Patterns
+15. SOLID
+    * [Single Responsibility Principle (SRP)](https://www.dotnetcurry.com/software-gardening/1148/solid-single-responsibility-principle)
+    * [Open-Closed Principle (OCP)](https://www.dotnetcurry.com/software-gardening/1176/solid-open-closed-principle)
+    * [Liskov Substitution Principle (LSP)](https://www.dotnetcurry.com/software-gardening/1235/liskov-substitution-principle-lsp-solid-patterns)
+    * [Interface Segregation Principle (ISP)](https://www.dotnetcurry.com/software-gardening/1257/interface-segregation-principle-isp-solid-principle)
+    * [Dependency Inversion Principle (DIP)](https://www.dotnetcurry.com/software-gardening/1284/dependency-injection-solid-principles)
+
+16. Design-Patterns
 	* [Singleton](https://www.dofactory.com/net/singleton-design-pattern)
 	* [CQRS](https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs)
 	* [Strategy](https://www.dofactory.com/net/strategy-design-pattern)
