@@ -1,4 +1,5 @@
 # ASP.NET Core Developer Roadmap
+[ReadMe in Chinese](ReadMe.zh-Hans.md)
 
 > Roadmap to becoming an [ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-2.2) developer in 2019:
 
