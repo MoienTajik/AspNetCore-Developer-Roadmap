@@ -1,0 +1,190 @@
+# ASP.NET Core 开发者路线图
+
+> Roadmap to becoming an [ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-2.2) developer in 2019:
+
+Below you can find a chart demonstrating the paths that you can take and the libraries that you would want to learn to become an ASP.NET Core developer. I made this chart as a tip for everyone who asks me, "What should I learn next as an ASP.NET Core developer?"
+
+## 免责声明
+
+> The purpose of this roadmap is to give you an idea about the landscape. The road map will guide you if you are confused about what to learn next, rather than encouraging you to pick what is hip and trendy. You should grow some understanding of why one tool would be better suited for some cases than the other and remember hip and trendy does not always mean best suited for the job
+
+## Give a Star! :star:
+
+If you like or are using this project to learn or start your solution, please give it a star. Thanks!
+
+## 路线图
+
+![Roadmap](./aspnetcore-developer-roadmap.zh-Hans.png)
+
+## 资源
+
+1. 先决条件
+
+   - [C#](https://www.pluralsight.com/paths/csharp)
+   - [Entity Framework](https://www.pluralsight.com/search?q=entity%20framework%20core)
+   - [ASP.NET Core](https://www.pluralsight.com/search?q=asp.net%20core)
+
+2. 通用开发技能
+
+   - Learn GIT, create a few repositories on GitHub, share your code with other people
+   - Know HTTP(S) protocol, request methods (GET, POST, PUT, PATCH, DELETE, OPTIONS)
+   - Don't be afraid of using Google, [Power Searching with Google](http://www.powersearchingwithgoogle.com/)
+   - Learn [dotnet CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/?tabs=netcore2x)
+   - Read a few books about algorithms and data structures
+
+3. 依赖注入
+
+   1. DI容器
+      - [Microsoft.Extensions.DependencyInjection](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.2)
+      - [AutoFac](https://autofaccn.readthedocs.io/en/latest/integration/aspnetcore.html)
+      - [Ninject](http://www.ninject.org/)
+      - [StructureMap](https://github.com/structuremap/structuremap)
+      - [Castle Windsor](https://github.com/castleproject/Windsor)
+   2. [生命周期](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.2#service-lifetimes)
+   3. [Scrutor](https://github.com/khellang/Scrutor)
+
+4. 数据库
+
+   1. 关系数据库
+      1. [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-2017)
+      2. [PostgreSQL](https://www.postgresql.org/)
+      3. [MariaDB](https://mariadb.org/)
+      4. [MySQL](https://www.mysql.com/)
+   2. 云数据库
+      - [CosmosDB](https://docs.microsoft.com/en-us/azure/cosmos-db)
+      - [DynamoDB](https://aws.amazon.com/dynamodb/)
+   3. 搜索引擎
+      - [ElasticSearch](https://www.elastic.co/)
+      - [Solr](http://lucene.apache.org/solr/)
+      - [Sphinx](http://sphinxsearch.com/)
+   4. NoSQL
+      - [MongoDB](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mongo-app?view=aspnetcore-2.2&tabs=visual-studio)
+      - [Redis](https://redis.io/)
+      - [Apache Cassandra](http://cassandra.apache.org/)
+      - [LiteDB](https://github.com/mbdavid/LiteDB)
+      - [RavenDB](https://github.com/ravendb/ravendb)
+      - [CouchDB](http://couchdb.apache.org/)
+
+5. 缓存
+
+   1. 实体框架二级缓存
+      1. [EFSecondLevelCache.Core](https://github.com/VahidN/EFSecondLevelCache.Core)
+      2. [EntityFrameworkCore.Cacheable](https://github.com/SteffenMangold/EntityFrameworkCore.Cacheable)
+   2. [分布式缓存](https://docs.microsoft.com/en-us/aspnet/core/performance/caching/distributed?view=aspnetcore-2.2)
+      1. [Redis](https://redis.io/)
+      2. [Memcached](https://memcached.org/)
+   3. [内存缓存](https://docs.microsoft.com/en-us/aspnet/core/performance/caching/memory?view=aspnetcore-2.2)
+
+6. 日志
+   1. 日志框架
+      - [Serilog](https://github.com/serilog/serilog)
+      - [NLog](https://github.com/NLog/NLog)
+      - [Elmah](https://elmah.github.io/)
+   2. 日志管理系统
+      - [Sentry.io](http://sentry.io)
+      - [Loggly.com](https://loggly.com)
+      - [Elmah.io](http://elmah.io)
+7. 模板引擎
+   1. Razor
+   2. [DotLiquid](https://github.com/dotliquid/dotliquid)
+   3. [Scriban](https://github.com/lunet-io/scriban)
+   4. [Fluid](https://github.com/sebastienros/fluid)
+8. 实时通信
+
+   1. [SignalR](https://docs.microsoft.com/en-us/aspnet/core/signalr)
+
+9. 对象映射
+
+   - [AutoMapper](https://github.com/AutoMapper/AutoMapper)
+   - [Mapster](https://github.com/MapsterMapper/Mapster)
+   - [AgileMapper](https://github.com/agileobjects/AgileMapper)
+   - [ExpressMapper](http://expressmapper.org/)
+
+10. API客户端
+
+    1. REST
+       - [OData](https://blogs.msdn.microsoft.com/odatateam/2018/07/03/asp-net-core-odata-now-available/)
+       - [Sieve](https://github.com/Biarity/Sieve)
+    2. GraphQL
+       - [GraphQL-dotnet](https://github.com/graphql-dotnet/graphql-dotnet)
+
+11. 最好掌握
+
+    - [MediatR](https://github.com/jbogard/MediatR)
+    - [Fluent Validation](https://github.com/JeremySkinner/FluentValidation)
+    - [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
+    - [Benchmark.NET](https://github.com/dotnet/BenchmarkDotNet)
+    - [Polly](https://github.com/App-vNext/Polly)
+    - [NodaTime](https://github.com/nodatime/nodatime)
+    - [GenFu](https://github.com/MisterJames/GenFu)
+
+12. 测试
+
+    1. 单元测试
+       1. 测试框架
+          - [MSTest](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-mstest)
+          - [NUnit](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-nunit)
+          - [xUnit](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test)
+       2. 模拟工具
+          - [Moq](https://github.com/moq/moq4)
+          - [NSubstitute](https://github.com/nsubstitute/NSubstitute)
+          - [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy)
+       3. 断言工具
+          - [FluentAssertion](https://github.com/fluentassertions/fluentassertions)
+          - [Shouldly](https://github.com/shouldly/shouldly)
+    2. 行为测试
+       - [BDDfy](https://github.com/TestStack/TestStack.BDDfy)
+       - [SpecFlow](https://github.com/techtalk/SpecFlow/tree/DotNetCore)
+       - [LightBDD](https://github.com/LightBDD/LightBDD)
+    3. 集成测试
+       - [WebApplicationFactory](https://docs.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-2.2)
+       - [TestServer](https://koukia.ca/integration-testing-in-asp-net-core-2-0-51d14ede3968)
+    4. 端到端测试
+       - [Selenium](https://www.automatetheplanet.com/webdriver-dotnetcore2/)
+       - [Puppeteer-Sharp](https://github.com/kblok/puppeteer-sharp)
+
+13. 任务调度
+
+    - [HangFire](https://github.com/HangfireIO/Hangfire)
+    - [Coravel](https://github.com/jamesmh/coravel)
+    - [Fluent Scheduler](https://github.com/fluentscheduler/FluentScheduler)
+
+14. 微服务架构
+
+    1. 消息队列
+       - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
+       - [Apache Kafka](https://github.com/confluentinc/confluent-kafka-dotnet)
+       - [ActiveMQ](https://github.com/apache/activemq)
+       - [Azure Service Bus](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview)
+    2. 消息总线
+       - [MassTransit](https://github.com/MassTransit/MassTransit)
+       - [NServiceBus](https://github.com/Particular/NServiceBus)
+       - [CAP](https://github.com/dotnetcore/CAP)
+
+15. 设计模式
+    - [单例模式](https://www.dofactory.com/net/singleton-design-pattern)
+    - [CQRS](https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs)
+    - [策略模式](https://www.dofactory.com/net/strategy-design-pattern)
+    - [观察者模式](https://www.dofactory.com/net/observer-design-pattern)
+    - [建造者模式](https://www.dofactory.com/net/builder-design-pattern)
+    - [装饰模式](https://www.dofactory.com/net/decorator-design-pattern)
+    - [外观模式](https://www.dofactory.com/net/facade-design-pattern)
+    - [中介者模式](https://www.dofactory.com/net/mediator-design-pattern)
+
+## Wrap Up
+
+If you think the roadmap can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this, so you might want to star this repository to revisit.
+
+Idea from : [React Developer RoadMap](https://github.com/adam-golab/react-developer-roadmap)
+
+## Contribution
+
+The roadmap is built using [Draw.io](https://www.draw.io/). Project file can be found at `aspnetcore-developer-roadmap.xml` file. To modify it, open draw.io, click **Open Existing Diagram** and choose `xml` file with project. It will open the roadmap for you. Update it, upload and update the images in readme and create a PR (export as png with 400% zoom and minify that with [Compressor.io](https://compressor.io/compress)).
+
+- Open a pull request with improvements
+- Discuss ideas in issues
+- Spread the word
+
+## License
+
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
