@@ -76,6 +76,7 @@ If you like or are using this project to learn or start your solution, please gi
    3. [Memory Cache](https://docs.microsoft.com/en-us/aspnet/core/performance/caching/memory?view=aspnetcore-2.2)
 
 6. Logging
+
    1. Log Frameworks
       - [Serilog](https://github.com/serilog/serilog)
       - [NLog](https://github.com/NLog/NLog)
@@ -84,6 +85,7 @@ If you like or are using this project to learn or start your solution, please gi
       - [Sentry.io](http://sentry.io)
       - [Loggly.com](https://loggly.com)
       - [Elmah.io](http://elmah.io)
+
 7. Template Engines
    1. Razor
    2. [DotLiquid](https://github.com/dotliquid/dotliquid)
@@ -161,13 +163,21 @@ If you like or are using this project to learn or start your solution, please gi
        - [NServiceBus](https://github.com/Particular/NServiceBus)
        - [CAP](https://github.com/dotnetcore/CAP)
 
-15. Design-Patterns
-    - [Singleton](https://www.dofactory.com/net/singleton-design-pattern)
+15. SOLID
+
+    - [Single Responsibility Principle (SRP)](https://www.dotnetcurry.com/software-gardening/1148/solid-single-responsibility-principle)
+    - [Open-Closed Principle (OCP)](https://www.dotnetcurry.com/software-gardening/1176/solid-open-closed-principle)
+    - [Liskov Substitution Principle (LSP)](https://www.dotnetcurry.com/software-gardening/1235/liskov-substitution-principle-lsp-solid-patterns)
+    - [Interface Segregation Principle (ISP)](https://www.dotnetcurry.com/software-gardening/1257/interface-segregation-principle-isp-solid-principle)
+    - [Dependency Inversion Principle (DIP)](https://www.dotnetcurry.com/software-gardening/1284/dependency-injection-solid-principles)
+
+16. Design-Patterns
     - [CQRS](https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs)
+    - [Decorator](https://www.dofactory.com/net/decorator-design-pattern)
     - [Strategy](https://www.dofactory.com/net/strategy-design-pattern)
     - [Observer](https://www.dofactory.com/net/observer-design-pattern)
     - [Builder](https://www.dofactory.com/net/builder-design-pattern)
-    - [Decorator](https://www.dofactory.com/net/decorator-design-pattern)
+    - [Singleton](https://www.dofactory.com/net/singleton-design-pattern)
     - [Facade](https://www.dofactory.com/net/facade-design-pattern)
     - [Mediator](https://www.dofactory.com/net/mediator-design-pattern)
 
