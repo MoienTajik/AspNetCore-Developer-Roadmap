@@ -193,7 +193,7 @@
 
 ## 贡献
 
-该指南是使用[Draw.io](https://www.draw.io/)构建的。项目文件为`aspnetcore-developer-roadmap.xml`。要修改它, 请打开 draw.io, 点击 **Open Existing Diagram** 并选择项目中的 `xml` 文件。它将为你打开指南，更新它，上传和更新自述文件中的图像并创建一个 PR（导出为400%的png，然后使用[Compressor.io](https://compressor.io/compress)压缩）。
+该指南是使用[Draw.io](https://www.draw.io/)构建的。项目文件为`aspnetcore-developer-roadmap.xml`。要修改它, 请打开 draw.io, 点击 **Open Existing Diagram** 并选择项目中的 `xml` 文件。它将为你渲染生成路线图，更新它，上传和更新自述文件中的图像并创建一个 PR（导出为400%的png图片，然后使用[Compressor.io](https://compressor.io/compress)压缩）。
 
 - 改进后提交 PR
 - 在Issues中讨论问题
