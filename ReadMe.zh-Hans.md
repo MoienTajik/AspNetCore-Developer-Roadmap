@@ -11,7 +11,7 @@
 
 ## 请给一个星星! :star:
 
-如果你喜欢或正在使用这个项目进行学习或引用在你的解决方案，请给它一个星星。谢谢!
+如果你喜欢或正在使用这个项目进行学习或引用在你的解决方案中，请给它一个星星。谢谢!
 
 ## 路线图
 
@@ -77,6 +77,7 @@
    3. [内存缓存](https://docs.microsoft.com/en-us/aspnet/core/performance/caching/memory?view=aspnetcore-2.2)
 
 6. 日志
+
    1. 日志框架
       - [Serilog](https://github.com/serilog/serilog)
       - [NLog](https://github.com/NLog/NLog)
@@ -85,11 +86,14 @@
       - [Sentry.io](http://sentry.io)
       - [Loggly.com](https://loggly.com)
       - [Elmah.io](http://elmah.io)
+
 7. 模板引擎
+
    1. Razor
    2. [DotLiquid](https://github.com/dotliquid/dotliquid)
    3. [Scriban](https://github.com/lunet-io/scriban)
    4. [Fluid](https://github.com/sebastienros/fluid)
+
 8. 实时通信
 
    1. [SignalR](https://docs.microsoft.com/en-us/aspnet/core/signalr)
@@ -150,7 +154,7 @@
     - [Coravel](https://github.com/jamesmh/coravel)
     - [Fluent Scheduler](https://github.com/fluentscheduler/FluentScheduler)
 
-14. 微服务架构
+14. 微服务
 
     1. 消息队列
        - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
@@ -162,13 +166,22 @@
        - [NServiceBus](https://github.com/Particular/NServiceBus)
        - [CAP](https://github.com/dotnetcore/CAP)
 
-15. 设计模式
-    - [单例模式](https://www.dofactory.com/net/singleton-design-pattern)
+15. SOLID原则
+
+    - [单一责任原则(SRP)](https://www.dotnetcurry.com/software-gardening/1148/solid-single-responsibility-principle)
+    - [开放封闭原则(OCP)](https://www.dotnetcurry.com/software-gardening/1176/solid-open-closed-principle)
+    - [里氏替换原则(LSP)](https://www.dotnetcurry.com/software-gardening/1235/liskov-substitution-principle-lsp-solid-patterns)
+    - [依赖倒置原则(ISP)](https://www.dotnetcurry.com/software-gardening/1257/interface-segregation-principle-isp-solid-principle)
+    - [接口分离原则(DIP)](https://www.dotnetcurry.com/software-gardening/1284/dependency-injection-solid-principles)
+
+16. 设计模式
+
     - [CQRS](https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs)
+	- [装饰模式](https://www.dofactory.com/net/decorator-design-pattern)
     - [策略模式](https://www.dofactory.com/net/strategy-design-pattern)
     - [观察者模式](https://www.dofactory.com/net/observer-design-pattern)
     - [建造者模式](https://www.dofactory.com/net/builder-design-pattern)
-    - [装饰模式](https://www.dofactory.com/net/decorator-design-pattern)
+    - [单例模式](https://www.dofactory.com/net/singleton-design-pattern)
     - [外观模式](https://www.dofactory.com/net/facade-design-pattern)
     - [中介者模式](https://www.dofactory.com/net/mediator-design-pattern)
 
