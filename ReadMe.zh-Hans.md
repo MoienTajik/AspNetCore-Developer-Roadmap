@@ -1,20 +1,21 @@
-# ASP.NET Core 开发者路线图
+# ASP.NET Core开发者指南
 
-> Roadmap to becoming an [ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-2.2) developer in 2019:
+> 2019年[ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-2.2)开发者指南:
 
-Below you can find a chart demonstrating the paths that you can take and the libraries that you would want to learn to become an ASP.NET Core developer. I made this chart as a tip for everyone who asks me, "What should I learn next as an ASP.NET Core developer?"
+你可以在下面找到一张图，该图展示了你可以选取的路径及你想学习的库，从而成为一名 ASP.NET Core 开发者。“作为 ASP.NET Core 开发者，我接下来应该学习什么？”，我把这张图作为建议给每个问过我这一问题的人。
 
 ## 免责声明
 
-> The purpose of this roadmap is to give you an idea about the landscape. The road map will guide you if you are confused about what to learn next, rather than encouraging you to pick what is hip and trendy. You should grow some understanding of why one tool would be better suited for some cases than the other and remember hip and trendy does not always mean best suited for the job
+> 该指南的目的是为了给读者心有个大概的轮廓。如果你对接下来要学习的内容感到困惑，这张路线图将指导你，而不是鼓励你选择时髦的东西。
+> 你应该逐渐理解为什么一种工具比另一种工具更适合某些场景，并且记住时髦和新颖的东西并不总是意味着最适合这个工作。
 
-## Give a Star! :star:
+## 请给一个星星! :star:
 
-If you like or are using this project to learn or start your solution, please give it a star. Thanks!
+如果你喜欢或正在使用这个项目进行学习或引用在你的解决方案，请给它一个星星。谢谢!
 
 ## 路线图
 
-![Roadmap](./aspnetcore-developer-roadmap.zh-Hans.png)
+![路线图](./aspnetcore-developer-roadmap.zh-Hans.png)
 
 ## 资源
 
@@ -26,11 +27,11 @@ If you like or are using this project to learn or start your solution, please gi
 
 2. 通用开发技能
 
-   - Learn GIT, create a few repositories on GitHub, share your code with other people
-   - Know HTTP(S) protocol, request methods (GET, POST, PUT, PATCH, DELETE, OPTIONS)
-   - Don't be afraid of using Google, [Power Searching with Google](http://www.powersearchingwithgoogle.com/)
-   - Learn [dotnet CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/?tabs=netcore2x)
-   - Read a few books about algorithms and data structures
+   - 学习GIT, 在GitHub中创建开源项目
+   - 掌握HTTP(S)协议, 及其请求方法(GET, POST, PUT, PATCH, DELETE, OPTIONS)
+   - 不要害怕使用 Google, [Google搜索技巧](http://www.powersearchingwithgoogle.com/)
+   - 学习[dotnet CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/?tabs=netcore2x)
+   - 阅读一些关于算法和数据结构的书籍
 
 3. 依赖注入
 
@@ -171,20 +172,20 @@ If you like or are using this project to learn or start your solution, please gi
     - [外观模式](https://www.dofactory.com/net/facade-design-pattern)
     - [中介者模式](https://www.dofactory.com/net/mediator-design-pattern)
 
-## Wrap Up
+## 总结
 
-If you think the roadmap can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this, so you might want to star this repository to revisit.
+如果你认为该指南可以改进，请提交包含任何更新的 PR 并提交任何问题。此外，我将继续改进这个仓库，因此你可以 star 这个仓库以便于重新访问。
 
-Idea from : [React Developer RoadMap](https://github.com/adam-golab/react-developer-roadmap)
+灵感来源 : [React Developer RoadMap](https://github.com/adam-golab/react-developer-roadmap)
 
-## Contribution
+## 贡献
 
-The roadmap is built using [Draw.io](https://www.draw.io/). Project file can be found at `aspnetcore-developer-roadmap.xml` file. To modify it, open draw.io, click **Open Existing Diagram** and choose `xml` file with project. It will open the roadmap for you. Update it, upload and update the images in readme and create a PR (export as png with 400% zoom and minify that with [Compressor.io](https://compressor.io/compress)).
+该指南是使用[Draw.io](https://www.draw.io/)构建的。项目文件为`aspnetcore-developer-roadmap.xml`。要修改它, 请打开 draw.io, 点击 **Open Existing Diagram** 并选择项目中的 `xml` 文件。它将为你打开指南，更新它，上传和更新自述文件中的图像并创建一个 PR（导出为400%的png，然后使用[Compressor.io](https://compressor.io/compress)压缩）。
 
-- Open a pull request with improvements
-- Discuss ideas in issues
-- Spread the word
+- 改进后提交 PR
+- 在Issues中讨论问题
+- 推广项目
 
-## License
+## 许可协议
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
