@@ -152,8 +152,7 @@ If you like or are using this project to learn or start your solution, please gi
     - [HangFire](https://github.com/HangfireIO/Hangfire)
     - [Coravel](https://github.com/jamesmh/coravel)
     - [Fluent Scheduler](https://github.com/fluentscheduler/FluentScheduler)
-    - [Quartz.NET](https://www.quartz-scheduler.net/)
-
+    
 14. MicroServices
 
     1. Message-Broker
