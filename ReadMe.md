@@ -24,6 +24,7 @@ If you like or are using this project to learn or start your solution, please gi
    - [C#](https://www.pluralsight.com/paths/csharp)
    - [Entity Framework](https://www.pluralsight.com/search?q=entity%20framework%20core)
    - [ASP.NET Core](https://www.pluralsight.com/search?q=asp.net%20core)
+   - SQL Fundamentals
 
 2. General Development Skills
 
@@ -88,7 +89,7 @@ If you like or are using this project to learn or start your solution, please gi
       - [Elmah.io](http://elmah.io)
 
 7. Template Engines
-   1. Razor
+   1. [Razor](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/razor?view=aspnetcore-2.2)
    2. [DotLiquid](https://github.com/dotliquid/dotliquid)
    3. [Scriban](https://github.com/lunet-io/scriban)
    4. [Fluid](https://github.com/sebastienros/fluid)
@@ -151,6 +152,7 @@ If you like or are using this project to learn or start your solution, please gi
     - [HangFire](https://github.com/HangfireIO/Hangfire)
     - [Coravel](https://github.com/jamesmh/coravel)
     - [Fluent Scheduler](https://github.com/fluentscheduler/FluentScheduler)
+    - [Quartz.NET](https://www.quartz-scheduler.net/)
 
 14. MicroServices
 
