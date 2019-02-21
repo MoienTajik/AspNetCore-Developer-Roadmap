@@ -1,6 +1,6 @@
 # ASP.NET Core开发者指南
 
-> 2019年[ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-2.2)开发者指南:
+> 2019年[ASP.NET Core](https://docs.microsoft.com/zh-cn/aspnet/core/?view=aspnetcore-2.2)开发者指南:
 
 你可以在下面找到一张图，该图展示了你可以选取的路径及你想学习的库，从而成为一名 ASP.NET Core 开发者。“作为 ASP.NET Core 开发者，我接下来应该学习什么？”，我把这张图作为建议给每个问过我这一问题的人。
 
@@ -24,42 +24,43 @@
    - [C#](https://www.pluralsight.com/paths/csharp)
    - [Entity Framework](https://www.pluralsight.com/search?q=entity%20framework%20core)
    - [ASP.NET Core](https://www.pluralsight.com/search?q=asp.net%20core)
+   - SQL基础知识
 
 2. 通用开发技能
 
    - 学习GIT, 在GitHub中创建开源项目
    - 掌握HTTP(S)协议, 及其请求方法(GET, POST, PUT, PATCH, DELETE, OPTIONS)
    - 不要害怕使用 Google, [Google搜索技巧](http://www.powersearchingwithgoogle.com/)
-   - 学习[dotnet CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/?tabs=netcore2x)
+   - 学习[dotnet CLI](https://docs.microsoft.com/zh-cn/dotnet/core/tools/?tabs=netcore2x)
    - 阅读一些关于算法和数据结构的书籍
 
 3. 依赖注入
 
    1. DI容器
-      - [Microsoft.Extensions.DependencyInjection](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.2)
+      - [Microsoft.Extensions.DependencyInjection](https://docs.microsoft.com/zh-cn/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.2)
       - [AutoFac](https://autofaccn.readthedocs.io/en/latest/integration/aspnetcore.html)
       - [Ninject](http://www.ninject.org/)
       - [StructureMap](https://github.com/structuremap/structuremap)
       - [Castle Windsor](https://github.com/castleproject/Windsor)
-   2. [生命周期](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.2#service-lifetimes)
+   2. [生命周期](https://docs.microsoft.com/zh-cn/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.2#service-lifetimes)
    3. [Scrutor](https://github.com/khellang/Scrutor)
 
 4. 数据库
 
    1. 关系数据库
-      1. [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-2017)
+      1. [SQL Server](https://www.microsoft.com/zh-cn/sql-server/sql-server-2017)
       2. [PostgreSQL](https://www.postgresql.org/)
       3. [MariaDB](https://mariadb.org/)
       4. [MySQL](https://www.mysql.com/)
    2. 云数据库
-      - [CosmosDB](https://docs.microsoft.com/en-us/azure/cosmos-db)
+      - [CosmosDB](https://docs.microsoft.com/zh-cn/azure/cosmos-db)
       - [DynamoDB](https://aws.amazon.com/dynamodb/)
    3. 搜索引擎
       - [ElasticSearch](https://www.elastic.co/)
       - [Solr](http://lucene.apache.org/solr/)
       - [Sphinx](http://sphinxsearch.com/)
    4. NoSQL
-      - [MongoDB](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mongo-app?view=aspnetcore-2.2&tabs=visual-studio)
+      - [MongoDB](https://docs.microsoft.com/zh-cn/aspnet/core/tutorials/first-mongo-app?view=aspnetcore-2.2&tabs=visual-studio)
       - [Redis](https://redis.io/)
       - [Apache Cassandra](http://cassandra.apache.org/)
       - [LiteDB](https://github.com/mbdavid/LiteDB)
@@ -89,7 +90,7 @@
 
 7. 模板引擎
 
-   1. Razor
+   1. [Razor](https://docs.microsoft.com/zh-cn/aspnet/core/mvc/views/razor?view=aspnetcore-2.2)
    2. [DotLiquid](https://github.com/dotliquid/dotliquid)
    3. [Scriban](https://github.com/lunet-io/scriban)
    4. [Fluid](https://github.com/sebastienros/fluid)
@@ -127,9 +128,9 @@
 
     1. 单元测试
        1. 测试框架
-          - [MSTest](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-mstest)
-          - [NUnit](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-nunit)
-          - [xUnit](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test)
+          - [MSTest](https://docs.microsoft.com/zh-cn/dotnet/core/testing/unit-testing-with-mstest)
+          - [NUnit](https://docs.microsoft.com/zh-cn/dotnet/core/testing/unit-testing-with-nunit)
+          - [xUnit](https://docs.microsoft.com/zh-cn/dotnet/core/testing/unit-testing-with-dotnet-test)
        2. 模拟工具
           - [Moq](https://github.com/moq/moq4)
           - [NSubstitute](https://github.com/nsubstitute/NSubstitute)
@@ -160,7 +161,7 @@
        - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
        - [Apache Kafka](https://github.com/confluentinc/confluent-kafka-dotnet)
        - [ActiveMQ](https://github.com/apache/activemq)
-       - [Azure Service Bus](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview)
+       - [Azure Service Bus](https://docs.microsoft.com/zh-cn/azure/service-bus-messaging/service-bus-messaging-overview)
     2. 消息总线
        - [MassTransit](https://github.com/MassTransit/MassTransit)
        - [NServiceBus](https://github.com/Particular/NServiceBus)
@@ -176,7 +177,7 @@
 
 16. 设计模式
 
-    - [CQRS](https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs)
+    - [CQRS](https://docs.microsoft.com/zh-cn/azure/architecture/patterns/cqrs)
 	- [装饰模式](https://www.dofactory.com/net/decorator-design-pattern)
     - [策略模式](https://www.dofactory.com/net/strategy-design-pattern)
     - [观察者模式](https://www.dofactory.com/net/observer-design-pattern)
@@ -193,7 +194,7 @@
 
 ## 贡献
 
-该指南是使用[Draw.io](https://www.draw.io/)构建的。项目文件为`aspnetcore-developer-roadmap.xml`。要修改它, 请打开 draw.io, 点击 **Open Existing Diagram** 并选择项目中的 `xml` 文件。它将为你渲染生成路线图，更新它，上传和更新自述文件中的图像并创建一个 PR（导出为400%的png图片，然后使用[Compressor.io](https://compressor.io/compress)压缩）。
+该指南是使用[Draw.io](https://www.draw.io/)构建的。中文版项目文件为`aspnetcore-developer-roadmap.zh-Hans.xml`。要修改它, 请打开 draw.io, 点击 **Open Existing Diagram** 并选择项目中的 `xml` 文件。它将为你渲染生成路线图，更新它，上传和更新自述文件中的图像并创建一个 PR（导出为400%的png图片，然后使用[Compressor.io](https://compressor.io/compress)压缩）。
 
 - 改进后提交 PR
 - 在Issues中讨论问题
