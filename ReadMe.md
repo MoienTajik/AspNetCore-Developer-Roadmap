@@ -1,4 +1,7 @@
 # ASP.NET Core Developer Roadmap
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+
 [ReadMe in Chinese](ReadMe.zh-Hans.md)
 
 > Roadmap to becoming an [ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-2.2) developer in 2019:
