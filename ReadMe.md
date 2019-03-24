@@ -196,17 +196,13 @@ Idea from : [React Developer RoadMap](https://github.com/adam-golab/react-develo
 
 ## Contribution
 
-The roadmap is built using [Draw.io](https://www.draw.io/). Project file can be found at `aspnetcore-developer-roadmap.xml` file. To modify it, open draw.io, click **Open Existing Diagram** and choose `xml` file with project. It will open the roadmap for you. Update it, upload and update the images in readme and create a PR (export as png with 400% zoom and minify that with [Compressor.io](https://compressor.io/compress)).
-
-- Open a pull request with improvements
-- Discuss ideas in issues
-- Spread the word
+Want to contribute? We encourages community feedback and contributions. Please follow our [contributing guidelines](https://github.com/MoienTajik/AspNetCore-Developer-Roadmap/blob/master/CONTRIBUTING.md).
 
 ## Credits
 
 ### Contributors
 
-This project exists thanks to all the people who contribute. [[Contribute](https://github.com/MoienTajik/AspNetCore-Developer-Roadmap#contribution)].
+This project exists thanks to all the people who contribute. [[Contribute](https://github.com/MoienTajik/AspNetCore-Developer-Roadmap/blob/master/CONTRIBUTING.md)].
 
 <img src="https://opencollective.com/AspNetCore-Developer-Roadmap/contributors.svg?width=890&button=false" />
 
