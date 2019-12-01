@@ -93,14 +93,15 @@ If you like or are using this project to learn or start your solution, please gi
       - [Sentry.io](http://sentry.io)
       - [Loggly.com](https://loggly.com)
       - [Elmah.io](http://elmah.io)
+      - [ElasticStack](https://www.elastic.co)
 
 7. Template Engines
    1. [Razor](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/razor?view=aspnetcore-2.2)
    2. [DotLiquid](https://github.com/dotliquid/dotliquid)
    3. [Scriban](https://github.com/lunet-io/scriban)
    4. [Fluid](https://github.com/sebastienros/fluid)
-8. Real-Time Communication
 
+8. Real-Time Communication
    1. [SignalR](https://docs.microsoft.com/en-us/aspnet/core/signalr)
 
 9. Object Mapping
@@ -128,6 +129,15 @@ If you like or are using this project to learn or start your solution, please gi
     - [NodaTime](https://github.com/nodatime/nodatime)
     - [GenFu](https://github.com/MisterJames/GenFu)
 
+12. Contairization
+    1. [Docker]()
+       - [docker-cli](https://docs.docker.com/engine/reference/commandline/cli/)
+       - [docker-compose](https://docs.docker.com/compose/)
+       - [Portainer](https://www.portainer.io/)
+    2. [Kubernetes](https://kubernetes.io/)
+       - [Mini-kube](https://github.com/kubernetes/minikube)
+       - [Rancher](https://rancher.com/)
+       
 12. Testing
 
     1. Unit Testing
@@ -170,6 +180,8 @@ If you like or are using this project to learn or start your solution, please gi
        - [MassTransit](https://github.com/MassTransit/MassTransit)
        - [NServiceBus](https://github.com/Particular/NServiceBus)
        - [CAP](https://github.com/dotnetcore/CAP)
+    3. Framework
+       - [SteeltoeOSS](https://steeltoe.io/)
 
 15. SOLID
 
