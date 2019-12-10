@@ -65,7 +65,7 @@ If you like or are using this project to learn or start your solution, please gi
       - [Solr](http://lucene.apache.org/solr/)
       - [Sphinx](http://sphinxsearch.com/)
    4. NoSQL
-      - [MongoDB](https://docs.microsoft.com/aspnet/core/tutorials/first-mongo-app&tabs=visual-studio)
+      - [MongoDB](https://docs.microsoft.com/aspnet/core/tutorials/first-mongo-app)
       - [Redis](https://redis.io/)
       - [Apache Cassandra](http://cassandra.apache.org/)
       - [LiteDB](https://github.com/mbdavid/LiteDB)
