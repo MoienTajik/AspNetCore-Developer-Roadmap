@@ -1,6 +1,6 @@
 # ASP.NET Core开发者指南
 
-> 2019年[ASP.NET Core](https://docs.microsoft.com/zh-cn/aspnet/core/?view=aspnetcore-2.2)开发者指南:
+> 2019年 [ASP.NET Core](https://docs.microsoft.com/zh-cn/aspnet/core) 开发者指南:
 
 你可以在下面找到一张图，该图展示了你可以选取的路径及你想学习的库，从而成为一名 ASP.NET Core 开发者。“作为 ASP.NET Core 开发者，我接下来应该学习什么？”，我把这张图作为建议给每个问过我这一问题的人。
 
@@ -31,18 +31,18 @@
    - 学习GIT, 在GitHub中创建开源项目
    - 掌握HTTP(S)协议, 及其请求方法(GET, POST, PUT, PATCH, DELETE, OPTIONS)
    - 不要害怕使用 Google, [Google搜索技巧](http://www.powersearchingwithgoogle.com/)
-   - 学习[dotnet CLI](https://docs.microsoft.com/zh-cn/dotnet/core/tools/?tabs=netcore2x)
+   - 学习 [dotnet CLI](https://docs.microsoft.com/zh-cn/dotnet/core/tools)
    - 阅读一些关于算法和数据结构的书籍
 
 3. 依赖注入
 
    1. DI容器
-      - [Microsoft.Extensions.DependencyInjection](https://docs.microsoft.com/zh-cn/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.2)
+      - [Microsoft.Extensions.DependencyInjection](https://docs.microsoft.com/zh-cn/aspnet/core/fundamentals/dependency-injection)
       - [AutoFac](https://autofaccn.readthedocs.io/en/latest/integration/aspnetcore.html)
       - [Ninject](http://www.ninject.org/)
       - [StructureMap](https://github.com/structuremap/structuremap)
       - [Castle Windsor](https://github.com/castleproject/Windsor)
-   2. [生命周期](https://docs.microsoft.com/zh-cn/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.2#service-lifetimes)
+   2. [生命周期](https://docs.microsoft.com/zh-cn/aspnet/core/fundamentals/dependency-injection#service-lifetimes)
    3. [Scrutor](https://github.com/khellang/Scrutor)
 
 4. 数据库
@@ -60,7 +60,7 @@
       - [Solr](http://lucene.apache.org/solr/)
       - [Sphinx](http://sphinxsearch.com/)
    4. NoSQL
-      - [MongoDB](https://docs.microsoft.com/zh-cn/aspnet/core/tutorials/first-mongo-app?view=aspnetcore-2.2&tabs=visual-studio)
+      - [MongoDB](https://docs.microsoft.com/zh-cn/aspnet/core/tutorials/first-mongo-app)
       - [Redis](https://redis.io/)
       - [Apache Cassandra](http://cassandra.apache.org/)
       - [LiteDB](https://github.com/mbdavid/LiteDB)
@@ -69,13 +69,13 @@
 
 5. 缓存
 
-   1. 实体框架二级缓存
+   1. Entity Framework 二级缓存
       1. [EFSecondLevelCache.Core](https://github.com/VahidN/EFSecondLevelCache.Core)
       2. [EntityFrameworkCore.Cacheable](https://github.com/SteffenMangold/EntityFrameworkCore.Cacheable)
-   2. [分布式缓存](https://docs.microsoft.com/en-us/aspnet/core/performance/caching/distributed?view=aspnetcore-2.2)
+   2. [分布式缓存](https://docs.microsoft.com/en-us/aspnet/core/performance/caching/distributed)
       1. [Redis](https://redis.io/)
       2. [Memcached](https://memcached.org/)
-   3. [内存缓存](https://docs.microsoft.com/en-us/aspnet/core/performance/caching/memory?view=aspnetcore-2.2)
+   3. [内存缓存](https://docs.microsoft.com/en-us/aspnet/core/performance/caching/memory)
 
 6. 日志
 
@@ -83,6 +83,7 @@
       - [Serilog](https://github.com/serilog/serilog)
       - [NLog](https://github.com/NLog/NLog)
       - [Elmah](https://elmah.github.io/)
+      - [log4net](https://github.com/huorswords/Microsoft.Extensions.Logging.Log4Net.AspNetCore)
    2. 日志管理系统
       - [Sentry.io](http://sentry.io)
       - [Loggly.com](https://loggly.com)
@@ -90,7 +91,7 @@
 
 7. 模板引擎
 
-   1. [Razor](https://docs.microsoft.com/zh-cn/aspnet/core/mvc/views/razor?view=aspnetcore-2.2)
+   1. [Razor](https://docs.microsoft.com/zh-cn/aspnet/core/mvc/views/razor)
    2. [DotLiquid](https://github.com/dotliquid/dotliquid)
    3. [Scriban](https://github.com/lunet-io/scriban)
    4. [Fluid](https://github.com/sebastienros/fluid)
@@ -143,7 +144,7 @@
        - [SpecFlow](https://github.com/techtalk/SpecFlow/tree/DotNetCore)
        - [LightBDD](https://github.com/LightBDD/LightBDD)
     3. 集成测试
-       - [WebApplicationFactory](https://docs.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-2.2)
+       - [WebApplicationFactory](https://docs.microsoft.com/en-us/aspnet/core/test/integration-tests)
        - [TestServer](https://koukia.ca/integration-testing-in-asp-net-core-2-0-51d14ede3968)
     4. 端到端测试
        - [Selenium](https://www.automatetheplanet.com/webdriver-dotnetcore2/)
@@ -178,7 +179,7 @@
 16. 设计模式
 
     - [CQRS](https://docs.microsoft.com/zh-cn/azure/architecture/patterns/cqrs)
-	- [装饰模式](https://www.dofactory.com/net/decorator-design-pattern)
+    - [装饰模式](https://www.dofactory.com/net/decorator-design-pattern)
     - [策略模式](https://www.dofactory.com/net/strategy-design-pattern)
     - [观察者模式](https://www.dofactory.com/net/observer-design-pattern)
     - [建造者模式](https://www.dofactory.com/net/builder-design-pattern)
@@ -190,14 +191,14 @@
 
 如果你认为该指南可以改进，请提交包含任何更新的 PR 并提交任何问题。此外，我将继续改进这个仓库，因此你可以 star 这个仓库以便于重新访问。
 
-灵感来源 : [React Developer RoadMap](https://github.com/adam-golab/react-developer-roadmap)
+灵感来源： [React Developer RoadMap](https://github.com/adam-golab/react-developer-roadmap)
 
 ## 贡献
 
-该指南是使用[Draw.io](https://www.draw.io/)构建的。中文版项目文件为`aspnetcore-developer-roadmap.zh-Hans.xml`。要修改它, 请打开 draw.io, 点击 **Open Existing Diagram** 并选择项目中的 `xml` 文件。它将为你渲染生成路线图，更新它，上传和更新自述文件中的图像并创建一个 PR（导出为400%的png图片，然后使用[Compressor.io](https://compressor.io/compress)压缩）。
+该指南是使用 [xMind](https://www.xmind.net/) 构建的。中文版项目文件为`aspnetcore-developer-roadmap.zh-Hans.xmind`。要修改它, 在[此处](https://www.xmind.net/download/)下载 xMind Zen, 点击 **Open File** 并选择项目中的 `xmind` 文件。它将为你渲染生成路线图，更新它，上传和更新 readme 中的图像并创建一个 PR（使用[Compressor.io](https://compressor.io/compress)压缩导出的PNG；不过中国无法访问，用PS吧）。
 
 - 改进后提交 PR
-- 在Issues中讨论问题
+- 在 Issues 中讨论问题
 - 推广项目
 
 ## 许可协议
