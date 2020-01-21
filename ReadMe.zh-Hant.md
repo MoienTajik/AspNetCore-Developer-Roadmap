@@ -1,6 +1,6 @@
 # ASP.NET Core 開發者指南
 
-> 2019年 [ASP.NET Core](https://docs.microsoft.com/zh-cn/aspnet/core) 開發者指南:
+> 2019年 [ASP.NET Core](https://docs.microsoft.com/zh-tw/aspnet/core) 開發者指南:
 
 在下面，您可以看到一張圖片，說明可以採取的路徑以及要成為ASP.NET Core開發人員所要學習的函式庫。我將此圖片作為提示，給所有問我“作為ASP.NET Core開發人員，接下來應該學習什麼？”的人。
 
@@ -30,36 +30,36 @@
    - 學習 GIT, 並在 GitHub 中建立與分享您的專案
    - 掌握 HTTP(S) 協定與請求方法(GET, POST, PUT, PATCH, DELETE, OPTIONS)
    - 不要害怕使用 Google [Google搜尋技巧](http://www.powersearchingwithgoogle.com/)
-   - 學習 [dotnet CLI](https://docs.microsoft.com/zh-cn/dotnet/core/tools)
+   - 學習 [dotnet CLI](https://docs.microsoft.com/zh-tw/dotnet/core/tools)
    - 閱讀一些關於演算法和資料結構的書籍
 
 3. 依賴注入
 
    1. DI 容器
-      - [Microsoft.Extensions.DependencyInjection](https://docs.microsoft.com/zh-cn/aspnet/core/fundamentals/dependency-injection)
+      - [Microsoft.Extensions.DependencyInjection](https://docs.microsoft.com/zh-tw/aspnet/core/fundamentals/dependency-injection)
       - [AutoFac](https://autofaccn.readthedocs.io/en/latest/integration/aspnetcore.html)
       - [Ninject](http://www.ninject.org/)
       - [StructureMap](https://github.com/structuremap/structuremap)
       - [Castle Windsor](https://github.com/castleproject/Windsor)
-   2. [生命週期](https://docs.microsoft.com/zh-cn/aspnet/core/fundamentals/dependency-injection#service-lifetimes)
+   2. [生命週期](https://docs.microsoft.com/zh-tw/aspnet/core/fundamentals/dependency-injection#service-lifetimes)
    3. [Scrutor](https://github.com/khellang/Scrutor)
 
 4. 資料庫
 
    1. 關聯式資料庫
-      1. [SQL Server](https://www.microsoft.com/zh-cn/sql-server/sql-server-2017)
+      1. [SQL Server](https://www.microsoft.com/zh-tw/sql-server/sql-server-2017)
       2. [PostgreSQL](https://www.postgresql.org/)
       3. [MariaDB](https://mariadb.org/)
       4. [MySQL](https://www.mysql.com/)
    2. 雲端資料庫
-      - [CosmosDB](https://docs.microsoft.com/zh-cn/azure/cosmos-db)
+      - [CosmosDB](https://docs.microsoft.com/zh-tw/azure/cosmos-db)
       - [DynamoDB](https://aws.amazon.com/dynamodb/)
    3. 搜尋引擎
       - [ElasticSearch](https://www.elastic.co/)
       - [Solr](http://lucene.apache.org/solr/)
       - [Sphinx](http://sphinxsearch.com/)
    4. NoSQL
-      - [MongoDB](https://docs.microsoft.com/zh-cn/aspnet/core/tutorials/first-mongo-app)
+      - [MongoDB](https://docs.microsoft.com/zh-tw/aspnet/core/tutorials/first-mongo-app)
       - [Redis](https://redis.io/)
       - [Apache Cassandra](http://cassandra.apache.org/)
       - [LiteDB](https://github.com/mbdavid/LiteDB)
@@ -90,7 +90,7 @@
 
 7. 範本引擎
 
-   1. [Razor](https://docs.microsoft.com/zh-cn/aspnet/core/mvc/views/razor)
+   1. [Razor](https://docs.microsoft.com/zh-tw/aspnet/core/mvc/views/razor)
    2. [DotLiquid](https://github.com/dotliquid/dotliquid)
    3. [Scriban](https://github.com/lunet-io/scriban)
    4. [Fluid](https://github.com/sebastienros/fluid)
@@ -128,9 +128,9 @@
 
     1. 單元測試
        1. 框架
-          - [MSTest](https://docs.microsoft.com/zh-cn/dotnet/core/testing/unit-testing-with-mstest)
-          - [NUnit](https://docs.microsoft.com/zh-cn/dotnet/core/testing/unit-testing-with-nunit)
-          - [xUnit](https://docs.microsoft.com/zh-cn/dotnet/core/testing/unit-testing-with-dotnet-test)
+          - [MSTest](https://docs.microsoft.com/zh-tw/dotnet/core/testing/unit-testing-with-mstest)
+          - [NUnit](https://docs.microsoft.com/zh-tw/dotnet/core/testing/unit-testing-with-nunit)
+          - [xUnit](https://docs.microsoft.com/zh-tw/dotnet/core/testing/unit-testing-with-dotnet-test)
        2. 模擬
           - [Moq](https://github.com/moq/moq4)
           - [NSubstitute](https://github.com/nsubstitute/NSubstitute)
@@ -161,7 +161,7 @@
        - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
        - [Apache Kafka](https://github.com/confluentinc/confluent-kafka-dotnet)
        - [ActiveMQ](https://github.com/apache/activemq)
-       - [Azure Service Bus](https://docs.microsoft.com/zh-cn/azure/service-bus-messaging/service-bus-messaging-overview)
+       - [Azure Service Bus](https://docs.microsoft.com/zh-tw/azure/service-bus-messaging/service-bus-messaging-overview)
     2. 訊息匯流排
        - [MassTransit](https://github.com/MassTransit/MassTransit)
        - [NServiceBus](https://github.com/Particular/NServiceBus)
