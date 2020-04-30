@@ -30,6 +30,7 @@ If you like or are using this project to learn or start your solution, please gi
    - [C#](https://www.pluralsight.com/paths/csharp)
    - [Entity Framework](https://www.pluralsight.com/search?q=entity%20framework%20core)
    - [ASP.NET Core](https://www.pluralsight.com/search?q=asp.net%20core)
+   - [Practical ASP.NET Core](https://github.com/dodyg/practical-aspnetcore)
    - SQL Fundamentals
 
 2. General Development Skills
@@ -48,6 +49,9 @@ If you like or are using this project to learn or start your solution, please gi
       - [Ninject](http://www.ninject.org/)
       - [StructureMap](https://github.com/structuremap/structuremap)
       - [Castle Windsor](https://github.com/castleproject/Windsor)
+      - [Simple Injector](https://simpleinjector.org/)
+      - [LightInject](https://github.com/seesharper/LightInject)
+      - [DryIoc](https://github.com/dadhi/DryIoc)
    2. [Life Cycles](https://docs.microsoft.com/aspnet/core/fundamentals/dependency-injection#service-lifetimes)
    3. [Scrutor](https://github.com/khellang/Scrutor)
 
@@ -105,6 +109,7 @@ If you like or are using this project to learn or start your solution, please gi
 8. Real-Time Communication
 
    1. [SignalR](https://docs.microsoft.com/aspnet/core/signalr)
+   2. [MQTTnet](https://github.com/chkr1011/MQTTnet)
 
 9. Object Mapping
 
@@ -130,6 +135,7 @@ If you like or are using this project to learn or start your solution, please gi
    - [Polly](https://github.com/App-vNext/Polly)
    - [NodaTime](https://github.com/nodatime/nodatime)
    - [GenFu](https://github.com/MisterJames/GenFu)
+   - [Bogus](https://github.com/bchavez/Bogus)
 
 12. Testing
 
@@ -163,6 +169,9 @@ If you like or are using this project to learn or start your solution, please gi
    - [Fluent Scheduler](https://github.com/fluentscheduler/FluentScheduler)
 
 14. MicroServices
+   1. [Tye](https://github.com/dotnet/tye)
+   2. [dapr](https://github.com/dapr/dapr)
+   3. [Ocelot](https://github.com/ThreeMammals/Ocelot)
 
    1. Message-Broker
       - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
@@ -173,6 +182,7 @@ If you like or are using this project to learn or start your solution, please gi
       - [MassTransit](https://github.com/MassTransit/MassTransit)
       - [NServiceBus](https://github.com/Particular/NServiceBus)
       - [CAP](https://github.com/dotnetcore/CAP)
+      - [Rebus](https://github.com/rebus-org/Rebus)
 
 15. SOLID
 
