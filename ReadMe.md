@@ -138,54 +138,52 @@ If you like or are using this project to learn or start your solution, please gi
    - [Bogus](https://github.com/bchavez/Bogus)
 
 12. Testing
-
-   1. Unit Testing
-      1. Frameworks
-         - [MSTest](https://docs.microsoft.com/dotnet/core/testing/unit-testing-with-mstest)
-         - [NUnit](https://docs.microsoft.com/dotnet/core/testing/unit-testing-with-nunit)
-         - [xUnit](https://docs.microsoft.com/dotnet/core/testing/unit-testing-with-dotnet-test)
-      2. Mocking
-         - [Moq](https://github.com/moq/moq4)
-         - [NSubstitute](https://github.com/nsubstitute/NSubstitute)
-         - [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy)
-      3. Assertion
-         - [FluentAssertion](https://github.com/fluentassertions/fluentassertions)
-         - [Shouldly](https://github.com/shouldly/shouldly)
-   2. Behavior Testing
-      - [BDDfy](https://github.com/TestStack/TestStack.BDDfy)
-      - [SpecFlow](https://github.com/techtalk/SpecFlow/tree/DotNetCore)
-      - [LightBDD](https://github.com/LightBDD/LightBDD)
-   3. Integration Testing
-      - [WebApplicationFactory](https://docs.microsoft.com/aspnet/core/test/integration-tests)
-      - [TestServer](https://koukia.ca/integration-testing-in-asp-net-core-2-0-51d14ede3968)
-   4. E2E Testing
-      - [Selenium](https://www.automatetheplanet.com/webdriver-dotnetcore2/)
-      - [Puppeteer-Sharp](https://github.com/kblok/puppeteer-sharp)
+    1. Unit Testing
+       1. Frameworks
+          - [MSTest](https://docs.microsoft.com/dotnet/core/testing/unit-testing-with-mstest)
+          - [NUnit](https://docs.microsoft.com/dotnet/core/testing/unit-testing-with-nunit)
+          - [xUnit](https://docs.microsoft.com/dotnet/core/testing/unit-testing-with-dotnet-test)
+       2. Mocking
+          - [Moq](https://github.com/moq/moq4)
+          - [NSubstitute](https://github.com/nsubstitute/NSubstitute)
+          - [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy)
+       3. Assertion
+          - [FluentAssertion](https://github.com/fluentassertions/fluentassertions)
+          - [Shouldly](https://github.com/shouldly/shouldly)
+    2. Behavior Testing
+       - [BDDfy](https://github.com/TestStack/TestStack.BDDfy)
+       - [SpecFlow](https://github.com/techtalk/SpecFlow/tree/DotNetCore)
+       - [LightBDD](https://github.com/LightBDD/LightBDD)
+    3. Integration Testing
+       - [WebApplicationFactory](https://docs.microsoft.com/aspnet/core/test/integration-tests)
+       - [TestServer](https://koukia.ca/integration-testing-in-asp-net-core-2-0-51d14ede3968)
+    4. E2E Testing
+       - [Selenium](https://www.automatetheplanet.com/webdriver-dotnetcore2/)
+       - [Puppeteer-Sharp](https://github.com/kblok/puppeteer-sharp)
 
 13. Task Scheduling
-
    - [HangFire](https://github.com/HangfireIO/Hangfire)
    - [Coravel](https://github.com/jamesmh/coravel)
    - [Fluent Scheduler](https://github.com/fluentscheduler/FluentScheduler)
 
-14. MicroServices
-   1. [Tye](https://github.com/dotnet/tye)
-   2. [dapr](https://github.com/dapr/dapr)
-   3. [Ocelot](https://github.com/ThreeMammals/Ocelot)
 
-   1. Message-Broker
-      - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
-      - [Apache Kafka](https://github.com/confluentinc/confluent-kafka-dotnet)
-      - [ActiveMQ](https://github.com/apache/activemq)
-      - [Azure Service Bus](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-messaging-overview)
-   2. Message-Bus
-      - [MassTransit](https://github.com/MassTransit/MassTransit)
-      - [NServiceBus](https://github.com/Particular/NServiceBus)
-      - [CAP](https://github.com/dotnetcore/CAP)
-      - [Rebus](https://github.com/rebus-org/Rebus)
+14. MicroServices
+    1. Message-Broker
+       - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
+       - [Apache Kafka](https://github.com/confluentinc/confluent-kafka-dotnet)
+       - [ActiveMQ](https://github.com/apache/activemq)
+       - [Azure Service Bus](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-messaging-overview)
+    2. Message-Bus
+       - [MassTransit](https://github.com/MassTransit/MassTransit)
+       - [NServiceBus](https://github.com/Particular/NServiceBus)
+       - [CAP](https://github.com/dotnetcore/CAP)
+    3. Tools
+       - [Tye](https://github.com/dotnet/tye)
+       - [dapr](https://github.com/dapr/dapr)
+       - [Ocelot](https://github.com/ThreeMammals/Ocelot)
+
 
 15. SOLID
-
    - [Single Responsibility Principle (SRP)](https://www.dotnetcurry.com/software-gardening/1148/solid-single-responsibility-principle)
    - [Open-Closed Principle (OCP)](https://www.dotnetcurry.com/software-gardening/1176/solid-open-closed-principle)
    - [Liskov Substitution Principle (LSP)](https://www.dotnetcurry.com/software-gardening/1235/liskov-substitution-principle-lsp-solid-patterns)
