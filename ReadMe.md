@@ -192,6 +192,14 @@ If you like or are using this project to learn or start your solution, please gi
     - [Singleton](https://www.dofactory.com/net/singleton-design-pattern)
     - [Facade](https://www.dofactory.com/net/facade-design-pattern)
     - [Mediator](https://www.dofactory.com/net/mediator-design-pattern)
+    
+17. Continuously Integration & Delivery
+    - [Gihub Actions](https://github.com/features/actions)
+    - [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines)
+    - [TeamCity](https://www.jetbrains.com/teamcity)
+    - [Space](https://www.jetbrains.com/space)
+    - [Travis CI](https://travis-ci.org)
+    - [Circle CI](https://circleci.com/)
 
 ## Wrap Up
 
