@@ -204,7 +204,7 @@ If you like or are using this project to learn or start your solution, please gi
     - [Facade](https://www.dofactory.com/net/facade-design-pattern)
 
 16. Client-Side Libraries
-    - Blazor
+    - [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
 
 17. Template Engines
 
