@@ -47,7 +47,6 @@ If you like or are using this project to learn or start your solution, please gi
       - [Microsoft.Extensions.DependencyInjection](https://docs.microsoft.com/aspnet/core/fundamentals/dependency-injection)
       - [AutoFac](https://autofaccn.readthedocs.io/en/latest/integration/aspnetcore.html)
       - [Ninject](http://www.ninject.org)
-      - [StructureMap](https://github.com/structuremap/structuremap)
       - [Castle Windsor](https://github.com/castleproject/Windsor)
    2. [Life Cycles](https://docs.microsoft.com/aspnet/core/fundamentals/dependency-injection#service-lifetimes)
    3. [Scrutor](https://github.com/khellang/Scrutor)
