@@ -235,12 +235,6 @@ Want to contribute? We encourage community feedback and contributions. Please fo
 
 ## Credits
 
-### Contributors
-
-This project exists thanks to all the people who contribute. [[Contribute](https://github.com/MoienTajik/AspNetCore-Developer-Roadmap/blob/master/CONTRIBUTING.md)].
-
-<img src="https://opencollective.com/AspNetCore-Developer-Roadmap/contributors.svg?width=890&button=false" />
-
 ### Backers
 
 Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/AspNetCore-Developer-Roadmap#backer)]
