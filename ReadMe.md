@@ -4,7 +4,7 @@
 [![Backers on Open Collective](https://opencollective.com/AspNetCore-Developer-Roadmap/backers/badge.svg)](#backers)
 [![Sponsors on Open Collective](https://opencollective.com/AspNetCore-Developer-Roadmap/sponsors/badge.svg)](#sponsors)
 
-- [Printable Version](https://raw.githubusercontent.com/MoienTajik/AspNetCore-Developer-Roadmap/master/aspnetcore-developer-roadmap-printable.png)
+- [Dark Version](https://raw.githubusercontent.com/MoienTajik/AspNetCore-Developer-Roadmap/master/aspnetcore-developer-roadmap.png)
 - [Read-me in Simplified Chinese (Need Changes)](ReadMe.zh-Hans.md)
 - [Read-me in Traditional Chinese (Need Changes)](ReadMe.zh-Hant.md)
 
@@ -22,7 +22,7 @@ If you like or are using this project to learn or start your solution, please gi
 
 ## Roadmap
 
-![Roadmap](./aspnetcore-developer-roadmap.png)
+![Roadmap](./aspnetcore-developer-roadmap-printable.png)
 
 ## Resources
 
@@ -174,8 +174,9 @@ If you like or are using this project to learn or start your solution, please gi
     6. Reverse Proxy
        - [YARP](https://github.com/microsoft/reverse-proxy)
     7. Other
-       - [Steeltoe](https://steeltoe.io)
        - [Orleans](https://github.com/dotnet/orleans)
+       - [Steeltoe](https://steeltoe.io)
+       - [Dapr](https://github.com/dapr/dapr)
        - [Tye](https://github.com/dotnet/tye)
 
 13. Continuous Integration & Delivery
