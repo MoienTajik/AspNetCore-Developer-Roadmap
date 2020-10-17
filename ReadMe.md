@@ -4,6 +4,7 @@
 [![Backers on Open Collective](https://opencollective.com/AspNetCore-Developer-Roadmap/backers/badge.svg)](#backers)
 [![Sponsors on Open Collective](https://opencollective.com/AspNetCore-Developer-Roadmap/sponsors/badge.svg)](#sponsors)
 
+- [Printable Version](https://raw.githubusercontent.com/MoienTajik/AspNetCore-Developer-Roadmap/master/aspnetcore-developer-roadmap-printable.png)
 - [Read-me in Simplified Chinese (Need Changes)](ReadMe.zh-Hans.md)
 - [Read-me in Traditional Chinese (Need Changes)](ReadMe.zh-Hant.md)
 
