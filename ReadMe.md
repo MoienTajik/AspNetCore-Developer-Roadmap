@@ -31,6 +31,8 @@ If you like or are using this project to learn or start your solution, please gi
    - [C#](https://www.pluralsight.com/paths/csharp)
    - [.NET 5](https://devblogs.microsoft.com/dotnet/introducing-net-5)
    - [Entity Framework](https://www.pluralsight.com/search?q=entity%20framework%20core)
+   - [Dapper](https://github.com/StackExchange/Dapper)
+   - [NHibernate](https://github.com/nhibernate/nhibernate-core)
    - [ASP.NET Core](https://www.pluralsight.com/search?q=asp.net%20core)
    - SQL Fundamentals
 
@@ -42,17 +44,26 @@ If you like or are using this project to learn or start your solution, please gi
    - Learn [dotnet CLI](https://docs.microsoft.com/dotnet/core/tools)
    - Read a few books about algorithms and data structures
 
-3. Dependency Injection
+3. SOLID
+
+    - [Single Responsibility Principle (SRP)](https://www.dotnetcurry.com/software-gardening/1148/solid-single-responsibility-principle)
+    - [Open-Closed Principle (OCP)](https://www.dotnetcurry.com/software-gardening/1176/solid-open-closed-principle)
+    - [Liskov Substitution Principle (LSP)](https://www.dotnetcurry.com/software-gardening/1235/liskov-substitution-principle-lsp-solid-patterns)
+    - [Interface Segregation Principle (ISP)](https://www.dotnetcurry.com/software-gardening/1257/interface-segregation-principle-isp-solid-principle)
+    - [Dependency Inversion Principle (DIP)](https://www.dotnetcurry.com/software-gardening/1284/dependency-injection-solid-principles)
+
+4. Dependency Injection
 
    1. DI Containers
       - [Microsoft.Extensions.DependencyInjection](https://docs.microsoft.com/aspnet/core/fundamentals/dependency-injection)
       - [AutoFac](https://autofaccn.readthedocs.io/en/latest/integration/aspnetcore.html)
       - [Ninject](http://www.ninject.org)
       - [Castle Windsor](https://github.com/castleproject/Windsor)
+	  - [Simple Injector](https://github.com/simpleinjector/SimpleInjector)
    2. [Life Cycles](https://docs.microsoft.com/aspnet/core/fundamentals/dependency-injection#service-lifetimes)
    3. [Scrutor](https://github.com/khellang/Scrutor)
 
-4. Databases
+5. Databases
 
    1. Relational
       1. [SQL Server](https://www.microsoft.com/sql-server/sql-server-2017)
@@ -74,7 +85,7 @@ If you like or are using this project to learn or start your solution, please gi
       - [RavenDB](https://github.com/ravendb/ravendb)
       - [CouchDB](http://couchdb.apache.org)
 
-5. Caching
+6. Caching
 
    1. [Memory Cache](https://docs.microsoft.com/aspnet/core/performance/caching/memory)
    2. [Distributed Cache](https://docs.microsoft.com/aspnet/core/performance/caching/distributed)
@@ -86,7 +97,7 @@ If you like or are using this project to learn or start your solution, please gi
       1. [EFSecondLevelCache.Core](https://github.com/VahidN/EFSecondLevelCache.Core)
       2. [EntityFrameworkCore.Cacheable](https://github.com/SteffenMangold/EntityFrameworkCore.Cacheable)
 
-6. Logging
+7. Logging
 
    1. Log Frameworks
       - [Serilog](https://github.com/serilog/serilog)
@@ -97,7 +108,7 @@ If you like or are using this project to learn or start your solution, please gi
       - [Loggly.com](https://loggly.com)
       - [Elmah.io](http://elmah.io)
       
-7. API Clients & Communications
+8. API Clients & Communications
 
     1. REST
        - [OData](https://devblogs.microsoft.com/odata/experimenting-with-odata-in-asp-net-core-3-1)
@@ -107,26 +118,26 @@ If you like or are using this project to learn or start your solution, please gi
        - [HotChocolate](https://github.com/ChilliCream/hotchocolate)
        - [GraphQL-dotnet](https://github.com/graphql-dotnet/graphql-dotnet)
 
-8. Real-Time Communication
+9. Real-Time Communication
 
    - [SignalR](https://docs.microsoft.com/aspnet/core/signalr)
    - [WebSockets](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/websockets)
    
-9. Object Mapping
+10. Object Mapping
 
    - [AutoMapper](https://github.com/AutoMapper/AutoMapper)
    - [Mapster](https://github.com/MapsterMapper/Mapster)
    - [ExpressMapper](http://expressmapper.org/)
    - [AgileMapper](https://github.com/agileobjects/AgileMapper)
    
-10. Task Scheduling
+11. Task Scheduling
 
     - [Coravel](https://github.com/jamesmh/coravel)
     - [HangFire](https://github.com/HangfireIO/Hangfire)
     - [Background Service](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services)
     - [Fluent Scheduler](https://github.com/fluentscheduler/FluentScheduler)
     
-11. Testing
+12. Testing
 
     1. Unit Testing
        1. Frameworks
@@ -151,7 +162,7 @@ If you like or are using this project to learn or start your solution, please gi
        - [Selenium](https://www.hanselman.com/blog/real-browser-integration-testing-with-selenium-standalone-chrome-and-aspnet-core-21)
        - [Puppeteer-Sharp](https://github.com/kblok/puppeteer-sharp)
 
-12. Micro-Services
+13. Micro-Services
 
     1. Message-Broker
        - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
@@ -179,21 +190,13 @@ If you like or are using this project to learn or start your solution, please gi
        - [Dapr](https://github.com/dapr/dapr)
        - [Tye](https://github.com/dotnet/tye)
 
-13. Continuous Integration & Delivery
+14. Continuous Integration & Delivery
     - [Gihub Actions](https://github.com/features/actions)
     - [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines)
     - [Travis CI](https://travis-ci.org)
     - [Jenkins](https://www.jenkins.io)
     - [Circle CI](https://circleci.com)
     - [TeamCity](https://www.jetbrains.com/teamcity)
-
-14. SOLID
-
-    - [Single Responsibility Principle (SRP)](https://www.dotnetcurry.com/software-gardening/1148/solid-single-responsibility-principle)
-    - [Open-Closed Principle (OCP)](https://www.dotnetcurry.com/software-gardening/1176/solid-open-closed-principle)
-    - [Liskov Substitution Principle (LSP)](https://www.dotnetcurry.com/software-gardening/1235/liskov-substitution-principle-lsp-solid-patterns)
-    - [Interface Segregation Principle (ISP)](https://www.dotnetcurry.com/software-gardening/1257/interface-segregation-principle-isp-solid-principle)
-    - [Dependency Inversion Principle (DIP)](https://www.dotnetcurry.com/software-gardening/1284/dependency-injection-solid-principles)
 
 15. Design-Patterns
 
