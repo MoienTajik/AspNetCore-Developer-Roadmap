@@ -6,7 +6,7 @@
 
 - [Dark Version](https://raw.githubusercontent.com/MoienTajik/AspNetCore-Developer-Roadmap/master/aspnetcore-developer-roadmap.png)
 - [Read-me in Simplified Chinese (Need Changes)](ReadMe.zh-Hans.md)
-- [Read-me in Traditional Chinese (Need Changes)](ReadMe.zh-Hant.md)
+- [Read-me in Traditional Chinese (2021 Version)](ReadMe.zh-Hant.md)
 
 > Roadmap to becoming an [ASP.NET Core](https://docs.microsoft.com/aspnet/core) developer in 2021:
 
