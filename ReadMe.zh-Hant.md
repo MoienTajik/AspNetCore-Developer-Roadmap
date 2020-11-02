@@ -1,4 +1,4 @@
-# ASP.NET Core 開發者指南
+# ASP.NET Core 開發人員指南
 
 - [英文 ReadMe (2021版)](ReadMe.md)
 - [簡體中文 ReadMe (2019版)](ReadMe.zh-Hans.md)
