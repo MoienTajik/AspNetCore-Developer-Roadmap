@@ -5,8 +5,8 @@
 [![Sponsors on Open Collective](https://opencollective.com/AspNetCore-Developer-Roadmap/sponsors/badge.svg)](#sponsors)
 
 - [Dark Version](https://raw.githubusercontent.com/MoienTajik/AspNetCore-Developer-Roadmap/master/aspnetcore-developer-roadmap.png)
-- [Read-me in Simplified Chinese (Need Changes)](ReadMe.zh-Hans.md)
-- [Read-me in Traditional Chinese (2021 Version)](ReadMe.zh-Hant.md)
+- [Read-me in Simplified Chinese](ReadMe.zh-Hans.md)
+- [Read-me in Traditional Chinese](ReadMe.zh-Hant.md)
 
 > Roadmap to becoming an [ASP.NET Core](https://docs.microsoft.com/aspnet/core) developer in 2021:
 
@@ -66,7 +66,7 @@ If you like or are using this project to learn or start your solution, please gi
 5. Databases
 
    1. Relational
-      1. [SQL Server](https://www.microsoft.com/sql-server/sql-server-2017)
+      1. [SQL Server](https://www.microsoft.com/sql-server/sql-server-2019)
       2. [PostgreSQL](https://www.postgresql.org)
       3. [MariaDB](https://mariadb.org)
       4. [MySQL](https://www.mysql.com)

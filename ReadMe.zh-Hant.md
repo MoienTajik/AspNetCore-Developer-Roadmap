@@ -1,10 +1,10 @@
 # ASP.NET Core 開發人員指南
 
-- [英文 ReadMe (2021版)](ReadMe.md)
-- [簡體中文 ReadMe (2019版)](ReadMe.zh-Hans.md)
-- [繁體中文 ReadMe (2021版)](ReadMe.zh-Hant.md)
+- [英文 ReadMe](ReadMe.md)
+- [繁體中文 ReadMe](ReadMe.zh-Hant.md)
+- [简体中文 ReadMe](ReadMe.zh-Hans.md)
 
-> 2021 年 [ASP.NET Core](https://docs.microsoft.com/aspnet/core) 開發人員指南
+> 2021年 [ASP.NET Core](https://docs.microsoft.com/zh-tw/aspnet/core/?WT.mc_id=DOP-MVP-4038201) 開發人員指南：
 
 在下面，您可以看到一張圖片，說明可以採取的學習路徑以及要成為 ASP.NET Core 開發人員所要學習的程式庫。我將此圖片作為提示，給所有問我"作為 ASP.NET Core 開發人員，接下來應該學習什麼？"的人。
 
@@ -25,7 +25,7 @@
 1. 瞭解先決條件
 
    - [C#](https://www.pluralsight.com/paths/csharp)
-   - [.NET 5](https://devblogs.microsoft.com/dotnet/introducing-net-5)
+   - [.NET 5](https://devblogs.microsoft.com/dotnet/introducing-net-5?WT.mc_id=DOP-MVP-4038201)
    - [Entity Framework](https://www.pluralsight.com/search?q=entity%20framework%20core)
    - [Dapper](https://github.com/StackExchange/Dapper)
    - [NHibernate](https://github.com/nhibernate/nhibernate-core)
@@ -51,23 +51,23 @@
 4. 相依注入
 
    1. DI 容器
-      - [Microsoft.Extensions.DependencyInjection](https://docs.microsoft.com/zh-tw/aspnet/core/fundamentals/dependency-injection)
+      - [Microsoft.Extensions.DependencyInjection](https://docs.microsoft.com/zh-tw/aspnet/core/fundamentals/dependency-injection?WT.mc_id=DOP-MVP-4038201)
       - [AutoFac](https://autofaccn.readthedocs.io/en/latest/integration/aspnetcore.html)
       - [Ninject](http://www.ninject.org)
       - [Castle Windsor](https://github.com/castleproject/Windsor)
 	  - [Simple Injector](https://github.com/simpleinjector/SimpleInjector)
-   2. [生命週期](https://docs.microsoft.com/zh-tw/aspnet/core/fundamentals/dependency-injection#service-lifetimes)
+   2. [生命週期](https://docs.microsoft.com/zh-tw/aspnet/core/fundamentals/dependency-injection#service-lifetimes?WT.mc_id=DOP-MVP-4038201)
    3. [Scrutor](https://github.com/khellang/Scrutor)
 
 5. 資料庫
 
    1. 關聯式
-      1. [SQL Server](https://www.microsoft.com/zh-tw/sql-server/sql-server-2019)
+      1. [SQL Server](https://www.microsoft.com/zh-tw/sql-server/sql-server-2019?WT.mc_id=DOP-MVP-4038201)
       2. [PostgreSQL](https://www.postgresql.org)
       3. [MariaDB](https://mariadb.org)
       4. [MySQL](https://www.mysql.com)
    2. 雲端資料庫
-      - [CosmosDB](https://docs.microsoft.com/zh-tw/azure/cosmos-db/)
+      - [CosmosDB](https://docs.microsoft.com/zh-tw/azure/cosmos-db/?WT.mc_id=DOP-MVP-4038201)
       - [DynamoDB](https://aws.amazon.com/tw/dynamodb/)
    3. 搜尋引擎
       - [ElasticSearch](https://www.elastic.co)
@@ -75,7 +75,7 @@
       - [Sphinx](http://sphinxsearch.com)
    4. NoSQL
       - [Redis](https://redis.io)
-      - [MongoDB](https://docs.microsoft.com/zh-tw/aspnet/core/tutorials/first-mongo-app)
+      - [MongoDB](https://docs.microsoft.com/zh-tw/aspnet/core/tutorials/first-mongo-app?WT.mc_id=DOP-MVP-4038201)
       - [Apache Cassandra](http://cassandra.apache.org)
       - [LiteDB](https://github.com/mbdavid/LiteDB)
       - [RavenDB](https://github.com/ravendb/ravendb)
@@ -83,8 +83,8 @@
 
 6. 快取
 
-   1. [記憶體快取](https://docs.microsoft.com/zh-tw/aspnet/core/performance/caching/memory)
-   2. [分散式快取](https://docs.microsoft.com/zh-tw/aspnet/core/performance/caching/distributed)
+   1. [記憶體快取](https://docs.microsoft.com/zh-tw/aspnet/core/performance/caching/memory?WT.mc_id=DOP-MVP-4038201)
+   2. [分散式快取](https://docs.microsoft.com/zh-tw/aspnet/core/performance/caching/distributed?WT.mc_id=DOP-MVP-4038201)
       1. [Redis](https://redis.io/)
          1. [StackExchange.Redis](https://stackexchange.github.io/StackExchange.Redis)
          2. [EasyCaching](https://github.com/dotnetcore/EasyCaching)
@@ -107,17 +107,17 @@
 8. API 用戶端及通訊
 
     1. REST
-       - [OData](https://devblogs.microsoft.com/odata/experimenting-with-odata-in-asp-net-core-3-1)
+       - [OData](https://devblogs.microsoft.com/odata/experimenting-with-odata-in-asp-net-core-3-1?WT.mc_id=DOP-MVP-4038201)
        - [Sieve](https://github.com/Biarity/Sieve)
-    2. [gRPC](https://docs.microsoft.com/zh-tw/aspnet/core/grpc)
+    2. [gRPC](https://docs.microsoft.com/zh-tw/aspnet/core/grpc?WT.mc_id=DOP-MVP-4038201)
     3. GraphQL
        - [HotChocolate](https://github.com/ChilliCream/hotchocolate)
        - [GraphQL-dotnet](https://github.com/graphql-dotnet/graphql-dotnet)
 
 9. 即時通訊
 
-   - [SignalR](docs.microsoft.com/zh-tw/aspnet/core/signalr/introduction)
-   - [WebSockets](https://docs.microsoft.com/zh-tw/aspnet/core/fundamentals/websockets)
+   - [SignalR](https://docs.microsoft.com/zh-tw/aspnet/core/signalr/introduction?WT.mc_id=DOP-MVP-4038201)
+   - [WebSockets](https://docs.microsoft.com/zh-tw/aspnet/core/fundamentals/websockets?WT.mc_id=DOP-MVP-4038201)
    
 10. 物件對應
 
@@ -130,16 +130,16 @@
 
     - [Coravel](https://github.com/jamesmh/coravel)
     - [HangFire](https://github.com/HangfireIO/Hangfire)
-    - [Background Service](https://docs.microsoft.com/zh-tw/aspnet/core/fundamentals/host/hosted-services)
+    - [Background Service](https://docs.microsoft.com/zh-tw/aspnet/core/fundamentals/host/hosted-services?WT.mc_id=DOP-MVP-4038201)
     - [Fluent Scheduler](https://github.com/fluentscheduler/FluentScheduler)
     
 12. 測試
 
     1. 單元測試
        1. 框架
-          - [xUnit](https://docs.microsoft.com/zh-tw/dotnet/core/testing/unit-testing-with-dotnet-test)
-          - [NUnit](https://docs.microsoft.com/zh-tw/dotnet/core/testing/unit-testing-with-nunit)
-          - [MSTest](https://docs.microsoft.com/zh-tw/dotnet/core/testing/unit-testing-with-mstest)
+          - [xUnit](https://docs.microsoft.com/zh-tw/dotnet/core/testing/unit-testing-with-dotnet-test?WT.mc_id=DOP-MVP-4038201)
+          - [NUnit](https://docs.microsoft.com/zh-tw/dotnet/core/testing/unit-testing-with-nunit?WT.mc_id=DOP-MVP-4038201)
+          - [MSTest](https://docs.microsoft.com/zh-tw/dotnet/core/testing/unit-testing-with-mstest?WT.mc_id=DOP-MVP-4038201)
        2. 模擬
           - [Moq](https://github.com/moq/moq4)
           - [NSubstitute](https://github.com/nsubstitute/NSubstitute)
@@ -148,7 +148,7 @@
           - [FluentAssertion](https://github.com/fluentassertions/fluentassertions)
           - [Shouldly](https://github.com/shouldly/shouldly)
     2. 整合測試
-       - [WebApplicationFactory](https://docs.microsoft.com/zh-tw/aspnet/core/test/integration-tests)
+       - [WebApplicationFactory](https://docs.microsoft.com/zh-tw/aspnet/core/test/integration-tests?WT.mc_id=DOP-MVP-4038201)
        - [TestServer](https://koukia.ca/integration-testing-in-asp-net-core-2-0-51d14ede3968)
     3. 行為測試
        - [SpecFlow](https://github.com/techtalk/SpecFlow/tree/DotNetCore)
@@ -164,7 +164,7 @@
        - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
        - [Apache Kafka](https://github.com/confluentinc/confluent-kafka-dotnet)
        - [ActiveMQ](https://github.com/apache/activemq)
-       - [Azure Service Bus](https://docs.microsoft.com/zh-tw/azure/service-bus-messaging/service-bus-messaging-overview)
+       - [Azure Service Bus](https://docs.microsoft.com/zh-tw/azure/service-bus-messaging/service-bus-messaging-overview?WT.mc_id=DOP-MVP-4038201)
        - [NetMQ](https://github.com/zeromq/netmq)
     2. 訊息匯流排
        - [MassTransit](https://github.com/MassTransit/MassTransit)
@@ -188,7 +188,7 @@
 
 14. 持續整合與部署
     - [Gihub Actions](https://github.com/features/actions)
-    - [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines)
+    - [Azure Pipelines](https://azure.microsoft.com/zh-tw/services/devops/pipelines/?WT.mc_id=DOP-MVP-4038201)
     - [Travis CI](https://travis-ci.org)
     - [Jenkins](https://www.jenkins.io)
     - [Circle CI](https://circleci.com)
@@ -196,7 +196,7 @@
 
 15. 設計模式
 
-    - [CQRS](https://docs.microsoft.com/zh-tw/azure/architecture/patterns/cqrs)
+    - [CQRS](https://docs.microsoft.com/zh-tw/azure/architecture/patterns/cqrs?WT.mc_id=DOP-MVP-4038201)
     - [Decorator](https://www.dofactory.com/net/decorator-design-pattern)
     - [Strategy](https://www.dofactory.com/net/strategy-design-pattern)
     - [Builder](https://www.dofactory.com/net/builder-design-pattern)
@@ -204,11 +204,11 @@
     - [Facade](https://www.dofactory.com/net/facade-design-pattern)
 
 16. 用戶端程式庫
-    - [Blazor](https://docs.microsoft.com/zh-tw/aspnet/core/blazor/)
+    - [Blazor](https://docs.microsoft.com/zh-tw/aspnet/core/blazor/?WT.mc_id=DOP-MVP-4038201)
 
 17. 範本引擎
 
-   - [Razor](https://docs.microsoft.com/zh-tw/aspnet/core/mvc/views/razor)
+   - [Razor](https://docs.microsoft.com/zh-tw/aspnet/core/mvc/views/razor?WT.mc_id=DOP-MVP-4038201)
    - [DotLiquid](https://github.com/dotliquid/dotliquid)
    - [Scriban](https://github.com/lunet-io/scriban)
    - [Fluid](https://github.com/sebastienros/fluid)
