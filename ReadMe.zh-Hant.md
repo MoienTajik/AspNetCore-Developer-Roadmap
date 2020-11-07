@@ -1,10 +1,10 @@
 # ASP.NET Core 開發人員指南
 
-- [英文 ReadMe (2021版)](ReadMe.md)
-- [簡體中文 ReadMe (2019版)](ReadMe.zh-Hans.md)
-- [繁體中文 ReadMe (2021版)](ReadMe.zh-Hant.md)
+- [英文 ReadMe](ReadMe.md)
+- [繁體中文 ReadMe](ReadMe.zh-Hant.md)
+- [简体中文 ReadMe](ReadMe.zh-Hans.md)
 
-> 2021 年 [ASP.NET Core](https://docs.microsoft.com/aspnet/core) 開發人員指南
+> 2021年 [ASP.NET Core](https://docs.microsoft.com/zh-tw/aspnet/core/) 開發人員指南：
 
 在下面，您可以看到一張圖片，說明可以採取的學習路徑以及要成為 ASP.NET Core 開發人員所要學習的程式庫。我將此圖片作為提示，給所有問我"作為 ASP.NET Core 開發人員，接下來應該學習什麼？"的人。
 
@@ -116,7 +116,7 @@
 
 9. 即時通訊
 
-   - [SignalR](docs.microsoft.com/zh-tw/aspnet/core/signalr/introduction)
+   - [SignalR](https://docs.microsoft.com/zh-tw/aspnet/core/signalr/introduction)
    - [WebSockets](https://docs.microsoft.com/zh-tw/aspnet/core/fundamentals/websockets)
    
 10. 物件對應
@@ -188,7 +188,7 @@
 
 14. 持續整合與部署
     - [Gihub Actions](https://github.com/features/actions)
-    - [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines)
+    - [Azure Pipelines](https://azure.microsoft.com/zh-tw/services/devops/pipelines/)
     - [Travis CI](https://travis-ci.org)
     - [Jenkins](https://www.jenkins.io)
     - [Circle CI](https://circleci.com)
