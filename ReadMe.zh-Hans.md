@@ -187,7 +187,7 @@
        - [Tye](https://github.com/dotnet/tye)
 
 14. 持续集成与部署
-    - [Gihub Actions](https://github.com/features/actions)
+    - [Github Actions](https://github.com/features/actions)
     - [Azure Pipelines](https://azure.microsoft.com/zh-cn/services/devops/pipelines/)
     - [Travis CI](https://travis-ci.org)
     - [Jenkins](https://www.jenkins.io)
