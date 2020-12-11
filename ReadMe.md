@@ -94,7 +94,7 @@ If you like or are using this project to learn or start your solution, please gi
          2. [EasyCaching](https://github.com/dotnetcore/EasyCaching)
       2. [Memcached](https://memcached.org)
    3. Entity Framework 2nd Level Cache
-      1. [EFSecondLevelCache.Core](https://github.com/VahidN/EFSecondLevelCache.Core)
+      1. [EFCoreSecondLevelCacheInterceptor](https://github.com/VahidN/EFCoreSecondLevelCacheInterceptor)
       2. [EntityFrameworkCore.Cacheable](https://github.com/SteffenMangold/EntityFrameworkCore.Cacheable)
 
 7. Logging
