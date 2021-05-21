@@ -4,10 +4,11 @@
 [![Backers on Open Collective](https://opencollective.com/AspNetCore-Developer-Roadmap/backers/badge.svg)](#backers)
 [![Sponsors on Open Collective](https://opencollective.com/AspNetCore-Developer-Roadmap/sponsors/badge.svg)](#sponsors)
 
-- [ReadMe in Simplified Chinese](ReadMe.zh-Hans.md)
-- [ReadMe in Traditional Chinese](ReadMe.zh-Hant.md)
+- [Dark Version](https://raw.githubusercontent.com/MoienTajik/AspNetCore-Developer-Roadmap/master/aspnetcore-developer-roadmap.png)
+- [Read-me in Simplified Chinese](ReadMe.zh-Hans.md)
+- [Read-me in Traditional Chinese](ReadMe.zh-Hant.md)
 
-> Roadmap to becoming an [ASP.NET Core](https://docs.microsoft.com/aspnet/core) developer in 2019:
+> Roadmap to becoming an [ASP.NET Core](https://docs.microsoft.com/aspnet/core) developer in 2021:
 
 Below you can find a chart demonstrating the paths that you can take and the libraries that you would want to learn to become an ASP.NET Core developer. I made this chart as a tip for everyone who asks me, "What should I learn next as an ASP.NET Core developer?"
 
@@ -21,14 +22,17 @@ If you like or are using this project to learn or start your solution, please gi
 
 ## Roadmap
 
-![Roadmap](./aspnetcore-developer-roadmap.png)
+![Roadmap](./aspnetcore-developer-roadmap-printable.png)
 
 ## Resources
 
-1. Prerequisites
+1. Learn the prerequisites
 
    - [C#](https://www.pluralsight.com/paths/csharp)
+   - [.NET 5](https://devblogs.microsoft.com/dotnet/introducing-net-5)
    - [Entity Framework](https://www.pluralsight.com/search?q=entity%20framework%20core)
+   - [Dapper](https://github.com/StackExchange/Dapper)
+   - [NHibernate](https://github.com/nhibernate/nhibernate-core)
    - [ASP.NET Core](https://www.pluralsight.com/search?q=asp.net%20core)
    - SQL Fundamentals
 
@@ -36,162 +40,204 @@ If you like or are using this project to learn or start your solution, please gi
 
    - Learn GIT, create a few repositories on GitHub, share your code with other people
    - Know HTTP(S) protocol, request methods (GET, POST, PUT, PATCH, DELETE, OPTIONS)
-   - Don't be afraid of using Google, [Power Searching with Google](http://www.powersearchingwithgoogle.com/)
-   - Learn [dotnet CLI](https://docs.microsoft.com/dotnet/core/tools/?tabs=netcore2x)
+   - Don't be afraid of using Google, [Power Searching with Google](http://www.powersearchingwithgoogle.com)
+   - Learn [dotnet CLI](https://docs.microsoft.com/dotnet/core/tools)
    - Read a few books about algorithms and data structures
 
-3. Dependency Injection
+3. ASP.NET Core Basics
+
+   - [MVC](https://docs.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-5.0)
+   - [REST](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-5.0&tabs=visual-studio)
+   - [Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-5.0&tabs=visual-studio)
+   - [Razor Components](https://docs.microsoft.com/en-us/aspnet/core/blazor/components/?view=aspnetcore-5.0)
+   - [Middlewares](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-5.0)
+   - [Filters & Attributes](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/filters?view=aspnetcore-5.0)
+   - [Application Settings & Configurations](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-5.0)
+   - [Authentication](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/?view=aspnetcore-5.0)
+   - [Authorization](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/introduction?view=aspnetcore-5.0)
+
+4. SOLID
+
+    - [Single Responsibility Principle (SRP)](https://www.dotnetcurry.com/software-gardening/1148/solid-single-responsibility-principle)
+    - [Open-Closed Principle (OCP)](https://www.dotnetcurry.com/software-gardening/1176/solid-open-closed-principle)
+    - [Liskov Substitution Principle (LSP)](https://www.dotnetcurry.com/software-gardening/1235/liskov-substitution-principle-lsp-solid-patterns)
+    - [Interface Segregation Principle (ISP)](https://www.dotnetcurry.com/software-gardening/1257/interface-segregation-principle-isp-solid-principle)
+    - [Dependency Inversion Principle (DIP)](https://www.dotnetcurry.com/software-gardening/1284/dependency-injection-solid-principles)
+
+5. Dependency Injection
 
    1. DI Containers
       - [Microsoft.Extensions.DependencyInjection](https://docs.microsoft.com/aspnet/core/fundamentals/dependency-injection)
       - [AutoFac](https://autofaccn.readthedocs.io/en/latest/integration/aspnetcore.html)
-      - [Ninject](http://www.ninject.org/)
-      - [StructureMap](https://github.com/structuremap/structuremap)
+      - [Ninject](http://www.ninject.org)
       - [Castle Windsor](https://github.com/castleproject/Windsor)
+	  - [Simple Injector](https://github.com/simpleinjector/SimpleInjector)
    2. [Life Cycles](https://docs.microsoft.com/aspnet/core/fundamentals/dependency-injection#service-lifetimes)
    3. [Scrutor](https://github.com/khellang/Scrutor)
 
-4. Databases
+6. Databases
 
    1. Relational
-      1. [SQL Server](https://www.microsoft.com/sql-server/sql-server-2017)
-      2. [PostgreSQL](https://www.postgresql.org/)
-      3. [MariaDB](https://mariadb.org/)
-      4. [MySQL](https://www.mysql.com/)
+      1. [SQL Server](https://www.microsoft.com/sql-server/sql-server-2019)
+      2. [PostgreSQL](https://www.postgresql.org)
+      3. [MariaDB](https://mariadb.org)
+      4. [MySQL](https://www.mysql.com)
    2. Cloud Databases
       - [CosmosDB](https://docs.microsoft.com/azure/cosmos-db)
-      - [DynamoDB](https://aws.amazon.com/dynamodb/)
+      - [DynamoDB](https://aws.amazon.com/dynamodb)
    3. Search Engines
-      - [ElasticSearch](https://www.elastic.co/)
-      - [Solr](http://lucene.apache.org/solr/)
-      - [Sphinx](http://sphinxsearch.com/)
+      - [ElasticSearch](https://www.elastic.co)
+      - [Solr](http://lucene.apache.org/solr)
+      - [Sphinx](http://sphinxsearch.com)
    4. NoSQL
+      - [Redis](https://redis.io)
       - [MongoDB](https://docs.microsoft.com/aspnet/core/tutorials/first-mongo-app)
-      - [Redis](https://redis.io/)
-      - [Apache Cassandra](http://cassandra.apache.org/)
+      - [Apache Cassandra](http://cassandra.apache.org)
       - [LiteDB](https://github.com/mbdavid/LiteDB)
       - [RavenDB](https://github.com/ravendb/ravendb)
-      - [CouchDB](http://couchdb.apache.org/)
+      - [CouchDB](http://couchdb.apache.org)
 
-5. Caching
+7. Caching
 
-   1. Entity Framework 2nd Level Cache
-      1. [EFSecondLevelCache.Core](https://github.com/VahidN/EFSecondLevelCache.Core)
-      2. [EntityFrameworkCore.Cacheable](https://github.com/SteffenMangold/EntityFrameworkCore.Cacheable)
+   1. [Memory Cache](https://docs.microsoft.com/aspnet/core/performance/caching/memory)
    2. [Distributed Cache](https://docs.microsoft.com/aspnet/core/performance/caching/distributed)
       1. [Redis](https://redis.io/)
-      2. [Memcached](https://memcached.org/)
-   3. [Memory Cache](https://docs.microsoft.com/aspnet/core/performance/caching/memory)
+         1. [StackExchange.Redis](https://stackexchange.github.io/StackExchange.Redis)
+         2. [EasyCaching](https://github.com/dotnetcore/EasyCaching)
+      2. [Memcached](https://memcached.org)
+   3. Entity Framework 2nd Level Cache
+      1. [EFCoreSecondLevelCacheInterceptor](https://github.com/VahidN/EFCoreSecondLevelCacheInterceptor)
+      2. [EntityFrameworkCore.Cacheable](https://github.com/SteffenMangold/EntityFrameworkCore.Cacheable)
 
-6. Logging
+8. Logging
 
    1. Log Frameworks
       - [Serilog](https://github.com/serilog/serilog)
       - [NLog](https://github.com/NLog/NLog)
-      - [Elmah](https://elmah.github.io/)
-      - [log4net](https://github.com/huorswords/Microsoft.Extensions.Logging.Log4Net.AspNetCore)
    2. Log Management System
+      - [ELK Stack](https://www.elastic.co/what-is/elk-stack)
       - [Sentry.io](http://sentry.io)
       - [Loggly.com](https://loggly.com)
       - [Elmah.io](http://elmah.io)
+      
+9. API Clients & Communications
 
-7. Template Engines
+    1. REST
+       - [OData](https://devblogs.microsoft.com/odata/experimenting-with-odata-in-asp-net-core-3-1)
+       - [Sieve](https://github.com/Biarity/Sieve)
+    2. [gRPC](https://docs.microsoft.com/en-us/aspnet/core/grpc)
+    3. GraphQL
+       - [HotChocolate](https://github.com/ChilliCream/hotchocolate)
+       - [GraphQL-dotnet](https://github.com/graphql-dotnet/graphql-dotnet)
 
-   1. [Razor](https://docs.microsoft.com/aspnet/core/mvc/views/razor)
-   2. [DotLiquid](https://github.com/dotliquid/dotliquid)
-   3. [Scriban](https://github.com/lunet-io/scriban)
-   4. [Fluid](https://github.com/sebastienros/fluid)
+10. Real-Time Communication
 
-8. Real-Time Communication
-
-   1. [SignalR](https://docs.microsoft.com/aspnet/core/signalr)
-
-9. Object Mapping
+   - [SignalR](https://docs.microsoft.com/aspnet/core/signalr)
+   - [WebSockets](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/websockets)
+   
+11. Object Mapping
 
    - [AutoMapper](https://github.com/AutoMapper/AutoMapper)
    - [Mapster](https://github.com/MapsterMapper/Mapster)
-   - [AgileMapper](https://github.com/agileobjects/AgileMapper)
    - [ExpressMapper](http://expressmapper.org/)
+   - [AgileMapper](https://github.com/agileobjects/AgileMapper)
+   
+12. Task Scheduling
 
-10. API Clients
+    - [Coravel](https://github.com/jamesmh/coravel)
+    - [HangFire](https://github.com/HangfireIO/Hangfire)
+    - [Background Service](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services)
+    - [Fluent Scheduler](https://github.com/fluentscheduler/FluentScheduler)
+    
+13. Testing
 
-   1. REST
-      - [OData](https://blogs.msdn.microsoft.com/odatateam/2018/07/03/asp-net-core-odata-now-available/)
-      - [Sieve](https://github.com/Biarity/Sieve)
-   2. GraphQL
-      - [GraphQL-dotnet](https://github.com/graphql-dotnet/graphql-dotnet)
+    1. Unit Testing
+       1. Frameworks
+          - [xUnit](https://docs.microsoft.com/dotnet/core/testing/unit-testing-with-dotnet-test)
+          - [NUnit](https://docs.microsoft.com/dotnet/core/testing/unit-testing-with-nunit)
+          - [MSTest](https://docs.microsoft.com/dotnet/core/testing/unit-testing-with-mstest)
+       2. Mocking
+          - [Moq](https://github.com/moq/moq4)
+          - [NSubstitute](https://github.com/nsubstitute/NSubstitute)
+          - [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy)
+       3. Assertion
+          - [FluentAssertion](https://github.com/fluentassertions/fluentassertions)
+          - [Shouldly](https://github.com/shouldly/shouldly)
+    2. Integration Testing
+       - [WebApplicationFactory](https://docs.microsoft.com/aspnet/core/test/integration-tests)
+       - [TestServer](https://koukia.ca/integration-testing-in-asp-net-core-2-0-51d14ede3968)
+    3. Behavior Testing
+       - [SpecFlow](https://github.com/techtalk/SpecFlow/tree/DotNetCore)
+       - [BDDfy](https://github.com/TestStack/TestStack.BDDfy)
+       - [LightBDD](https://github.com/LightBDD/LightBDD)
+    4. E2E Testing
+       - [Selenium](https://www.hanselman.com/blog/real-browser-integration-testing-with-selenium-standalone-chrome-and-aspnet-core-21)
+       - [Puppeteer-Sharp](https://github.com/kblok/puppeteer-sharp)
 
-11. Good to Know
+14. Micro-Services
 
-   - [MediatR](https://github.com/jbogard/MediatR)
-   - [Fluent Validation](https://github.com/JeremySkinner/FluentValidation)
-   - [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
-   - [Benchmark.NET](https://github.com/dotnet/BenchmarkDotNet)
-   - [Polly](https://github.com/App-vNext/Polly)
-   - [NodaTime](https://github.com/nodatime/nodatime)
-   - [GenFu](https://github.com/MisterJames/GenFu)
+    1. Message-Broker
+       - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
+       - [Apache Kafka](https://github.com/confluentinc/confluent-kafka-dotnet)
+       - [ActiveMQ](https://github.com/apache/activemq)
+       - [Azure Service Bus](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-messaging-overview)
+       - [NetMQ](https://github.com/zeromq/netmq)
+    2. Message-Bus
+       - [MassTransit](https://github.com/MassTransit/MassTransit)
+       - [NServiceBus](https://github.com/Particular/NServiceBus)
+       - [EasyNetQ](https://github.com/EasyNetQ/EasyNetQ)
+       - [CAP](https://github.com/dotnetcore/CAP)
+    3. API Gateway
+       - [Ocelot](https://github.com/ThreeMammals/Ocelot)
+    4. Containerization
+       - [Docker](https://www.docker.com)
+    5. Orcherstration
+       - [Kubernetes](https://kubernetes.io)
+       - [Docker Swarm](https://docs.docker.com/engine/swarm)
+    6. Reverse Proxy
+       - [YARP](https://github.com/microsoft/reverse-proxy)
+    7. Other
+       - [Orleans](https://github.com/dotnet/orleans)
+       - [Steeltoe](https://steeltoe.io)
+       - [Dapr](https://github.com/dapr/dapr)
+       - [Tye](https://github.com/dotnet/tye)
 
-12. Testing
-
-   1. Unit Testing
-      1. Frameworks
-         - [MSTest](https://docs.microsoft.com/dotnet/core/testing/unit-testing-with-mstest)
-         - [NUnit](https://docs.microsoft.com/dotnet/core/testing/unit-testing-with-nunit)
-         - [xUnit](https://docs.microsoft.com/dotnet/core/testing/unit-testing-with-dotnet-test)
-      2. Mocking
-         - [Moq](https://github.com/moq/moq4)
-         - [NSubstitute](https://github.com/nsubstitute/NSubstitute)
-         - [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy)
-      3. Assertion
-         - [FluentAssertion](https://github.com/fluentassertions/fluentassertions)
-         - [Shouldly](https://github.com/shouldly/shouldly)
-   2. Behavior Testing
-      - [BDDfy](https://github.com/TestStack/TestStack.BDDfy)
-      - [SpecFlow](https://github.com/techtalk/SpecFlow/tree/DotNetCore)
-      - [LightBDD](https://github.com/LightBDD/LightBDD)
-   3. Integration Testing
-      - [WebApplicationFactory](https://docs.microsoft.com/aspnet/core/test/integration-tests)
-      - [TestServer](https://koukia.ca/integration-testing-in-asp-net-core-2-0-51d14ede3968)
-   4. E2E Testing
-      - [Selenium](https://www.automatetheplanet.com/webdriver-dotnetcore2/)
-      - [Puppeteer-Sharp](https://github.com/kblok/puppeteer-sharp)
-
-13. Task Scheduling
-
-   - [HangFire](https://github.com/HangfireIO/Hangfire)
-   - [Coravel](https://github.com/jamesmh/coravel)
-   - [Fluent Scheduler](https://github.com/fluentscheduler/FluentScheduler)
-
-14. MicroServices
-
-   1. Message-Broker
-      - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
-      - [Apache Kafka](https://github.com/confluentinc/confluent-kafka-dotnet)
-      - [ActiveMQ](https://github.com/apache/activemq)
-      - [Azure Service Bus](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-messaging-overview)
-   2. Message-Bus
-      - [MassTransit](https://github.com/MassTransit/MassTransit)
-      - [NServiceBus](https://github.com/Particular/NServiceBus)
-      - [CAP](https://github.com/dotnetcore/CAP)
-
-15. SOLID
-
-   - [Single Responsibility Principle (SRP)](https://www.dotnetcurry.com/software-gardening/1148/solid-single-responsibility-principle)
-   - [Open-Closed Principle (OCP)](https://www.dotnetcurry.com/software-gardening/1176/solid-open-closed-principle)
-   - [Liskov Substitution Principle (LSP)](https://www.dotnetcurry.com/software-gardening/1235/liskov-substitution-principle-lsp-solid-patterns)
-   - [Interface Segregation Principle (ISP)](https://www.dotnetcurry.com/software-gardening/1257/interface-segregation-principle-isp-solid-principle)
-   - [Dependency Inversion Principle (DIP)](https://www.dotnetcurry.com/software-gardening/1284/dependency-injection-solid-principles)
+15. Continuous Integration & Delivery
+    - [Gihub Actions](https://github.com/features/actions)
+    - [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines)
+    - [Travis CI](https://travis-ci.org)
+    - [Jenkins](https://www.jenkins.io)
+    - [Circle CI](https://circleci.com)
+    - [TeamCity](https://www.jetbrains.com/teamcity)
 
 16. Design-Patterns
 
-   - [CQRS](https://docs.microsoft.com/azure/architecture/patterns/cqrs)
-   - [Decorator](https://www.dofactory.com/net/decorator-design-pattern)
-   - [Strategy](https://www.dofactory.com/net/strategy-design-pattern)
-   - [Observer](https://www.dofactory.com/net/observer-design-pattern)
-   - [Builder](https://www.dofactory.com/net/builder-design-pattern)
-   - [Singleton](https://www.dofactory.com/net/singleton-design-pattern)
-   - [Facade](https://www.dofactory.com/net/facade-design-pattern)
-   - [Mediator](https://www.dofactory.com/net/mediator-design-pattern)
+    - [CQRS](https://docs.microsoft.com/azure/architecture/patterns/cqrs)
+    - [Decorator](https://www.dofactory.com/net/decorator-design-pattern)
+    - [Strategy](https://www.dofactory.com/net/strategy-design-pattern)
+    - [Builder](https://www.dofactory.com/net/builder-design-pattern)
+    - [Singleton](https://www.dofactory.com/net/singleton-design-pattern)
+    - [Facade](https://www.dofactory.com/net/facade-design-pattern)
+
+17. Client-Side Libraries
+    - [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
+
+18. Template Engines
+
+   - [Razor](https://docs.microsoft.com/aspnet/core/mvc/views/razor)
+   - [DotLiquid](https://github.com/dotliquid/dotliquid)
+   - [Scriban](https://github.com/lunet-io/scriban)
+   - [Fluid](https://github.com/sebastienros/fluid)
+
+19. Good to Know
+
+    - [MediatR](https://github.com/jbogard/MediatR)
+    - [Fluent Validation](https://github.com/JeremySkinner/FluentValidation)
+    - [Polly](https://github.com/App-vNext/Polly)    
+    - [Benchmark.NET](https://github.com/dotnet/BenchmarkDotNet)
+    - [NodaTime](https://github.com/nodatime/nodatime)
+    - [GenFu](https://github.com/MisterJames/GenFu)
+    - [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
 
 ## Wrap Up
 
@@ -204,12 +250,6 @@ Idea from : [React Developer RoadMap](https://github.com/adam-golab/react-develo
 Want to contribute? We encourage community feedback and contributions. Please follow our [contributing guidelines](https://github.com/MoienTajik/AspNetCore-Developer-Roadmap/blob/master/CONTRIBUTING.md).
 
 ## Credits
-
-### Contributors
-
-This project exists thanks to all the people who contribute. [[Contribute](https://github.com/MoienTajik/AspNetCore-Developer-Roadmap/blob/master/CONTRIBUTING.md)].
-
-<img src="https://opencollective.com/AspNetCore-Developer-Roadmap/contributors.svg?width=890&button=false" />
 
 ### Backers
 
