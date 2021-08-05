@@ -146,6 +146,7 @@ If you like or are using this project to learn or start your solution, please gi
 
     - [Coravel](https://github.com/jamesmh/coravel)
     - [HangFire](https://github.com/HangfireIO/Hangfire)
+    - [Quartz.NET](https://www.quartz-scheduler.net/)
     - [Background Service](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services)
     - [Fluent Scheduler](https://github.com/fluentscheduler/FluentScheduler)
     
