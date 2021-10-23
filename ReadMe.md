@@ -203,7 +203,7 @@ If you like or are using this project to learn or start your solution, please gi
        - [Tye](https://github.com/dotnet/tye)
 
 15. Continuous Integration & Delivery
-    - [Gihub Actions](https://github.com/features/actions)
+    - [Github Actions](https://github.com/features/actions)
     - [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines)
     - [Travis CI](https://travis-ci.org)
     - [Jenkins](https://www.jenkins.io)
