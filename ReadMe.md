@@ -8,7 +8,7 @@
 - [Read-me in Simplified Chinese](ReadMe.zh-Hans.md)
 - [Read-me in Traditional Chinese](ReadMe.zh-Hant.md)
 
-> Roadmap to becoming an [ASP.NET Core](https://docs.microsoft.com/aspnet/core) developer in 2021:
+> Roadmap to becoming an [ASP.NET Core](https://docs.microsoft.com/aspnet/core) developer in 2022:
 
 Below you can find a chart demonstrating the paths that you can take and the libraries that you would want to learn to become an ASP.NET Core developer. I made this chart as a tip for everyone who asks me, "What should I learn next as an ASP.NET Core developer?"
 
@@ -29,7 +29,7 @@ If you like or are using this project to learn or start your solution, please gi
 1. Learn the prerequisites
 
    - [C#](https://www.pluralsight.com/paths/csharp)
-   - [.NET 5](https://devblogs.microsoft.com/dotnet/introducing-net-5)
+   - [.NET 6](https://devblogs.microsoft.com/dotnet/announcing-net-6)
    - [Entity Framework](https://www.pluralsight.com/search?q=entity%20framework%20core)
    - [Dapper](https://github.com/StackExchange/Dapper)
    - [NHibernate](https://github.com/nhibernate/nhibernate-core)
@@ -46,15 +46,18 @@ If you like or are using this project to learn or start your solution, please gi
 
 3. ASP.NET Core Basics
 
-   - [MVC](https://docs.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-5.0)
-   - [REST](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-5.0&tabs=visual-studio)
-   - [Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-5.0&tabs=visual-studio)
-   - [Razor Components](https://docs.microsoft.com/en-us/aspnet/core/blazor/components/?view=aspnetcore-5.0)
-   - [Middlewares](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-5.0)
-   - [Filters & Attributes](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/filters?view=aspnetcore-5.0)
-   - [Application Settings & Configurations](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-5.0)
-   - [Authentication](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/?view=aspnetcore-5.0)
-   - [Authorization](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/introduction?view=aspnetcore-5.0)
+   - [MVC](https://docs.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-6.0)
+   - [REST](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio)
+   - [Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-6.0&tabs=visual-studio)
+   - [Razor Components](https://docs.microsoft.com/en-us/aspnet/core/blazor/components/?view=aspnetcore-6.0)
+   - [Middlewares](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-6.0)
+   - [Filters & Attributes](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/filters?view=aspnetcore-6.0)
+   - [Application Settings & Configurations](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-6.0)
+   - [Authentication](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/?view=aspnetcore-6.0)
+   - [Authorization](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/introduction?view=aspnetcore-6.0)
+   - [IdentityServer](https://identityserver4.readthedocs.io/en/latest)
+   - [Auth0](https://auth0.com/docs)
+   - [OIDC](https://openid.net/connect)
 
 4. SOLID
 
@@ -144,10 +147,10 @@ If you like or are using this project to learn or start your solution, please gi
    
 12. Task Scheduling
 
-    - [Coravel](https://github.com/jamesmh/coravel)
-    - [HangFire](https://github.com/HangfireIO/Hangfire)
     - [Background Service](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services)
-    - [Fluent Scheduler](https://github.com/fluentscheduler/FluentScheduler)
+    - [HangFire](https://github.com/HangfireIO/Hangfire)
+    - [Quartz](https://github.com/quartznet/quartznet)
+    - [Coravel](https://github.com/jamesmh/coravel)    
     
 13. Testing
 
