@@ -1,33 +1,31 @@
-# ASP.NET Core Developer Roadmap
+# ASP.NET Core Geliştirici Yol Haritası
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![Backers on Open Collective](https://opencollective.com/AspNetCore-Developer-Roadmap/backers/badge.svg)](#backers)
-[![Sponsors on Open Collective](https://opencollective.com/AspNetCore-Developer-Roadmap/sponsors/badge.svg)](#sponsors)
+[![Backers on Open Collective](https://opencollective.com/AspNetCore-Developer-Roadmap/backers/badge.svg)](#destekçiler)
+[![Sponsors on Open Collective](https://opencollective.com/AspNetCore-Developer-Roadmap/sponsors/badge.svg)](#sponsor)
 
-- [Dark Version](https://raw.githubusercontent.com/MoienTajik/AspNetCore-Developer-Roadmap/master/aspnetcore-developer-roadmap.png)
-- [Read-me in Traditional Chinese](ReadMe.zh-Hant.md)
-- [Read-me in Simplified Chinese](ReadMe.zh-Hans.md)
-- [Read-me in Turkish](ReadMe-tr.md)
+- [Karanlık Versiyon](https://raw.githubusercontent.com/MoienTajik/AspNetCore-Developer-Roadmap/master/aspnetcore-developer-roadmap.png)
+- [Basitleştirilmiş Çince'de beni oku](ReadMe.zh-Hans.md)
+- [Geleneksel Çince'de beni oku](ReadMe.zh-Hant.md)
 
-> Roadmap to becoming an [ASP.NET Core](https://docs.microsoft.com/aspnet/core) developer in 2022:
+> 2022'de [ASP.NET Core](https://docs.microsoft.com/aspnet/core) geliştirici olma yol haritası:
 
-Below you can find a chart demonstrating the paths that you can take and the libraries that you would want to learn to become an ASP.NET Core developer. I made this chart as a tip for everyone who asks me, "What should I learn next as an ASP.NET Core developer?"
+Aşağıda, ASP.NET Core geliştiricisi olmak için izleyebileceğiniz yolları ve öğrenmek isteyeceğiniz kitaplıkları gösteren bir tablo bulabilirsiniz. Bu çizelgeyi bana "Bir ASP.NET Core geliştiricisi olarak bundan sonra ne öğrenmeliyim?" diye soran herkese bir ipucu olarak hazırladım.
 
-## Disclaimer
+## Sorumluluk Kabul Edilmez
 
-> The purpose of this roadmap is to give you an idea about the landscape. The road map will guide you if you are confused about what to learn next, rather than encouraging you to pick what is hip and trendy. You should grow some understanding of why one tool would be better suited for some cases than the other and remember hip and trendy does not always mean best suited for the job
+> Bu yol haritasının amacı, size manzara hakkında bir fikir vermektir. Yol haritası, bir sonraki adımda ne öğreneceğiniz konusunda kafanız karıştıysa, sizi havalı ve modaya uygun olanı seçmeye teşvik etmek yerine size rehberlik edecektir. Bir aracın neden bazı durumlar için diğerinden daha uygun olduğuna dair bir anlayış geliştirmelisiniz ve modaya uygun ve modaya uygun her zaman iş için en uygun anlamına gelmediğini unutmayın.
 
-## Give a Star! :star:
+## Bir Yıldız Ver! :star:
 
-If you like or are using this project to learn or start your solution, please give it a star. Thanks!
+Çözümünüzü öğrenmek veya başlatmak için bu projeyi beğendiyseniz veya kullanıyorsanız, lütfen ona bir yıldız verin. Teşekkürler!
+## Yol Haritası
 
-## Roadmap
+![Yol Haritası](./aspnetcore-developer-roadmap-printable.png)
 
-![Roadmap](./aspnetcore-developer-roadmap-printable.png)
+## Kaynaklar
 
-## Resources
-
-1. Learn the prerequisites
+1. Ön koşulları öğrenin
 
    - [C#](https://www.pluralsight.com/paths/csharp)
    - [.NET 6](https://devblogs.microsoft.com/dotnet/announcing-net-6)
@@ -35,40 +33,40 @@ If you like or are using this project to learn or start your solution, please gi
    - [Dapper](https://github.com/StackExchange/Dapper)
    - [NHibernate](https://github.com/nhibernate/nhibernate-core)
    - [ASP.NET Core](https://www.pluralsight.com/search?q=asp.net%20core)
-   - SQL Fundamentals
+   - SQL temel bilgiler
 
-2. General Development Skills
+2. Genel Gelişim Becerileri
 
-   - Learn GIT, create a few repositories on GitHub, share your code with other people
-   - Know HTTP(S) protocol, request methods (GET, POST, PUT, PATCH, DELETE, OPTIONS)
-   - Don't be afraid of using Google, [Power Searching with Google](http://www.powersearchingwithgoogle.com)
-   - Learn [dotnet CLI](https://docs.microsoft.com/dotnet/core/tools)
-   - Read a few books about algorithms and data structures
+   - GIT öğrenin, GitHub'da birkaç depo oluşturun, kodunuzu başkalarıyla paylaşın
+   - HTTP(S) protokolünü, istek yöntemlerini (GET, POST, PUT, PATCH, DELETE, OPTIONS) bilin
+   - Google kullanmaktan korkmayın, [Google ile Güçlü Arama](http://www.powersearchingwithgoogle.com)
+   - [dotnet CLI](https://docs.microsoft.com/dotnet/core/tools) öğrenin
+   - Algoritmalar ve veri yapıları hakkında birkaç kitap okuyun
 
-3. ASP.NET Core Basics
+3. ASP.NET Core Temelleri
 
    - [MVC](https://docs.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-6.0)
    - [REST](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio)
-   - [Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-6.0&tabs=visual-studio)
-   - [Razor Components](https://docs.microsoft.com/en-us/aspnet/core/blazor/components/?view=aspnetcore-6.0)
-   - [Middlewares](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-6.0)
-   - [Filters & Attributes](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/filters?view=aspnetcore-6.0)
-   - [Application Settings & Configurations](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-6.0)
-   - [Authentication](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/?view=aspnetcore-6.0)
-   - [Authorization](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/introduction?view=aspnetcore-6.0)
+   - [Razor Sayfaları](https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-6.0&tabs=visual-studio)
+   - [Razor Bileşenleri](https://docs.microsoft.com/en-us/aspnet/core/blazor/components/?view=aspnetcore-6.0)
+   - [Ara Yazılımlar](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-6.0)
+   - [Filtreler ve Özellikler](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/filters?view=aspnetcore-6.0)
+   - [Uygulama Ayarları ve Konfigürasyonlar](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-6.0)
+   - [Kimlik Doğrulama](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/?view=aspnetcore-6.0)
+   - [Yetkilendirme](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/introduction?view=aspnetcore-6.0)
    - [IdentityServer](https://identityserver4.readthedocs.io/en/latest)
    - [Auth0](https://auth0.com/docs)
    - [OIDC](https://openid.net/connect)
 
 4. SOLID
 
-    - [Single Responsibility Principle (SRP)](https://www.dotnetcurry.com/software-gardening/1148/solid-single-responsibility-principle)
-    - [Open-Closed Principle (OCP)](https://www.dotnetcurry.com/software-gardening/1176/solid-open-closed-principle)
-    - [Liskov Substitution Principle (LSP)](https://www.dotnetcurry.com/software-gardening/1235/liskov-substitution-principle-lsp-solid-patterns)
-    - [Interface Segregation Principle (ISP)](https://www.dotnetcurry.com/software-gardening/1257/interface-segregation-principle-isp-solid-principle)
-    - [Dependency Inversion Principle (DIP)](https://www.dotnetcurry.com/software-gardening/1284/dependency-injection-solid-principles)
+    - [Tek Sorumluluk İlkesi (SRP)](https://www.dotnetcurry.com/software-gardening/1148/solid-single-responsibility-principle)
+    - [Açık-Kapalı Prensibi (OCP)](https://www.dotnetcurry.com/software-gardening/1176/solid-open-closed-principle)
+    - [Liskov Substitution Prensibi (LSP)](https://www.dotnetcurry.com/software-gardening/1235/liskov-substitution-principle-lsp-solid-patterns)
+    - [Arayüz Ayrımı Prensibi (ISP)](https://www.dotnetcurry.com/software-gardening/1257/interface-segregation-principle-isp-solid-principle)
+    - [Bağımlılık Tersine Çevirme Prensibi (DIP)](https://www.dotnetcurry.com/software-gardening/1284/dependency-injection-solid-principles)
 
-5. Dependency Injection
+5. Bağımlılık Enjeksiyonu
 
    1. DI Containers
       - [Microsoft.Extensions.DependencyInjection](https://docs.microsoft.com/aspnet/core/fundamentals/dependency-injection)
@@ -79,17 +77,17 @@ If you like or are using this project to learn or start your solution, please gi
    2. [Life Cycles](https://docs.microsoft.com/aspnet/core/fundamentals/dependency-injection#service-lifetimes)
    3. [Scrutor](https://github.com/khellang/Scrutor)
 
-6. Databases
+6. Veritabanları
 
-   1. Relational
+   1. İlişkisel
       1. [SQL Server](https://www.microsoft.com/sql-server/sql-server-2019)
       2. [PostgreSQL](https://www.postgresql.org)
       3. [MariaDB](https://mariadb.org)
       4. [MySQL](https://www.mysql.com)
-   2. Cloud Databases
+   2. Bulut Veritabanları
       - [CosmosDB](https://docs.microsoft.com/azure/cosmos-db)
       - [DynamoDB](https://aws.amazon.com/dynamodb)
-   3. Search Engines
+   3. Arama Motorları
       - [ElasticSearch](https://www.elastic.co)
       - [Solr](http://lucene.apache.org/solr)
       - [Sphinx](http://sphinxsearch.com)
@@ -101,15 +99,15 @@ If you like or are using this project to learn or start your solution, please gi
       - [RavenDB](https://github.com/ravendb/ravendb)
       - [CouchDB](http://couchdb.apache.org)
 
-7. Caching
+7. Önbelleğe Almak
 
-   1. [Memory Cache](https://docs.microsoft.com/aspnet/core/performance/caching/memory)
-   2. [Distributed Cache](https://docs.microsoft.com/aspnet/core/performance/caching/distributed)
+   1. [Bellek Önbelleği](https://docs.microsoft.com/aspnet/core/performance/caching/memory)
+   2. [Dağıtılmış Önbellek](https://docs.microsoft.com/aspnet/core/performance/caching/distributed)
       1. [Redis](https://redis.io/)
          1. [StackExchange.Redis](https://stackexchange.github.io/StackExchange.Redis)
          2. [EasyCaching](https://github.com/dotnetcore/EasyCaching)
       2. [Memcached](https://memcached.org)
-   3. Entity Framework 2nd Level Cache
+   3. Entity Framework 2. Seviye Önbellek
       1. [EFCoreSecondLevelCacheInterceptor](https://github.com/VahidN/EFCoreSecondLevelCacheInterceptor)
       2. [EntityFrameworkCore.Cacheable](https://github.com/SteffenMangold/EntityFrameworkCore.Cacheable)
 
@@ -118,13 +116,13 @@ If you like or are using this project to learn or start your solution, please gi
    1. Log Frameworks
       - [Serilog](https://github.com/serilog/serilog)
       - [NLog](https://github.com/NLog/NLog)
-   2. Log Management System
+   2. Log Yönetim Sistemi
       - [ELK Stack](https://www.elastic.co/what-is/elk-stack)
       - [Sentry.io](http://sentry.io)
       - [Loggly.com](https://loggly.com)
       - [Elmah.io](http://elmah.io)
       
-9. API Clients & Communications
+9. API İstemcileri ve İletişim
 
     1. REST
        - [OData](https://devblogs.microsoft.com/odata/experimenting-with-odata-in-asp-net-core-3-1)
@@ -134,28 +132,28 @@ If you like or are using this project to learn or start your solution, please gi
        - [HotChocolate](https://github.com/ChilliCream/hotchocolate)
        - [GraphQL-dotnet](https://github.com/graphql-dotnet/graphql-dotnet)
 
-10. Real-Time Communication
+10. Gerçek Zamanlı İletişim
 
    - [SignalR](https://docs.microsoft.com/aspnet/core/signalr)
    - [WebSockets](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/websockets)
    
-11. Object Mapping
+11. Nesne Eşleme
 
    - [AutoMapper](https://github.com/AutoMapper/AutoMapper)
    - [Mapster](https://github.com/MapsterMapper/Mapster)
    - [ExpressMapper](http://expressmapper.org/)
    - [AgileMapper](https://github.com/agileobjects/AgileMapper)
    
-12. Task Scheduling
+12. Görev Zamanlama
 
     - [Background Service](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services)
     - [HangFire](https://github.com/HangfireIO/Hangfire)
     - [Quartz](https://github.com/quartznet/quartznet)
     - [Coravel](https://github.com/jamesmh/coravel)    
     
-13. Testing
+13. Test
 
-    1. Unit Testing
+    1. Birim Testi
        1. Frameworks
           - [xUnit](https://docs.microsoft.com/dotnet/core/testing/unit-testing-with-dotnet-test)
           - [NUnit](https://docs.microsoft.com/dotnet/core/testing/unit-testing-with-nunit)
@@ -167,20 +165,20 @@ If you like or are using this project to learn or start your solution, please gi
        3. Assertion
           - [FluentAssertion](https://github.com/fluentassertions/fluentassertions)
           - [Shouldly](https://github.com/shouldly/shouldly)
-    2. Integration Testing
+    2. Entegrasyon Testi
        - [WebApplicationFactory](https://docs.microsoft.com/aspnet/core/test/integration-tests)
        - [TestServer](https://koukia.ca/integration-testing-in-asp-net-core-2-0-51d14ede3968)
-    3. Behavior Testing
+    3. Davranış Testi
        - [SpecFlow](https://github.com/techtalk/SpecFlow/tree/DotNetCore)
        - [BDDfy](https://github.com/TestStack/TestStack.BDDfy)
        - [LightBDD](https://github.com/LightBDD/LightBDD)
-    4. E2E Testing
+    4. E2E Testi
        - [Selenium](https://www.hanselman.com/blog/real-browser-integration-testing-with-selenium-standalone-chrome-and-aspnet-core-21)
        - [Puppeteer-Sharp](https://github.com/kblok/puppeteer-sharp)
 
-14. Micro-Services
+14. Mikro Hizmetler
 
-    1. Message-Broker
+    1. Mesaj Aracısı
        - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
        - [Apache Kafka](https://github.com/confluentinc/confluent-kafka-dotnet)
        - [ActiveMQ](https://github.com/apache/activemq)
@@ -191,22 +189,22 @@ If you like or are using this project to learn or start your solution, please gi
        - [NServiceBus](https://github.com/Particular/NServiceBus)
        - [EasyNetQ](https://github.com/EasyNetQ/EasyNetQ)
        - [CAP](https://github.com/dotnetcore/CAP)
-    3. API Gateway
+    3. API Geçiti
        - [Ocelot](https://github.com/ThreeMammals/Ocelot)
     4. Containerization
        - [Docker](https://www.docker.com)
-    5. Orcherstration
+    5. Orkestrasyon
        - [Kubernetes](https://kubernetes.io)
        - [Docker Swarm](https://docs.docker.com/engine/swarm)
-    6. Reverse Proxy
+    6. Ters Proxy
        - [YARP](https://github.com/microsoft/reverse-proxy)
-    7. Other
+    7. Diğer
        - [Orleans](https://github.com/dotnet/orleans)
        - [Steeltoe](https://steeltoe.io)
        - [Dapr](https://github.com/dapr/dapr)
        - [Tye](https://github.com/dotnet/tye)
 
-15. Continuous Integration & Delivery
+15. Sürekli Entegrasyon ve Teslimat
     - [Github Actions](https://github.com/features/actions)
     - [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines)
     - [Travis CI](https://travis-ci.org)
@@ -214,7 +212,7 @@ If you like or are using this project to learn or start your solution, please gi
     - [Circle CI](https://circleci.com)
     - [TeamCity](https://www.jetbrains.com/teamcity)
 
-16. Design-Patterns
+16. Tasarım Desenleri
 
     - [CQRS](https://docs.microsoft.com/azure/architecture/patterns/cqrs)
     - [Decorator](https://www.dofactory.com/net/decorator-design-pattern)
@@ -223,17 +221,17 @@ If you like or are using this project to learn or start your solution, please gi
     - [Singleton](https://www.dofactory.com/net/singleton-design-pattern)
     - [Facade](https://www.dofactory.com/net/facade-design-pattern)
 
-17. Client-Side Libraries
+17. İstemci Taraflı Kitaplıklar
     - [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
 
-18. Template Engines
+18. Şablon Motorları
 
    - [Razor](https://docs.microsoft.com/aspnet/core/mvc/views/razor)
    - [DotLiquid](https://github.com/dotliquid/dotliquid)
    - [Scriban](https://github.com/lunet-io/scriban)
    - [Fluid](https://github.com/sebastienros/fluid)
 
-19. Good to Know
+19. Bunlarıda bilmen iyi olur
 
     - [MediatR](https://github.com/jbogard/MediatR)
     - [Fluent Validation](https://github.com/JeremySkinner/FluentValidation)
@@ -243,32 +241,32 @@ If you like or are using this project to learn or start your solution, please gi
     - [GenFu](https://github.com/MisterJames/GenFu)
     - [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
 
-## Wrap Up
+## Geliştirmek için
 
-If you think the roadmap can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this, so you might want to star this repository to revisit.
+Yol haritasının iyileştirilebileceğini düşünüyorsanız, lütfen güncellemeleri içeren bir PR açın ve sorunları gönderin. Ayrıca, bunu geliştirmeye devam edeceğim, bu yüzden tekrar ziyaret etmek için bu depoya yıldız eklemek isteyebilirsiniz.
 
-Idea from : [React Developer RoadMap](https://github.com/adam-golab/react-developer-roadmap)
+fikir : [React Geliştirici Yol Haritası](https://github.com/adam-golab/react-developer-roadmap)
 
-## Contribution
+## Katkı
 
-Want to contribute? We encourage community feedback and contributions. Please follow our [contributing guidelines](https://github.com/MoienTajik/AspNetCore-Developer-Roadmap/blob/master/CONTRIBUTING.md).
+katkıda bulunmak ister misiniz? Topluluk geri bildirimlerini ve katkılarını teşvik ediyoruz. Lütfen [katkıda bulunan yönergelerimize](https://github.com/MoienTajik/AspNetCore-Developer-Roadmap/blob/master/CONTRIBUTING.md) uyun.
 
-## Credits
+## Jenerik
 
-### Backers
+### Destekçiler
 
-Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/AspNetCore-Developer-Roadmap#backer)]
+Tüm destekçilerimize teşekkür ederiz! 🙏 [[Destekçi ol!](https://opencollective.com/AspNetCore-Developer-Roadmap#backer)]
 
 <a href="https://opencollective.com/AspNetCore-Developer-Roadmap#backers" target="_blank"><img src="https://opencollective.com/AspNetCore-Developer-Roadmap/backers.svg?width=890"></a>
 
-### Sponsors
+### Sponsor
 
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/AspNetCore-Developer-Roadmap#sponsor)]
+Sponsor olarak bu projeye destek olun. Logonuz, web sitenize bir bağlantı ile burada görünecektir.[[Sponsor ol!](https://opencollective.com/AspNetCore-Developer-Roadmap#sponsor)]
 
 <a href="https://opencollective.com/AspNetCore-Developer-Roadmap/sponsor/0/website" target="_blank"><img src="https://opencollective.com/AspNetCore-Developer-Roadmap/sponsor/0/avatar.svg"></a>
 
 
 
-## License
+## Lisans
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
