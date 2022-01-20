@@ -5,8 +5,8 @@
 [![Sponsors on Open Collective](https://opencollective.com/AspNetCore-Developer-Roadmap/sponsors/badge.svg)](#sponsors)
 
 - [Dark Version](https://raw.githubusercontent.com/MoienTajik/AspNetCore-Developer-Roadmap/master/aspnetcore-developer-roadmap.png)
-- [Read-me in Simplified Chinese](ReadMe.zh-Hans.md)
 - [Read-me in Traditional Chinese](ReadMe.zh-Hant.md)
+- [Read-me in Simplified Chinese](ReadMe.zh-Hans.md)
 
 > Roadmap to becoming an [ASP.NET Core](https://docs.microsoft.com/aspnet/core) developer in 2022:
 

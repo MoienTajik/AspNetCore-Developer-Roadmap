@@ -1,10 +1,10 @@
 # ASP.NET Core开发者指南
 
 - [英文 ReadMe](ReadMe.md)
-- [简体中文 ReadMe](ReadMe.zh-Hans.md)
 - [繁体中文 ReadMe](ReadMe.zh-Hant.md)
+- [简体中文 ReadMe](ReadMe.zh-Hans.md)
 
-> 2021年 [ASP.NET Core](https://docs.microsoft.com/zh-cn/aspnet/core/) 开发者指南：
+> 2022年 [ASP.NET Core](https://docs.microsoft.com/zh-cn/aspnet/core/) 开发者指南：
 
 在下面，您可以看到一个图，说明可以采用的路径以及要成为ASP.NET Core开发人员所想要学习的库。我将此图作为提示，给所有问我"作为ASP.NET Core开发人员，接下来应该学习什么？"的人。
 
@@ -25,7 +25,7 @@
 1. 学习先决条件
 
    - [C#](https://www.pluralsight.com/paths/csharp)
-   - [.NET 5](https://devblogs.microsoft.com/dotnet/introducing-net-5)
+   - [.NET 6](https://devblogs.microsoft.com/dotnet/announcing-net-6)
    - [Entity Framework](https://www.pluralsight.com/search?q=entity%20framework%20core)
    - [Dapper](https://github.com/StackExchange/Dapper)
    - [NHibernate](https://github.com/nhibernate/nhibernate-core)
@@ -40,7 +40,22 @@
    - 学习 [dotnet CLI](https://docs.microsoft.com/zh-cn/dotnet/core/tools/)
    - 阅读一些关于算法和数据结构的书籍
 
-3. SOLID
+3. ASP.NET Core 基础
+
+   - [MVC](https://docs.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-6.0)
+   - [REST](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio)
+   - [Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-6.0&tabs=visual-studio)
+   - [Razor Components](https://docs.microsoft.com/en-us/aspnet/core/blazor/components/?view=aspnetcore-6.0)
+   - [Middlewares](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-6.0)
+   - [Filters & Attributes](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/filters?view=aspnetcore-6.0)
+   - [Application Settings & Configurations](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-6.0)
+   - [Authentication](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/?view=aspnetcore-6.0)
+   - [Authorization](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/introduction?view=aspnetcore-6.0)
+   - [IdentityServer](https://identityserver4.readthedocs.io/en/latest)
+   - [Auth0](https://auth0.com/docs)
+   - [OIDC](https://openid.net/connect)
+
+4. SOLID
 
     - [单一责任原则 (SRP)](https://www.dotnetcurry.com/software-gardening/1148/solid-single-responsibility-principle)
     - [开放封闭原则 (OCP)](https://www.dotnetcurry.com/software-gardening/1176/solid-open-closed-principle)
@@ -48,7 +63,7 @@
     - [接口分离原则 (ISP)](https://www.dotnetcurry.com/software-gardening/1257/interface-segregation-principle-isp-solid-principle)
     - [依赖倒置原则 (DIP)](https://www.dotnetcurry.com/software-gardening/1284/dependency-injection-solid-principles)
 
-4. 依赖注入
+5. 依赖注入
 
    1. DI 容器
       - [Microsoft.Extensions.DependencyInjection](https://docs.microsoft.com/zh-cn/aspnet/core/fundamentals/dependency-injection)
@@ -59,7 +74,7 @@
    2. [生命周期](https://docs.microsoft.com/zh-cn/aspnet/core/fundamentals/dependency-injection#service-lifetimes)
    3. [Scrutor](https://github.com/khellang/Scrutor)
 
-5. 数据库
+6. 数据库
 
    1. 关系型
       1. [SQL Server](https://www.microsoft.com/zh-cn/sql-server/sql-server-2019)
@@ -81,7 +96,7 @@
       - [RavenDB](https://github.com/ravendb/ravendb)
       - [CouchDB](http://couchdb.apache.org)
 
-6. 缓存
+7. 缓存
 
    1. [内存缓存](https://docs.microsoft.com/zh-cn/aspnet/core/performance/caching/memory)
    2. [分布式缓存](https://docs.microsoft.com/zh-cn/aspnet/core/performance/caching/distributed)
@@ -93,7 +108,7 @@
       1. [EFSecondLevelCache.Core](https://github.com/VahidN/EFSecondLevelCache.Core)
       2. [EntityFrameworkCore.Cacheable](https://github.com/SteffenMangold/EntityFrameworkCore.Cacheable)
 
-7. 日志
+8. 日志
 
    1. 日志框架
       - [Serilog](https://github.com/serilog/serilog)
@@ -104,7 +119,7 @@
       - [Loggly.com](https://loggly.com)
       - [Elmah.io](http://elmah.io)
       
-8. API客户端和通信
+9. API客户端和通信
 
     1. REST
        - [OData](https://devblogs.microsoft.com/odata/experimenting-with-odata-in-asp-net-core-3-1)
@@ -114,26 +129,26 @@
        - [HotChocolate](https://github.com/ChilliCream/hotchocolate)
        - [GraphQL-dotnet](https://github.com/graphql-dotnet/graphql-dotnet)
 
-9. 实时通信
+10. 实时通信
 
    - [SignalR](https://docs.microsoft.com/zh-cn/aspnet/core/signalr/introduction)
    - [WebSockets](https://docs.microsoft.com/zh-cn/aspnet/core/fundamentals/websockets)
    
-10. 对象映射
+11. 对象映射
 
    - [AutoMapper](https://github.com/AutoMapper/AutoMapper)
    - [Mapster](https://github.com/MapsterMapper/Mapster)
    - [ExpressMapper](http://expressmapper.org/)
    - [AgileMapper](https://github.com/agileobjects/AgileMapper)
    
-11. 任务调度
+12. 任务调度
 
-    - [Coravel](https://github.com/jamesmh/coravel)
-    - [HangFire](https://github.com/HangfireIO/Hangfire)
-    - [Background Service](https://docs.microsoft.com/zh-cn/aspnet/core/fundamentals/host/hosted-services)
-    - [Fluent Scheduler](https://github.com/fluentscheduler/FluentScheduler)
+   - [Background Service](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services)
+   - [HangFire](https://github.com/HangfireIO/Hangfire)
+   - [Quartz](https://github.com/quartznet/quartznet)
+   - [Coravel](https://github.com/jamesmh/coravel)  
     
-12. 测试
+13. 测试
 
     1. 单元测试
        1. 框架
@@ -158,7 +173,7 @@
        - [Selenium](https://www.hanselman.com/blog/real-browser-integration-testing-with-selenium-standalone-chrome-and-aspnet-core-21)
        - [Puppeteer-Sharp](https://github.com/kblok/puppeteer-sharp)
 
-13. 微服务
+14. 微服务
 
     1. 消息总线
        - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
@@ -186,7 +201,7 @@
        - [Dapr](https://github.com/dapr/dapr)
        - [Tye](https://github.com/dotnet/tye)
 
-14. 持续集成与部署
+15. 持续集成与部署
     - [Github Actions](https://github.com/features/actions)
     - [Azure Pipelines](https://azure.microsoft.com/zh-cn/services/devops/pipelines/)
     - [Travis CI](https://travis-ci.org)
@@ -194,7 +209,7 @@
     - [Circle CI](https://circleci.com)
     - [TeamCity](https://www.jetbrains.com/teamcity)
 
-15. 设计模式
+16. 设计模式
 
     - [CQRS](https://docs.microsoft.com/zh-cn/azure/architecture/patterns/cqrs)
     - [Decorator](https://www.dofactory.com/net/decorator-design-pattern)
@@ -203,17 +218,17 @@
     - [Singleton](https://www.dofactory.com/net/singleton-design-pattern)
     - [Facade](https://www.dofactory.com/net/facade-design-pattern)
 
-16. 客户端库
+17. 客户端库
     - [Blazor](https://docs.microsoft.com/zh-cn/aspnet/core/blazor/)
 
-17. 模板引擎
+18. 模板引擎
 
    - [Razor](https://docs.microsoft.com/zh-cn/aspnet/core/mvc/views/razor)
    - [DotLiquid](https://github.com/dotliquid/dotliquid)
    - [Scriban](https://github.com/lunet-io/scriban)
    - [Fluid](https://github.com/sebastienros/fluid)
 
-18. 进一步了解的类库
+19. 进一步了解的类库
 
     - [MediatR](https://github.com/jbogard/MediatR)
     - [Fluent Validation](https://github.com/JeremySkinner/FluentValidation)
