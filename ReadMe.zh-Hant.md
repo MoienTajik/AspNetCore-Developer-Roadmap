@@ -5,9 +5,9 @@
 - [简体中文 ReadMe](ReadMe.zh-Hans.md)
 - [土耳其文 ReadMe](ReadMe-tr.md)
 
-> 2022年 [ASP.NET Core](https://docs.microsoft.com/zh-tw/aspnet/core/) 開發人員指南：
+> 2022 年 [ASP.NET Core](https://docs.microsoft.com/zh-tw/aspnet/core/) 開發人員指南：
 
-在下面，您可以看到一張圖片，說明可以採取的學習路徑以及要成為 ASP.NET Core 開發人員所要學習的程式庫。我將此圖片作為提示，給所有問我"作為 ASP.NET Core 開發人員，接下來應該學習什麼？"的人。
+底下您會看到一張圖片，說明可以採取的學習路徑以及要成為 ASP.NET Core 開發人員所要學習的程式庫。我將此圖片作為提示，給所有問我 "作為 ASP.NET Core 開發人員，接下來應該學習什麼？" 的人。
 
 ## 免責聲明
 
@@ -21,9 +21,9 @@
 
 ![學習指南繁體中文版](./aspnetcore-developer-roadmap.zh-Hant.png)
 
-## 資源
+## 學習資源
 
-1. 瞭解先決條件
+1. 學習基礎知識 (Learn the prerequisites)
 
    - [C#](https://www.pluralsight.com/paths/csharp)
    - [.NET 6](https://devblogs.microsoft.com/dotnet/announcing-net-6)
@@ -35,7 +35,7 @@
 
 2. 一般開發技能
 
-   - 學習 GIT 並且在 GitHub 中建立與分享您的專案
+   - 學習 Git 並且在 GitHub 中建立與分享您的專案
    - 掌握 HTTP(S) 協定與請求方法(GET, POST, PUT, PATCH, DELETE, OPTIONS)
    - 不要害怕使用 Google [Google搜尋技巧](http://www.powersearchingwithgoogle.com)
    - 學習 [dotnet CLI](https://docs.microsoft.com/zh-tw/dotnet/core/tools/)
@@ -64,7 +64,7 @@
     - [介面隔離原則(ISP)](https://www.dotnetcurry.com/software-gardening/1257/interface-segregation-principle-isp-solid-principle)
     - [依賴反轉原則(DIP)](https://www.dotnetcurry.com/software-gardening/1284/dependency-injection-solid-principles)
 
-5. 相依注入
+5. 相依注入 (Dependency Injection)
 
    1. DI 容器
       - [Microsoft.Extensions.DependencyInjection](https://docs.microsoft.com/zh-tw/aspnet/core/fundamentals/dependency-injection)
@@ -75,9 +75,9 @@
    2. [生命週期](https://docs.microsoft.com/zh-tw/aspnet/core/fundamentals/dependency-injection#service-lifetimes)
    3. [Scrutor](https://github.com/khellang/Scrutor)
 
-6. 資料庫
+6. 資料庫 (Databases)
 
-   1. 關聯式
+   1. 關聯式資料庫
       1. [SQL Server](https://www.microsoft.com/zh-tw/sql-server/sql-server-2019)
       2. [PostgreSQL](https://www.postgresql.org)
       3. [MariaDB](https://mariadb.org)
@@ -97,7 +97,7 @@
       - [RavenDB](https://github.com/ravendb/ravendb)
       - [CouchDB](http://couchdb.apache.org)
 
-7. 快取
+7. 快取 (Caching)
 
    1. [記憶體快取](https://docs.microsoft.com/zh-tw/aspnet/core/performance/caching/memory)
    2. [分散式快取](https://docs.microsoft.com/zh-tw/aspnet/core/performance/caching/distributed)
@@ -109,7 +109,7 @@
       1. [EFSecondLevelCache.Core](https://github.com/VahidN/EFSecondLevelCache.Core)
       2. [EntityFrameworkCore.Cacheable](https://github.com/SteffenMangold/EntityFrameworkCore.Cacheable)
 
-8. 日誌
+8. 日誌 (Logging)
 
    1. 日誌框架
       - [Serilog](https://github.com/serilog/serilog)
@@ -119,8 +119,8 @@
       - [Sentry.io](http://sentry.io)
       - [Loggly.com](https://loggly.com)
       - [Elmah.io](http://elmah.io)
-      
-9. API 用戶端及通訊
+
+9. API 用戶端及通訊 (API Clients & Communications)
 
     1. REST
        - [OData](https://devblogs.microsoft.com/odata/experimenting-with-odata-in-asp-net-core-3-1)
@@ -130,26 +130,26 @@
        - [HotChocolate](https://github.com/ChilliCream/hotchocolate)
        - [GraphQL-dotnet](https://github.com/graphql-dotnet/graphql-dotnet)
 
-10. 即時通訊
+10. 即時通訊 (Real-Time Communication)
 
    - [SignalR](https://docs.microsoft.com/zh-tw/aspnet/core/signalr/introduction)
    - [WebSockets](https://docs.microsoft.com/zh-tw/aspnet/core/fundamentals/websockets)
-   
-11. 物件對應
+
+11. 物件對應 (Object Mapping)
 
    - [AutoMapper](https://github.com/AutoMapper/AutoMapper)
    - [Mapster](https://github.com/MapsterMapper/Mapster)
    - [ExpressMapper](http://expressmapper.org/)
    - [AgileMapper](https://github.com/agileobjects/AgileMapper)
-   
-12. 工作排程
+
+12. 工作排程 (Task Scheduling)
 
    - [Background Service](https://docs.microsoft.com/zh-tw/aspnet/core/fundamentals/host/hosted-services)
    - [HangFire](https://github.com/HangfireIO/Hangfire)
    - [Quartz](https://github.com/quartznet/quartznet)
-   - [Coravel](https://github.com/jamesmh/coravel)  
-    
-13. 測試
+   - [Coravel](https://github.com/jamesmh/coravel)
+
+13. 測試 (Testing)
 
     1. 單元測試
        1. 框架
@@ -174,7 +174,7 @@
        - [Selenium](https://www.hanselman.com/blog/real-browser-integration-testing-with-selenium-standalone-chrome-and-aspnet-core-21)
        - [Puppeteer-Sharp](https://github.com/kblok/puppeteer-sharp)
 
-14. 微服務
+14. 微服務 (Microservices)
 
     1. 訊息代理人
        - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
@@ -202,15 +202,15 @@
        - [Dapr](https://github.com/dapr/dapr)
        - [Tye](https://github.com/dotnet/tye)
 
-15. 持續整合與部署
-    - [Gihub Actions](https://github.com/features/actions)
+15. 持續整合與部署 (Continuous Integration & Delivery)
+    - [GitHub Actions](https://github.com/features/actions)
     - [Azure Pipelines](https://azure.microsoft.com/zh-tw/services/devops/pipelines/)
     - [Travis CI](https://travis-ci.org)
     - [Jenkins](https://www.jenkins.io)
     - [Circle CI](https://circleci.com)
     - [TeamCity](https://www.jetbrains.com/teamcity)
 
-16. 設計模式
+16. 設計模式 (Design Patterns)
 
     - [CQRS](https://docs.microsoft.com/zh-tw/azure/architecture/patterns/cqrs)
     - [Decorator](https://www.dofactory.com/net/decorator-design-pattern)
@@ -219,21 +219,21 @@
     - [Singleton](https://www.dofactory.com/net/singleton-design-pattern)
     - [Facade](https://www.dofactory.com/net/facade-design-pattern)
 
-17. 用戶端程式庫
+17. 用戶端程式庫 (Client-Side Libraries)
     - [Blazor](https://docs.microsoft.com/zh-tw/aspnet/core/blazor/)
 
-18. 範本引擎
+18. 範本引擎 (Template Engines)
 
-   - [Razor](https://docs.microsoft.com/zh-tw/aspnet/core/mvc/views/razor)
-   - [DotLiquid](https://github.com/dotliquid/dotliquid)
-   - [Scriban](https://github.com/lunet-io/scriban)
-   - [Fluid](https://github.com/sebastienros/fluid)
+    - [Razor](https://docs.microsoft.com/zh-tw/aspnet/core/mvc/views/razor)
+    - [DotLiquid](https://github.com/dotliquid/dotliquid)
+    - [Scriban](https://github.com/lunet-io/scriban)
+    - [Fluid](https://github.com/sebastienros/fluid)
 
-19. 進一步瞭解的程式庫
+19. 知道了更好 (Good to Know)
 
     - [MediatR](https://github.com/jbogard/MediatR)
     - [Fluent Validation](https://github.com/JeremySkinner/FluentValidation)
-    - [Polly](https://github.com/App-vNext/Polly)    
+    - [Polly](https://github.com/App-vNext/Polly)
     - [Benchmark.NET](https://github.com/dotnet/BenchmarkDotNet)
     - [NodaTime](https://github.com/nodatime/nodatime)
     - [GenFu](https://github.com/MisterJames/GenFu)
