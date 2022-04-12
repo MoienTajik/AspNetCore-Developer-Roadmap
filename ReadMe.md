@@ -40,7 +40,7 @@ If you like or are using this project to learn or start your solution, please gi
 
 2. General Development Skills
 
-   - Learn GIT, create a few repositories on GitHub, share your code with other people
+   - Learn Git, create a few repositories on GitHub, share your code with other people
    - Know HTTP(S) protocol, request methods (GET, POST, PUT, PATCH, DELETE, OPTIONS)
    - Don't be afraid of using Google, [Power Searching with Google](http://www.powersearchingwithgoogle.com)
    - Learn [dotnet CLI](https://docs.microsoft.com/dotnet/core/tools)
@@ -82,7 +82,7 @@ If you like or are using this project to learn or start your solution, please gi
 
 6. Databases
 
-   1. Relational
+   1. Relational Databases
       1. [SQL Server](https://www.microsoft.com/sql-server/sql-server-2019)
       2. [PostgreSQL](https://www.postgresql.org)
       3. [MariaDB](https://mariadb.org)
@@ -137,15 +137,15 @@ If you like or are using this project to learn or start your solution, please gi
 
 10. Real-Time Communication
 
-   - [SignalR](https://docs.microsoft.com/aspnet/core/signalr)
-   - [WebSockets](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/websockets)
+    - [SignalR](https://docs.microsoft.com/aspnet/core/signalr)
+    - [WebSockets](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/websockets)
    
 11. Object Mapping
 
-   - [AutoMapper](https://github.com/AutoMapper/AutoMapper)
-   - [Mapster](https://github.com/MapsterMapper/Mapster)
-   - [ExpressMapper](http://expressmapper.org/)
-   - [AgileMapper](https://github.com/agileobjects/AgileMapper)
+    - [AutoMapper](https://github.com/AutoMapper/AutoMapper)
+    - [Mapster](https://github.com/MapsterMapper/Mapster)
+    - [ExpressMapper](http://expressmapper.org/)
+    - [AgileMapper](https://github.com/agileobjects/AgileMapper)
    
 12. Task Scheduling
 
@@ -179,7 +179,7 @@ If you like or are using this project to learn or start your solution, please gi
        - [Selenium](https://www.hanselman.com/blog/real-browser-integration-testing-with-selenium-standalone-chrome-and-aspnet-core-21)
        - [Puppeteer-Sharp](https://github.com/kblok/puppeteer-sharp)
 
-14. Micro-Services
+14. Microservices
 
     1. Message-Broker
        - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
@@ -208,14 +208,14 @@ If you like or are using this project to learn or start your solution, please gi
        - [Tye](https://github.com/dotnet/tye)
 
 15. Continuous Integration & Delivery
-    - [Github Actions](https://github.com/features/actions)
+    - [GitHub Actions](https://github.com/features/actions)
     - [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines)
     - [Travis CI](https://travis-ci.org)
     - [Jenkins](https://www.jenkins.io)
     - [Circle CI](https://circleci.com)
     - [TeamCity](https://www.jetbrains.com/teamcity)
 
-16. Design-Patterns
+16. Design Patterns
 
     - [CQRS](https://docs.microsoft.com/azure/architecture/patterns/cqrs)
     - [Decorator](https://www.dofactory.com/net/decorator-design-pattern)
@@ -224,15 +224,15 @@ If you like or are using this project to learn or start your solution, please gi
     - [Singleton](https://www.dofactory.com/net/singleton-design-pattern)
     - [Facade](https://www.dofactory.com/net/facade-design-pattern)
 
-17. Client-Side Libraries
+17. Client-side Libraries
     - [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
 
 18. Template Engines
 
-   - [Razor](https://docs.microsoft.com/aspnet/core/mvc/views/razor)
-   - [DotLiquid](https://github.com/dotliquid/dotliquid)
-   - [Scriban](https://github.com/lunet-io/scriban)
-   - [Fluid](https://github.com/sebastienros/fluid)
+    - [Razor](https://docs.microsoft.com/aspnet/core/mvc/views/razor)
+    - [DotLiquid](https://github.com/dotliquid/dotliquid)
+    - [Scriban](https://github.com/lunet-io/scriban)
+    - [Fluid](https://github.com/sebastienros/fluid)
 
 19. Good to Know
 
