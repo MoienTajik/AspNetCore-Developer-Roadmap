@@ -238,7 +238,8 @@ If you like or are using this project to learn or start your solution, please gi
 
     - [MediatR](https://github.com/jbogard/MediatR)
     - [Fluent Validation](https://github.com/JeremySkinner/FluentValidation)
-    - [Polly](https://github.com/App-vNext/Polly)    
+    - [Polly](https://github.com/App-vNext/Polly)
+	- [Nuke](https://github.com/nuke-build/nuke)
     - [Benchmark.NET](https://github.com/dotnet/BenchmarkDotNet)
     - [NodaTime](https://github.com/nodatime/nodatime)
     - [GenFu](https://github.com/MisterJames/GenFu)
