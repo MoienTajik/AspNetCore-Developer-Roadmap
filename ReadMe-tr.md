@@ -7,6 +7,7 @@
 - [Karanlık Versiyon](https://raw.githubusercontent.com/MoienTajik/AspNetCore-Developer-Roadmap/master/aspnetcore-developer-roadmap.png)
 - [Basitleştirilmiş Çince'de beni oku](ReadMe.zh-Hans.md)
 - [Geleneksel Çince'de beni oku](ReadMe.zh-Hant.md)
+- [Japonca beni oku](ReadMe.ja.md)
 
 > 2022'de [ASP.NET Core](https://docs.microsoft.com/aspnet/core) geliştirici olma yol haritası:
 
@@ -249,19 +250,21 @@ fikir : [React Geliştirici Yol Haritası](https://github.com/adam-golab/react-d
 
 ## Katkı
 
-katkıda bulunmak ister misiniz? Topluluk geri bildirimlerini ve katkılarını teşvik ediyoruz. Lütfen [katkıda bulunan yönergelerimize](https://github.com/MoienTajik/AspNetCore-Developer-Roadmap/blob/master/CONTRIBUTING.md) uyun.
+Katkıda bulunmak ister misiniz? Topluluk geri bildirimlerini ve katkılarını teşvik ediyoruz. Lütfen [katkıda bulunan yönergelerimize](https://github.com/MoienTajik/AspNetCore-Developer-Roadmap/blob/master/CONTRIBUTING.md) uyun.
 
 ## Jenerik
 
 ### Destekçiler
 
-Tüm destekçilerimize teşekkür ederiz! 🙏 [[Destekçi ol!](https://opencollective.com/AspNetCore-Developer-Roadmap#backer)]
+Tüm destekçilerimize teşekkür ederiz! 🙏 <br>
+[Destekçi ol!](https://opencollective.com/AspNetCore-Developer-Roadmap#backer)
 
 <a href="https://opencollective.com/AspNetCore-Developer-Roadmap#backers" target="_blank"><img src="https://opencollective.com/AspNetCore-Developer-Roadmap/backers.svg?width=890"></a>
 
 ### Sponsor
 
-Sponsor olarak bu projeye destek olun. Logonuz, web sitenize bir bağlantı ile burada görünecektir.[[Sponsor ol!](https://opencollective.com/AspNetCore-Developer-Roadmap#sponsor)]
+Sponsor olarak bu projeye destek olun. Logonuz, web sitenize bir bağlantı ile burada görünecektir. <br>
+[Sponsor ol!](https://opencollective.com/AspNetCore-Developer-Roadmap#sponsor)
 
 <a href="https://opencollective.com/AspNetCore-Developer-Roadmap/sponsor/0/website" target="_blank"><img src="https://opencollective.com/AspNetCore-Developer-Roadmap/sponsor/0/avatar.svg"></a>
 
