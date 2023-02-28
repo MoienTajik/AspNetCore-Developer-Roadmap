@@ -69,12 +69,12 @@ If you like or are using this project to learn or start your solution, please gi
     - [Dependency Inversion Principle (DIP)](https://www.dotnetcurry.com/software-gardening/1284/dependency-injection-solid-principles)
 
 6. ORM
-    1. [Entity Framework Core](https://learn.microsoft.com/en-us/ef/core)
+    - [Entity Framework Core](https://learn.microsoft.com/en-us/ef/core)
        - Tutorials
           - [Pluralsight Learning Path: EF Core 6](https://www.pluralsight.com/paths/ef-core-6)
-    2. [Dapper](https://github.com/StackExchange/Dapper)
-    3. [RepoDB](https://github.com/mikependon/RepoDB)
-    4. [NHibernate](https://github.com/nhibernate/nhibernate-core)
+    - [Dapper](https://github.com/StackExchange/Dapper)
+    - [RepoDB](https://github.com/mikependon/RepoDB)
+    - [NHibernate](https://github.com/nhibernate/nhibernate-core)
 
 7. Dependency Injection
     1. DI Containers
@@ -88,10 +88,10 @@ If you like or are using this project to learn or start your solution, please gi
 
 8. Databases
     1. Relational
-       1. [SQL Server](https://www.microsoft.com/sql-server/sql-server-2019)
-       2. [PostgreSQL](https://www.postgresql.org)
-       3. [MariaDB](https://mariadb.org)
-       4. [MySQL](https://www.mysql.com)
+       - [SQL Server](https://www.microsoft.com/sql-server/sql-server-2019)
+       - [PostgreSQL](https://www.postgresql.org)
+       - [MariaDB](https://mariadb.org)
+       - [MySQL](https://www.mysql.com)
     2. Search Engines
        - [ElasticSearch](https://www.elastic.co)
        - [Solr](http://lucene.apache.org/solr)
@@ -109,13 +109,13 @@ If you like or are using this project to learn or start your solution, please gi
           - [DynamoDB](https://aws.amazon.com/dynamodb)
 
 9. Caching
-    1. [Memory Cache](https://docs.microsoft.com/aspnet/core/performance/caching/memory)
-    2. [Distributed Cache](https://docs.microsoft.com/aspnet/core/performance/caching/distributed)
+    - [Memory Cache](https://docs.microsoft.com/aspnet/core/performance/caching/memory)
+    - [Distributed Cache](https://docs.microsoft.com/aspnet/core/performance/caching/distributed)
        1. [Redis](https://redis.io/)
           1. [StackExchange.Redis](https://stackexchange.github.io/StackExchange.Redis)
           2. [EasyCaching](https://github.com/dotnetcore/EasyCaching)
        2. [Memcached](https://memcached.org)
-    3. Entity Framework 2nd Level Cache
+    - Entity Framework 2nd Level Cache
        - [EFCoreSecondLevelCacheInterceptor](https://github.com/VahidN/EFCoreSecondLevelCacheInterceptor)
 
 10. Log Frameworks
@@ -149,18 +149,18 @@ If you like or are using this project to learn or start your solution, please gi
     
 15. Testing
     1. Unit Testing
-       1. Frameworks
+       - Frameworks
           - [xUnit](https://docs.microsoft.com/dotnet/core/testing/unit-testing-with-dotnet-test)
           - [NUnit](https://docs.microsoft.com/dotnet/core/testing/unit-testing-with-nunit)
           - [MSTest](https://docs.microsoft.com/dotnet/core/testing/unit-testing-with-mstest)
-       2. Mocking
+       - Mocking
           - [Moq](https://github.com/moq/moq4)
           - [NSubstitute](https://github.com/nsubstitute/NSubstitute)
           - [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy)
-       3. Assertion
+       - Assertion
           - [FluentAssertion](https://github.com/fluentassertions/fluentassertions)
           - [Shouldly](https://github.com/shouldly/shouldly)
-       4. Fake Data Generators
+       - Fake Data Generators
           - [Bogus](https://github.com/bchavez/Bogus)
           - [AutoFixture](https://github.com/AutoFixture/AutoFixture)
           - [GenFu](https://github.com/MisterJames/GenFu)
@@ -176,9 +176,14 @@ If you like or are using this project to learn or start your solution, please gi
     5. E2E Testing
        - [Selenium](https://www.hanselman.com/blog/real-browser-integration-testing-with-selenium-standalone-chrome-and-aspnet-core-21)
        - [Puppeteer-Sharp](https://github.com/kblok/puppeteer-sharp)
+    6. Performance Testing
+       - [K6](https://github.com/grafana/k6)
+       - [JMeter](https://github.com/apache/jmeter)
+       - [Crank](https://github.com/dotnet/crank)
+       - [Bombardier](https://github.com/codesenberg/bombardier)
 
 16. Microservices
-    1. Message-Broker
+    1. Message-Brokers
        - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
        - [Apache Kafka](https://github.com/confluentinc/confluent-kafka-dotnet)
        - [ActiveMQ](https://github.com/apache/activemq)
