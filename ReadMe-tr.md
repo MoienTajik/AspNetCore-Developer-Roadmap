@@ -21,7 +21,7 @@ Aşağıda, ASP.NET Core geliştiricisi olmak için izleyebileceğiniz yolları 
 Çözümünüzü öğrenmek veya başlatmak için bu projeyi beğendiyseniz veya kullanıyorsanız, lütfen ona bir yıldız verin. Teşekkürler!
 ## Yol Haritası
 
-![Yol Haritası](./aspnetcore-developer-roadmap-printable.png)
+![Yol Haritası](./aspnetcore-developer-roadmap.png)
 
 ## Kaynaklar
 
