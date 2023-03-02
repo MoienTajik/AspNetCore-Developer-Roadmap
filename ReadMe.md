@@ -117,8 +117,9 @@ If you like or are using this project to learn or start your solution, please gi
        2. [Memcached](https://memcached.org)
     - Entity Framework 2nd Level Cache
        - [EFCoreSecondLevelCacheInterceptor](https://github.com/VahidN/EFCoreSecondLevelCacheInterceptor)
-    - [Response Caching](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/response)
-    - [Output Caching](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/output?source=recommendations)
+    - Application-Level
+       - [Response Caching](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/response)
+       - [Output Caching](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/output?source=recommendations)
 
 10. Log Frameworks
     - [Serilog](https://github.com/serilog/serilog)
@@ -129,7 +130,9 @@ If you like or are using this project to learn or start your solution, please gi
        - [Sieve](https://github.com/Biarity/Sieve)
        - [OData](https://learn.microsoft.com/en-us/odata/webapi/first-odata-api) 
        - [REPR Pattern](https://ardalis.com/mvc-controllers-are-dinosaurs-embrace-api-endpoints/)
-       - [Minimal APIs](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis/overview)
+            - [Minimal APIs](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis/overview)
+            - [Fast Endpoints](https://github.com/FastEndpoints/FastEndpoints)
+            - [Ardalis.Endpoints](https://github.com/ardalis/ApiEndpoints)
     2. [gRPC](https://docs.microsoft.com/en-us/aspnet/core/grpc)
     3. GraphQL
         - [HotChocolate](https://github.com/ChilliCream/hotchocolate)
@@ -278,8 +281,6 @@ If you like or are using this project to learn or start your solution, please gi
     - [NodaTime](https://github.com/nodatime/nodatime)
     - [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
     - [Nuke](https://github.com/nuke-build/nuke)
-    - [Ardalis.Endpoints](https://github.com/ardalis/ApiEndpoints)
-    - [Fast Endpoints](https://github.com/FastEndpoints/FastEndpoints)
     - [EF Core Bulk Extensions](https://github.com/borisdj/EFCore.BulkExtensions)
 
 
