@@ -53,6 +53,7 @@ If you like or are using this project to learn or start your solution, please gi
    - [Authentication](https://docs.microsoft.com/en-us/aspnet/core/security/authentication)
    - [Authorization](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/introduction)
    - [IdentityServer](https://identityserver4.readthedocs.io/en/latest)
+   - [OpenIddict](https://github.com/openiddict/openiddict-core)
    - [Auth0](https://auth0.com/docs)
    - [OIDC](https://openid.net/connect)
    - [Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/razor-pages)
@@ -74,7 +75,6 @@ If you like or are using this project to learn or start your solution, please gi
           - [Pluralsight Learning Path: EF Core 6](https://www.pluralsight.com/paths/ef-core-6)
     - [Dapper](https://github.com/StackExchange/Dapper)
     - [RepoDB](https://github.com/mikependon/RepoDB)
-    - [NHibernate](https://github.com/nhibernate/nhibernate-core)
 
 7. Dependency Injection
     1. DI Containers
@@ -115,8 +115,10 @@ If you like or are using this project to learn or start your solution, please gi
           1. [StackExchange.Redis](https://stackexchange.github.io/StackExchange.Redis)
           2. [EasyCaching](https://github.com/dotnetcore/EasyCaching)
        2. [Memcached](https://memcached.org)
-    - Entity Framework 2nd Level Cache
-       - [EFCoreSecondLevelCacheInterceptor](https://github.com/VahidN/EFCoreSecondLevelCacheInterceptor)
+    - Application-Level
+       - [Response Caching](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/response)
+       - [Output Caching](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/output?source=recommendations)
+       - [Entity Framework 2nd Level Cache](https://github.com/VahidN/EFCoreSecondLevelCacheInterceptor)
 
 10. Log Frameworks
     - [Serilog](https://github.com/serilog/serilog)
@@ -126,6 +128,10 @@ If you like or are using this project to learn or start your solution, please gi
     1. REST
        - [Sieve](https://github.com/Biarity/Sieve)
        - [OData](https://learn.microsoft.com/en-us/odata/webapi/first-odata-api) 
+       - [REPR Pattern](https://ardalis.com/mvc-controllers-are-dinosaurs-embrace-api-endpoints/)
+            - [Minimal APIs](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis/overview)
+            - [Fast Endpoints](https://github.com/FastEndpoints/FastEndpoints)
+            - [Ardalis.Endpoints](https://github.com/ardalis/ApiEndpoints)
     2. [gRPC](https://docs.microsoft.com/en-us/aspnet/core/grpc)
     3. GraphQL
         - [HotChocolate](https://github.com/ChilliCream/hotchocolate)
@@ -274,6 +280,7 @@ If you like or are using this project to learn or start your solution, please gi
     - [NodaTime](https://github.com/nodatime/nodatime)
     - [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
     - [Nuke](https://github.com/nuke-build/nuke)
+    - [EF Core Bulk Extensions](https://github.com/borisdj/EFCore.BulkExtensions)
 
 
 ## Wrap Up
