@@ -115,11 +115,10 @@ If you like or are using this project to learn or start your solution, please gi
           1. [StackExchange.Redis](https://stackexchange.github.io/StackExchange.Redis)
           2. [EasyCaching](https://github.com/dotnetcore/EasyCaching)
        2. [Memcached](https://memcached.org)
-    - Entity Framework 2nd Level Cache
-       - [EFCoreSecondLevelCacheInterceptor](https://github.com/VahidN/EFCoreSecondLevelCacheInterceptor)
     - Application-Level
        - [Response Caching](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/response)
        - [Output Caching](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/output?source=recommendations)
+       - [Entity Framework 2nd Level Cache](https://github.com/VahidN/EFCoreSecondLevelCacheInterceptor)
 
 10. Log Frameworks
     - [Serilog](https://github.com/serilog/serilog)
