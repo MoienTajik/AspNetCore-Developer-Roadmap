@@ -28,8 +28,8 @@ If you like or are using this project to learn or start your solution, please gi
 ## Resources
 
 1. General Development Skills
-   - Learn Git, create a few repositories on GitHub, share your code with other people
-   - Know HTTP(S) protocol, request methods (GET, POST, PUT, PATCH, DELETE, OPTIONS)
+   - Learn [Git](https://git-scm.com/doc), create a few repositories on [GitHub](https://docs.github.com/en/get-started/quickstart), share your code with other people
+   - Know [HTTP(S) protocol](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview), request methods ([GET](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET), [POST](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST), [PUT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT), [PATCH](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PATCH), [DELETE](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/DELETE), [OPTIONS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/OPTIONS), etc.)
    - What is [TLS](https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/)?
    - What is [SSL](https://www.cloudflare.com/learning/ssl/what-is-ssl/)?
    - Don't be afraid of using Google, [Power Searching with Google](http://www.powersearchingwithgoogle.com)
