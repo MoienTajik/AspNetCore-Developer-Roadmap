@@ -219,13 +219,14 @@ If you like or are using this project to learn or start your solution, please gi
        - [Tye](https://github.com/dotnet/tye)
 
 17. Continuous Integration & Continuous Delivery
-    - [GitHub Actions](https://github.com/features/actions)
-    - [Gitlab CI](https://docs.gitlab.com/ee/ci)
-    - [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines)
-    - [Travis CI](https://travis-ci.org)
-    - [Jenkins](https://www.jenkins.io)
-    - [Circle CI](https://circleci.com)
-    - [TeamCity](https://www.jetbrains.com/teamcity)
+    - [Cake Build](https://cakebuild.net)
+      - [GitHub Actions](https://github.com/features/actions)
+      - [Gitlab CI](https://docs.gitlab.com/ee/ci)
+      - [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines)
+      - [Travis CI](https://travis-ci.org)
+      - [Jenkins](https://www.jenkins.io)
+      - [Circle CI](https://circleci.com)
+      - [TeamCity](https://www.jetbrains.com/teamcity)
 
 18. Design Patterns
     - Categories
