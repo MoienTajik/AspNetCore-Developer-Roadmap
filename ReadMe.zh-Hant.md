@@ -97,7 +97,7 @@
       - [Solr](http://lucene.apache.org/solr)
       - [Sphinx](http://sphinxsearch.com)
    4. NoSQL
-        - 內部部署
+        - 落地
           - [Redis](https://redis.io)
           - [MongoDB](https://docs.microsoft.com/zh-tw/aspnet/core/tutorials/first-mongo-app)
           - [Apache Cassandra](http://cassandra.apache.org)
@@ -237,30 +237,50 @@
  
 19. 監控/記錄/追蹤/警示
     - 監控
-       - 內部部署
+       - 落地
           - [Prometheus](https://github.com/prometheus/prometheus)
           - [Grafana](https://github.com/grafana/grafana)
        - 雲端
           - [Datadog](https://www.datadoghq.com)
     - 記錄
-       - 內部部署
+       - 落地
           - [ELK Stack](https://www.elastic.co/what-is/elk-stack)
           - [Seq](https://datalust.co/seq)
        - 雲端
           - [Datadog](https://docs.datadoghq.com/logs)
     - 追蹤
-       - 內部部署
+       - 落地
           - [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-dotnet)
              - [Jaeger](https://github.com/jaegertracing/jaeger)
              - [Zipkin](https://github.com/openzipkin/zipkin)
        - 雲端
           - [Datadog](https://docs.datadoghq.com/tracing)
     - 警示
-       - 內部部署
+       - 落地
           - [Zabbix](https://www.zabbix.com)
           - [Alertmanager](https://github.com/prometheus/alertmanager)
        - 雲端
           - [Datadog](https://docs.datadoghq.com/monitors)
+
+20. 用戶端.NET
+    - 範本引擎
+       - [Razor](https://docs.microsoft.com/aspnet/core/mvc/views/razor)
+       - [DotLiquid](https://github.com/dotliquid/dotliquid)
+       - [Scriban](https://github.com/lunet-io/scriban)
+       - [Fluid](https://github.com/sebastienros/fluid)
+    - 框架
+       - [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
+       - [.NET MAUI](https://github.com/dotnet/maui)
+
+21. 進一步學習
+    - [MediatR](https://github.com/jbogard/MediatR)
+    - [Fluent Validation](https://github.com/JeremySkinner/FluentValidation)
+    - [Polly](https://github.com/App-vNext/Polly)
+    - [Benchmark.NET](https://github.com/dotnet/BenchmarkDotNet)
+    - [NodaTime](https://github.com/nodatime/nodatime)
+    - [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
+    - [Nuke](https://github.com/nuke-build/nuke)
+    - [EF Core Bulk Extensions](https://github.com/borisdj/EFCore.BulkExtensions)
 
 ## 總結
 
