@@ -1,8 +1,8 @@
 # ASP.NET Core開發人員指南
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![Backers on Open Collective](https://opencollective.com/AspNetCore-Developer-Roadmap/backers/badge.svg)](#backers)
-[![Sponsors on Open Collective](https://opencollective.com/AspNetCore-Developer-Roadmap/sponsors/badge.svg)](#sponsors)
+[![Backers on Open Collective](https://opencollective.com/AspNetCore-Developer-Roadmap/backers/badge.svg)](https://github.com/MoienTajik/AspNetCore-Developer-Roadmap/blob/master/ReadMe.md#backers)
+[![Sponsors on Open Collective](https://opencollective.com/AspNetCore-Developer-Roadmap/sponsors/badge.svg)](https://github.com/MoienTajik/AspNetCore-Developer-Roadmap/blob/master/ReadMe.md#sponsors)
 
 - [英文 ReadMe](ReadMe.md)
 - [繁體中文 ReadMe](ReadMe.zh-Hant.md)
