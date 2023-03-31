@@ -1,4 +1,4 @@
-# ASP.NET Core開發人員指南
+# ASP.NET Core 開發人員指南
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![Backers on Open Collective](https://opencollective.com/AspNetCore-Developer-Roadmap/backers/badge.svg)](https://github.com/MoienTajik/AspNetCore-Developer-Roadmap/blob/master/ReadMe.md#backers)
@@ -12,7 +12,7 @@
 
 > 2023年 [ASP.NET Core](https://docs.microsoft.com/zh-tw/aspnet/core/) 開發人員指南：
 
-以下您會看到一張圖表，說明可以採取的學習路徑以及要成為ASP.NET Core開發人員所要學習的程式庫。我將此圖表作為提示，給每個問我「作為ASP.NET Core 開發人員，接下來應該學習什麼？」的人。
+以下您會看到一張圖表，說明可以採取的學習路徑以及要成為 ASP.NET Core 開發人員所要學習的函式庫。我將此圖表作為提示，給每個問我「作為 ASP.NET Core 開發人員，接下來應該學習什麼？」的人。
 
 ## 免責聲明
 
@@ -28,24 +28,28 @@
 
 ## 學習資源
 
-1. 一般開發技能
-   - 學習[Git](https://git-scm.com/doc)並且在[GitHub](https://docs.github.com/en/get-started/quickstart)中建立與分享您的專案
-   - 掌握[HTTP(S)協定](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)與請求方法([GET](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET)， [POST](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST)， [PUT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT)， [PATCH](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PATCH)， [DELETE](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/DELETE)， [OPTIONS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/OPTIONS)等)
-   - 什麼是[TLS](https://www.cloudflare.com/zh-tw/learning/ssl/transport-layer-security-tls/)？
-   - 什麼是[SSL](https://www.cloudflare.com/zh-tw/learning/ssl/what-is-ssl/)？
-   - 不要害怕使用[Google搜尋技巧](http://www.powersearchingwithgoogle.com)
-   - 開始使用[ChatGPT](https://chat.openai.com/chat)
+1. 一般開發技能 (General Development Skills)
+
+   - 學習 [Git](https://git-scm.com/doc) 並且在 [GitHub](https://docs.github.com/en/get-started/quickstart) 中建立與分享您的專案
+   - 掌握 [HTTP(S) 協定](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)與請求方法([GET](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET)，[POST](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST)，[PUT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT)，[PATCH](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PATCH)，[DELETE](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/DELETE)，[OPTIONS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/OPTIONS)等)
+   - 什麼是 [TLS](https://www.cloudflare.com/zh-tw/learning/ssl/transport-layer-security-tls/)？
+   - 什麼是 [SSL](https://www.cloudflare.com/zh-tw/learning/ssl/what-is-ssl/)？
+   - 不要害怕使用 [Google 搜尋技巧](http://www.powersearchingwithgoogle.com)
+   - 開始使用 [ChatGPT](https://chat.openai.com/chat)
    - [閱讀一些關於演算法和資料結構的書籍](https://www.tenlong.com.tw/categories/algorithms-data-structures)
 
 2. C#
+
    - [C#](https://www.pluralsight.com/paths/c-10)
    - [.NET 7](https://devblogs.microsoft.com/dotnet/announcing-dotnet-7)
-   - 學習[dotnet CLI](https://learn.microsoft.com/zh-tw/dotnet/core/tools/)
+   - 學習 [.NET CLI](https://learn.microsoft.com/zh-tw/dotnet/core/tools/)
 
-3. SQL基礎知識
-   - [Pluralsight學習路徑：從SQL Server使用T-SQL查詢資料](https://www.pluralsight.com/paths/querying-data-with-t-sql-from-sql-server)
+3. SQL 基礎知識 (SQL Fundamentals)
 
-4. ASP.NET Core基礎
+   - [Pluralsight 學習路徑：從 SQL Server 使用 T-SQL 查詢資料](https://www.pluralsight.com/paths/querying-data-with-t-sql-from-sql-server)
+
+4. ASP.NET Core 基礎 (ASP.NET Core Basics)
+
    - [MVC](https://docs.microsoft.com/zh-tw/aspnet/core/mvc/overview)
    - [REST](https://docs.microsoft.com/zh-tw/aspnet/core/tutorials/first-web-api)
    - [Application Settings & Configurations](https://docs.microsoft.com/zh-tw/aspnet/core/fundamentals/configuration)
@@ -60,44 +64,48 @@
    - [Razor Pages](https://docs.microsoft.com/zh-tw/aspnet/core/razor-pages/)
    - [Razor Components](https://docs.microsoft.com/zh-tw/aspnet/core/blazor/components/)
    - 教學課程
-      - [Pluralsight學習路徑：ASP.NET Core 6](https://www.pluralsight.com/paths/aspnet-core-6)
-      - [Pluralsight學習路徑：ASP.NET Core 6 Web API](https://www.pluralsight.com/paths/aspnet-core-6-web-api)
+      - [Pluralsight 學習路徑：ASP.NET Core 6](https://www.pluralsight.com/paths/aspnet-core-6)
+      - [Pluralsight 學習路徑：ASP.NET Core 6 Web API](https://www.pluralsight.com/paths/aspnet-core-6-web-api)
 
 5. SOLID
+
     - [單一職責原則(SRP)](https://www.dotnetcurry.com/software-gardening/1148/solid-single-responsibility-principle)
     - [開放封閉原則(OCP)](https://www.dotnetcurry.com/software-gardening/1176/solid-open-closed-principle)
     - [里氏替換原則(LSP)](https://www.dotnetcurry.com/software-gardening/1235/liskov-substitution-principle-lsp-solid-patterns)
     - [介面隔離原則(ISP)](https://www.dotnetcurry.com/software-gardening/1257/interface-segregation-principle-isp-solid-principle)
     - [依賴反轉原則(DIP)](https://www.dotnetcurry.com/software-gardening/1284/dependency-injection-solid-principles)
 
-6. 物件關聯對應
+6. 物件關聯對應 (ORM)
+
     - [Entity Framework Core](https://learn.microsoft.com/zh-tw/ef/core/)
        - 教學課程
-          - [Pluralsight學習路徑：EF Core 6](https://www.pluralsight.com/paths/ef-core-6)
+          - [Pluralsight 學習路徑：EF Core 6](https://www.pluralsight.com/paths/ef-core-6)
     - [Dapper](https://github.com/StackExchange/Dapper)
     - [RepoDB](https://github.com/mikependon/RepoDB)
 
-7. 相依注入
+7. 相依注入 (Dependency Injection)
+
    1. 注入容器
       - [Microsoft.Extensions.DependencyInjection](https://docs.microsoft.com/zh-tw/aspnet/core/fundamentals/dependency-injection)
       - [AutoFac](https://autofaccn.readthedocs.io/en/latest/integration/aspnetcore.html)
       - [Ninject](http://www.ninject.org)
       - [Castle Windsor](https://github.com/castleproject/Windsor)
-	  - [Simple Injector](https://github.com/simpleinjector/SimpleInjector)
+      - [Simple Injector](https://github.com/simpleinjector/SimpleInjector)
    2. [生命週期](https://docs.microsoft.com/zh-tw/aspnet/core/fundamentals/dependency-injection#service-lifetimes)
    3. [Scrutor](https://github.com/khellang/Scrutor)
 
-8. 資料庫
+8. 資料庫 (Databases)
+
    1. 關聯式
       - [SQL Server](https://www.microsoft.com/zh-tw/sql-server/sql-server-2022)
       - [PostgreSQL](https://www.postgresql.org)
       - [MariaDB](https://mariadb.org)
       - [MySQL](https://www.mysql.com)
-   3. 搜尋引擎
+   2. 搜尋引擎
       - [ElasticSearch](https://www.elastic.co)
       - [Solr](http://lucene.apache.org/solr)
       - [Sphinx](http://sphinxsearch.com)
-   4. NoSQL
+   3. NoSQL
         - 落地
           - [Redis](https://redis.io)
           - [MongoDB](https://docs.microsoft.com/zh-tw/aspnet/core/tutorials/first-mongo-app)
@@ -107,9 +115,10 @@
           - [CouchDB](http://couchdb.apache.org)
         - 雲端
           - [CosmosDB](https://docs.microsoft.com/azure/cosmos-db)
-          - [DynamoDB](https://aws.amazon.com/dynamodb)   
+          - [DynamoDB](https://aws.amazon.com/dynamodb)
 
-9. 快取
+9. 快取 (Caching)
+
     - [記憶體快取](https://docs.microsoft.com/zh-tw/aspnet/core/performance/caching/memory)
     - [分散式快取](https://docs.microsoft.com/zh-tw/aspnet/core/performance/caching/distributed)
        1. [Redis](https://redis.io/)
@@ -119,17 +128,19 @@
     - 應用程式層級
        - [回應快取](https://learn.microsoft.com/zh-tw/aspnet/core/performance/caching/response)
        - [輸出快取](https://learn.microsoft.com/zh-tw/aspnet/core/performance/caching/output?source=recommendations)
-       - [Entity Framework第二層快取](https://github.com/VahidN/EFCoreSecondLevelCacheInterceptor)
+       - [Entity Framework 第二層快取](https://github.com/VahidN/EFCoreSecondLevelCacheInterceptor)
 
-10. 日誌框架
+10. 日誌框架 (Log Frameworks)
+
     - [Serilog](https://github.com/serilog/serilog)
     - [NLog](https://github.com/NLog/NLog)
 
-11. API用戶端及通訊
+11. API 用戶端及通訊 (API Clients & Communications)
+
     1. REST
        - [Sieve](https://github.com/Biarity/Sieve)
-       - [OData](https://learn.microsoft.com/zh-tw/odata/webapi/first-odata-api) 
-       - [REPR Pattern](https://ardalis.com/mvc-controllers-are-dinosaurs-embrace-api-endpoints/)
+       - [OData](https://learn.microsoft.com/zh-tw/odata/webapi/first-odata-api)
+       - [REPR (Request EndPoint Response) Pattern](https://ardalis.com/mvc-controllers-are-dinosaurs-embrace-api-endpoints/)
             - [Minimal APIs](https://learn.microsoft.com/zh-tw/aspnet/core/fundamentals/minimal-apis/overview)
             - [Fast Endpoints](https://github.com/FastEndpoints/FastEndpoints)
             - [Ardalis.Endpoints](https://github.com/ardalis/ApiEndpoints)
@@ -139,22 +150,26 @@
         - [GraphQL-dotnet](https://github.com/graphql-dotnet/graphql-dotnet)
 
 12. 即時通訊
-   - [SignalR](https://docs.microsoft.com/zh-tw/aspnet/core/signalr/introduction)
-   - [WebSockets](https://docs.microsoft.com/zh-tw/aspnet/core/fundamentals/websockets)
 
-13. 物件對應
-   - [AutoMapper](https://github.com/AutoMapper/AutoMapper)
-   - [Mapster](https://github.com/MapsterMapper/Mapster)
-   - [ExpressMapper](http://expressmapper.org/)
-   - [AgileMapper](https://github.com/agileobjects/AgileMapper)
+    - [SignalR](https://docs.microsoft.com/zh-tw/aspnet/core/signalr/introduction)
+    - [WebSockets](https://docs.microsoft.com/zh-tw/aspnet/core/fundamentals/websockets)
 
-14. 背景工作排程
+13. 物件對應 (Object Mapping)
+
+    - [AutoMapper](https://github.com/AutoMapper/AutoMapper)
+    - [Mapster](https://github.com/MapsterMapper/Mapster)
+    - [ExpressMapper](http://expressmapper.org/)
+    - [AgileMapper](https://github.com/agileobjects/AgileMapper)
+
+14. 背景工作排程 (Background Task Scheduler)
+
     - [Native BackgroundService](https://docs.microsoft.com/zh-tw/aspnet/core/fundamentals/host/hosted-services)
     - [HangFire](https://github.com/HangfireIO/Hangfire)
     - [Quartz](https://github.com/quartznet/quartznet)
-    - [Coravel](https://github.com/jamesmh/coravel) 
+    - [Coravel](https://github.com/jamesmh/coravel)
 
-15. 測試
+15. 測試 (Testing)
+
     1. 單元測試
        - 框架
           - [xUnit](https://learn.microsoft.com/zh-tw/dotnet/core/testing/unit-testing-with-dotnet-test)
@@ -189,7 +204,8 @@
        - [Crank](https://github.com/dotnet/crank)
        - [Bombardier](https://github.com/codesenberg/bombardier)
 
-16. 微服務
+16. 微服務 (Microservices)
+
     1. 訊息代理人
        - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
        - [Apache Kafka](https://github.com/confluentinc/confluent-kafka-dotnet)
@@ -201,7 +217,7 @@
        - [NServiceBus](https://github.com/Particular/NServiceBus)
        - [EasyNetQ](https://github.com/EasyNetQ/EasyNetQ)
        - [CAP](https://github.com/dotnetcore/CAP)
-    3. API閘道
+    3. API 閘道
        - [Ocelot](https://github.com/ThreeMammals/Ocelot)
        - [YARP](https://github.com/microsoft/reverse-proxy)
     4. 容器化
@@ -218,8 +234,9 @@
        - [Steeltoe](https://steeltoe.io)
        - [Dapr](https://github.com/dapr/dapr)
        - [Tye](https://github.com/dotnet/tye)
-       
-17. 持續整合與部署
+
+17. 持續整合與部署 (Continuous Integration & Continuous Delivery)
+
     - [GitHub Actions](https://github.com/features/actions)
     - [Gitlab CI](https://docs.gitlab.com/ee/ci)
     - [Azure Pipelines](https://azure.microsoft.com/zh-tw/products/devops/pipelines/)
@@ -228,42 +245,45 @@
     - [Circle CI](https://circleci.com)
     - [TeamCity](https://www.jetbrains.com/teamcity)
 
-18. 設計模式
+18. 設計模式 (Design Patterns)
+
     - 分類
       - [創建型模式](https://learn.microsoft.com/zh-tw/azure/architecture/patterns/cqrs)
       - [結構型模式](https://www.dofactory.com/net/decorator-design-pattern)
       - [行為型模式](https://www.dofactory.com/net/strategy-design-pattern)
     - 教學課程
-      - [Pluralsight學習路徑：C#的設計模式](https://www.pluralsight.com/paths/design-patterns-in-c)
- 
-19. 監控/記錄/追蹤/警示
+      - [Pluralsight 學習路徑：C# 的設計模式](https://www.pluralsight.com/paths/design-patterns-in-c)
+
+19. 監控/記錄/追蹤/警示 (Monitoring/Logging/Tracing/Alerting)
+
     - 監控
-       - 落地
+       - 地端
           - [Prometheus](https://github.com/prometheus/prometheus)
           - [Grafana](https://github.com/grafana/grafana)
        - 雲端
           - [Datadog](https://www.datadoghq.com)
     - 記錄
-       - 落地
+       - 地端
           - [ELK Stack](https://www.elastic.co/what-is/elk-stack)
           - [Seq](https://datalust.co/seq)
        - 雲端
           - [Datadog](https://docs.datadoghq.com/logs)
     - 追蹤
-       - 落地
+       - 地端
           - [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-dotnet)
              - [Jaeger](https://github.com/jaegertracing/jaeger)
              - [Zipkin](https://github.com/openzipkin/zipkin)
        - 雲端
           - [Datadog](https://docs.datadoghq.com/tracing)
     - 警示
-       - 落地
+       - 地端
           - [Zabbix](https://www.zabbix.com)
           - [Alertmanager](https://github.com/prometheus/alertmanager)
        - 雲端
           - [Datadog](https://docs.datadoghq.com/monitors)
 
-20. 用戶端.NET
+20. 用戶端 .NET (Client-Side .NET)
+
     - 範本引擎
        - [Razor](https://docs.microsoft.com/aspnet/core/mvc/views/razor)
        - [DotLiquid](https://github.com/dotliquid/dotliquid)
@@ -273,7 +293,8 @@
        - [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
        - [.NET MAUI](https://github.com/dotnet/maui)
 
-21. 進一步學習
+21. 進一步學習 (Good to Know)
+
     - [MediatR](https://github.com/jbogard/MediatR)
     - [Fluent Validation](https://github.com/JeremySkinner/FluentValidation)
     - [Polly](https://github.com/App-vNext/Polly)
@@ -283,22 +304,22 @@
     - [Nuke](https://github.com/nuke-build/nuke)
     - [EF Core Bulk Extensions](https://github.com/borisdj/EFCore.BulkExtensions)
 
-## 總結
+## 總結 (Wrap Up)
 
 如果您認為本指南可以改進，請提交包含任何更新的PR或提交任何Issue。此外，我將會持續改進這個存放庫，因此您可以按下 star 這個存放庫以便於重新訪問。
 
 靈感來源： [React Developer RoadMap](https://github.com/adam-golab/react-developer-roadmap)
 
-## 貢獻
+## 貢獻 (Contribution)
 
 想做點貢獻嗎？我們鼓勵社群回饋與貢獻。
 
-本指南是使用 [xMind](https://www.xmind.net/) 來建構。繁體中文版專案檔案為`aspnetcore-developer-roadmap.zh-Hant.xmind`。要修改它，在[此處](https://www.xmind.net/download/)下載 xMind，點選 **Open File** 並選擇 `xmind` 檔案，它將為您開啟此指南，更新它之後，上傳和更新`ReadMe.zh-Hant.md`中的圖片並建立一個PR。
+本指南是使用 [xMind](https://www.xmind.net/) 來建構。繁體中文版專案檔案為`aspnetcore-developer-roadmap.zh-Hant.xmind`。要修改它，在[此處](https://www.xmind.net/download/)下載 xMind，點選 **Open File** 並選擇 `xmind` 檔案，它將為您開啟此指南，更新它之後，上傳和更新 `ReadMe.zh-Hant.md` 中的圖片並建立一個PR。
 
 - 修改後提交PR
 - 在Issues中討論問題
 - 推廣此專案
 
-## 許可協議
+## 許可協議 (License)
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="創用 CC 授權條款" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本著作係採用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">創用 CC 姓名標示-非商業性-相同方式分享 4.0 國際 授權條款</a>授權.
