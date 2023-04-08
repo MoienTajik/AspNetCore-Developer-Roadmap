@@ -31,7 +31,7 @@
 1. 一般開發技能 (General Development Skills)
 
    - 學習 [Git](https://git-scm.com/doc) 並且在 [GitHub](https://docs.github.com/en/get-started/quickstart) 中建立與分享您的專案
-   - 掌握 [HTTP(S) 協定](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)與請求方法([GET](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET)，[POST](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST)，[PUT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT)，[PATCH](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PATCH)，[DELETE](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/DELETE)，[OPTIONS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/OPTIONS)等)
+   - 掌握 [HTTP(S) 協定](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)與請求方法 (例如 [GET](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET)、[POST](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST)、[PUT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT)、[PATCH](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PATCH)、[DELETE](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/DELETE)、[OPTIONS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/OPTIONS) 等)
    - 什麼是 [TLS](https://www.cloudflare.com/zh-tw/learning/ssl/transport-layer-security-tls/)？
    - 什麼是 [SSL](https://www.cloudflare.com/zh-tw/learning/ssl/what-is-ssl/)？
    - 不要害怕使用 [Google 搜尋技巧](http://www.powersearchingwithgoogle.com)
