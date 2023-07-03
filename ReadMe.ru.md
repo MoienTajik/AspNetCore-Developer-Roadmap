@@ -29,7 +29,7 @@
 
 1. Общие навыки разработчика
    - Освойте [Git](https://git-scm.com/doc), создайте пару репозиториев на [GitHub](https://docs.github.com/en/get-started/quickstart), покажите свой код другим.
-   - Освойте [протокол HTTP(S)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview), методы запросов ([GET](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET), [POST](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST), [PUT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT), [PATCH](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PATCH), [DELETE](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/DELETE), [OPTIONS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/OPTIONS), etc.)
+   - Освойте [протокол HTTP(S)](https://developer.mozilla.org/ru/docs/Web/HTTP/Overview), методы запросов ([GET](https://developer.mozilla.org/ru/docs/Web/HTTP/Methods/GET), [POST](https://developer.mozilla.org/ru/docs/Web/HTTP/Methods/POST), [PUT](https://developer.mozilla.org/ru/docs/Web/HTTP/Methods/PUT), [PATCH](https://developer.mozilla.org/ru/docs/Web/HTTP/Methods/PATCH), [DELETE](https://developer.mozilla.org/ru/docs/Web/HTTP/Methods/DELETE), [OPTIONS](https://developer.mozilla.org/ru/docs/Web/HTTP/Methods/OPTIONS), etc.)
    - Что такое [TLS](https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/)?
    - Что такое [SSL](https://www.cloudflare.com/learning/ssl/what-is-ssl/)?
    - Не бойтесь использовать Google, [прокачайте навык гугления](http://www.powersearchingwithgoogle.com)
