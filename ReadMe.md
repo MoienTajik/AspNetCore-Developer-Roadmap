@@ -116,7 +116,9 @@ If you like or are using this project to learn or start your solution, please gi
           2. [EasyCaching](https://github.com/dotnetcore/EasyCaching)
        2. [Memcached](https://memcached.org)
     - Application-Level
-       - [Response Caching](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/response)
+       - Response Caching
+          1. [Built in](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/response)
+          2. [Marvin.Cache.Headers](https://github.com/KevinDockx/HttpCacheHeaders)
        - [Output Caching](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/output?source=recommendations)
        - [Entity Framework 2nd Level Cache](https://github.com/VahidN/EFCoreSecondLevelCacheInterceptor)
 
@@ -246,15 +248,19 @@ If you like or are using this project to learn or start your solution, please gi
        - On-Premises
           - [ELK Stack](https://www.elastic.co/what-is/elk-stack)
           - [Seq](https://datalust.co/seq)
+          - [Sentry.io](https://sentry.io/welcome/)
        - Cloud
           - [Datadog](https://docs.datadoghq.com/logs)
+          - [Sentry.io](https://sentry.io/welcome/)
     - Tracing
        - On-Premises
           - [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-dotnet)
              - [Jaeger](https://github.com/jaegertracing/jaeger)
              - [Zipkin](https://github.com/openzipkin/zipkin)
+             - [Sentry.io](https://sentry.io/welcome/)
        - Cloud
           - [Datadog](https://docs.datadoghq.com/tracing)
+          - [Sentry.io](https://sentry.io/welcome/)
     - Alerting
        - On-Premises
           - [Zabbix](https://www.zabbix.com)
