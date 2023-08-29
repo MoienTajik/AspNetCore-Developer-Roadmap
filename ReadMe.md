@@ -287,6 +287,7 @@ If you like or are using this project to learn or start your solution, please gi
     - [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
     - [Nuke](https://github.com/nuke-build/nuke)
     - [EF Core Bulk Extensions](https://github.com/borisdj/EFCore.BulkExtensions)
+    - [Distributed Lock](https://github.com/madelson/DistributedLock)
 
 
 ## Wrap Up
