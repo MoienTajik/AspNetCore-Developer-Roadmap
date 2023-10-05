@@ -4,21 +4,21 @@
 [![Backers on Open Collective](https://opencollective.com/AspNetCore-Developer-Roadmap/backers/badge.svg)](#destekçiler)
 [![Sponsors on Open Collective](https://opencollective.com/AspNetCore-Developer-Roadmap/sponsors/badge.svg)](#sponsor)
 
-- [Karanlık Versiyon](https://raw.githubusercontent.com/MoienTajik/AspNetCore-Developer-Roadmap/master/aspnetcore-developer-roadmap.png)
+- [Yol Haritası](https://raw.githubusercontent.com/MoienTajik/AspNetCore-Developer-Roadmap/master/aspnetcore-developer-roadmap.png)
 - [Basitleştirilmiş Çince'de beni oku](ReadMe.zh-Hans.md)
 - [Geleneksel Çince'de beni oku](ReadMe.zh-Hant.md)
 
-> 2022'de [ASP.NET Core](https://docs.microsoft.com/aspnet/core) geliştirici olma yol haritası:
+> 2022'de [ASP.NET Core](https://docs.microsoft.com/aspnet/core) geliştirici yol haritası:
 
-Aşağıda, ASP.NET Core geliştiricisi olmak için izleyebileceğiniz yolları ve öğrenmek isteyeceğiniz kitaplıkları gösteren bir tablo bulabilirsiniz. Bu çizelgeyi bana "Bir ASP.NET Core geliştiricisi olarak bundan sonra ne öğrenmeliyim?" diye soran herkese bir ipucu olarak hazırladım.
+ASP.NET Core geliştiricisi olmak için izleyebileceğiniz yolları ve öğrenmek isteyeceğiniz kitaplıkları gösteren tabloyu aşağıda bulabilirsiniz. Bu çizelgeyi bana "Bir ASP.NET Core geliştiricisi olarak bundan sonra ne öğrenmeliyim?" diye soran herkese bir ipucu olarak hazırladım.
 
 ## Sorumluluk Kabul Edilmez
 
-> Bu yol haritasının amacı, size manzara hakkında bir fikir vermektir. Yol haritası, bir sonraki adımda ne öğreneceğiniz konusunda kafanız karıştıysa, sizi havalı ve modaya uygun olanı seçmeye teşvik etmek yerine size rehberlik edecektir. Bir aracın neden bazı durumlar için diğerinden daha uygun olduğuna dair bir anlayış geliştirmelisiniz ve modaya uygun ve modaya uygun her zaman iş için en uygun anlamına gelmediğini unutmayın.
+> Bu çizelgenin amacı size yol haritası hakkında bir fikir vermektir. Yol haritası, bir sonraki adımda ne öğreneceğiniz konusunda kafanız karıştıysa sizi popüler ve trend olanı seçmeye teşvik etmek yerine size rehberlik edecektir. Bir aracın neden bazı durumlar için diğerinden daha uygun olduğuna dair bir fikir geliştirmelisiniz. Popüler ve trend araçlar, iş için her zaman en uygun anlamına gelmeyebilir.
 
-## Bir Yıldız Ver! :star:
+## Yıldız Ver! :star:
 
-Çözümünüzü öğrenmek veya başlatmak için bu projeyi beğendiyseniz veya kullanıyorsanız, lütfen ona bir yıldız verin. Teşekkürler!
+Bir şeyler öğrenmek veya takıldığınız problemi çözüme kavuşturmak için bu projeyi beğendiyseniz/kullanıyorsanız, lütfen ona bir yıldız verin. Teşekkürler!
 ## Yol Haritası
 
 ![Yol Haritası](./aspnetcore-developer-roadmap.png)
@@ -231,7 +231,7 @@ Aşağıda, ASP.NET Core geliştiricisi olmak için izleyebileceğiniz yolları 
    - [Scriban](https://github.com/lunet-io/scriban)
    - [Fluid](https://github.com/sebastienros/fluid)
 
-19. Bunlarıda bilmen iyi olur
+19. Bunları da bilmen iyi olur
 
     - [MediatR](https://github.com/jbogard/MediatR)
     - [Fluent Validation](https://github.com/JeremySkinner/FluentValidation)
@@ -243,13 +243,13 @@ Aşağıda, ASP.NET Core geliştiricisi olmak için izleyebileceğiniz yolları 
 
 ## Geliştirmek için
 
-Yol haritasının iyileştirilebileceğini düşünüyorsanız, lütfen güncellemeleri içeren bir PR açın ve sorunları gönderin. Ayrıca, bunu geliştirmeye devam edeceğim, bu yüzden tekrar ziyaret etmek için bu depoya yıldız eklemek isteyebilirsiniz.
+Yol haritasının iyileştirilebileceğini düşünüyorsanız, lütfen güncellemeleri içeren bir PR açın ve sorunları gönderin. Ayrıca, yol haritasını geliştirmeye devam edeceğim bu yüzden tekrar ziyaret etmek için bu depoya yıldız ekleyebilirsiniz.
 
-fikir : [React Geliştirici Yol Haritası](https://github.com/adam-golab/react-developer-roadmap)
+Fikir : [React Geliştirici Yol Haritası](https://github.com/adam-golab/react-developer-roadmap)
 
 ## Katkı
 
-katkıda bulunmak ister misiniz? Topluluk geri bildirimlerini ve katkılarını teşvik ediyoruz. Lütfen [katkıda bulunan yönergelerimize](https://github.com/MoienTajik/AspNetCore-Developer-Roadmap/blob/master/CONTRIBUTING.md) uyun.
+Katkıda bulunmak ister misiniz? Topluluk geri bildirimlerini ve katkılarını teşvik ediyoruz. Lütfen [katkıda bulunan yönergelerimize](https://github.com/MoienTajik/AspNetCore-Developer-Roadmap/blob/master/CONTRIBUTING.md) uyun.
 
 ## Jenerik
 
