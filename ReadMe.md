@@ -175,6 +175,8 @@ If you like or are using this project to learn or start your solution, please gi
     2. Integration Testing
        - [WebApplicationFactory](https://docs.microsoft.com/aspnet/core/test/integration-tests)
        - [TestServer](https://koukia.ca/integration-testing-in-asp-net-core-2-0-51d14ede3968)
+       - [Respwan](https://github.com/jbogard/Respawn)
+       - [Test Containers](https://github.com/testcontainers/testcontainers-dotnet)
     3. Snapshot Testing
        - [Verify](https://github.com/VerifyTests/Verify)
     4. Behavior Testing
