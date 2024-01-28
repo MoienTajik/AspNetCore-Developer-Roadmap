@@ -9,7 +9,7 @@
 - [Read-me in Turkish](ReadMe-tr.md)
 - [Read-me in Japanese](ReadMe.ja.md)
 
-> Roadmap to becoming an [ASP.NET Core](https://docs.microsoft.com/aspnet/core) developer in 2023:
+> Roadmap to becoming an [ASP.NET Core](https://docs.microsoft.com/aspnet/core) developer in 2024:
 
 Below you can find a chart demonstrating the paths that you can take and the libraries that you would want to learn to become an ASP.NET Core developer. I made this chart as a tip for everyone who asks me, "What should I learn next as an ASP.NET Core developer?"
 
@@ -37,15 +37,17 @@ If you like or are using this project to learn or start your solution, please gi
    - [Read a few books about algorithms and data structures](https://www.interviewbit.com/blog/data-structures-and-algorithms-books)
 
 2. C#
-   - [C#](https://www.pluralsight.com/paths/c-10)
-   - [.NET 7](https://devblogs.microsoft.com/dotnet/announcing-dotnet-7)
-   - Learn [dotnet CLI](https://docs.microsoft.com/dotnet/core/tools)
+   - [C#](https://www.pluralsight.com/paths/c-12)
+   - [.NET 8](https://devblogs.microsoft.com/dotnet/announcing-dotnet-8)
+   - [.NET CLI](https://docs.microsoft.com/dotnet/core/tools)
+   - [StyleCop rules](https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/DOCUMENTATION.md)
 
 3. SQL Fundamentals
    - [Pluralsight Learning Path: Querying Data with T-SQL from SQL Server](https://www.pluralsight.com/paths/querying-data-with-t-sql-from-sql-server)
 
 4. ASP.NET Core Basics
    - [MVC](https://docs.microsoft.com/en-us/aspnet/core/mvc/overview)
+   - [Minimal APIs](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis)
    - [REST](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api)
    - [Application Settings & Configurations](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration)
    - [Middlewares](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware)
@@ -53,6 +55,7 @@ If you like or are using this project to learn or start your solution, please gi
    - [Authentication](https://docs.microsoft.com/en-us/aspnet/core/security/authentication)
    - [Authorization](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/introduction)
    - [IdentityServer](https://identityserver4.readthedocs.io/en/latest)
+   - [Duende IdentityServer](https://duendesoftware.com)
    - [OpenIddict](https://github.com/openiddict/openiddict-core)
    - [Auth0](https://auth0.com/docs)
    - [OIDC](https://openid.net/connect)
@@ -74,7 +77,6 @@ If you like or are using this project to learn or start your solution, please gi
        - Tutorials
           - [Pluralsight Learning Path: EF Core 6](https://www.pluralsight.com/paths/ef-core-6)
     - [Dapper](https://github.com/StackExchange/Dapper)
-    - [RepoDB](https://github.com/mikependon/RepoDB)
 
 7. Dependency Injection
     1. DI Containers
@@ -94,8 +96,9 @@ If you like or are using this project to learn or start your solution, please gi
        - [MySQL](https://www.mysql.com)
     2. Search Engines
        - [ElasticSearch](https://www.elastic.co)
-       - [Solr](http://lucene.apache.org/solr)
-       - [Sphinx](http://sphinxsearch.com)
+       - [Meilisearch](https://github.com/meilisearch/meilisearch)
+       - [ManticoreSearch](https://github.com/manticoresoftware/manticoresearch)
+       - [OpenSearch](https://github.com/opensearch-project/OpenSearch)
     3. NoSQL
         - On-Premises
           - [Redis](https://redis.io)
@@ -128,12 +131,12 @@ If you like or are using this project to learn or start your solution, please gi
       
 11. API Clients & Communications
     1. REST
-       - [Sieve](https://github.com/Biarity/Sieve)
+       - [Gridify](https://github.com/alirezanet/Gridify)
        - [OData](https://learn.microsoft.com/en-us/odata/webapi/first-odata-api) 
        - [REPR Pattern](https://ardalis.com/mvc-controllers-are-dinosaurs-embrace-api-endpoints/)
             - [Minimal APIs](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis/overview)
-            - [Fast Endpoints](https://github.com/FastEndpoints/FastEndpoints)
             - [Ardalis.Endpoints](https://github.com/ardalis/ApiEndpoints)
+            - [Fast Endpoints](https://github.com/FastEndpoints/FastEndpoints)
     2. [gRPC](https://docs.microsoft.com/en-us/aspnet/core/grpc)
     3. GraphQL
         - [HotChocolate](https://github.com/ChilliCream/hotchocolate)
@@ -144,10 +147,9 @@ If you like or are using this project to learn or start your solution, please gi
     - [WebSockets](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/websockets)
    
 13. Object Mapping
+    - [Manual mapping!](https://www.youtube.com/watch?v=U8gSdQN2jWI)
+    - [Mapperly](https://github.com/riok/mapperly)
     - [AutoMapper](https://github.com/AutoMapper/AutoMapper)
-    - [Mapster](https://github.com/MapsterMapper/Mapster)
-    - [ExpressMapper](http://expressmapper.org/)
-    - [AgileMapper](https://github.com/agileobjects/AgileMapper)
    
 14. Background Task Scheduler
     - [Native BackgroundService](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services)
@@ -167,22 +169,18 @@ If you like or are using this project to learn or start your solution, please gi
           - [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy)
        - Assertion
           - [FluentAssertion](https://github.com/fluentassertions/fluentassertions)
-          - [Shouldly](https://github.com/shouldly/shouldly)
        - Fake Data Generators
           - [Bogus](https://github.com/bchavez/Bogus)
           - [AutoFixture](https://github.com/AutoFixture/AutoFixture)
-          - [GenFu](https://github.com/MisterJames/GenFu)
     2. Integration Testing
        - [WebApplicationFactory](https://docs.microsoft.com/aspnet/core/test/integration-tests)
-       - [TestServer](https://koukia.ca/integration-testing-in-asp-net-core-2-0-51d14ede3968)
-       - [Respwan](https://github.com/jbogard/Respawn)
+       - [.NET Aspire](https://learn.microsoft.com/en-us/dotnet/aspire)
        - [Test Containers](https://github.com/testcontainers/testcontainers-dotnet)
+       - [Respwan](https://github.com/jbogard/Respawn)
     3. Snapshot Testing
        - [Verify](https://github.com/VerifyTests/Verify)
     4. Behavior Testing
        - [SpecFlow](https://github.com/techtalk/SpecFlow/tree/DotNetCore)
-       - [BDDfy](https://github.com/TestStack/TestStack.BDDfy)
-       - [LightBDD](https://github.com/LightBDD/LightBDD)
     5. E2E Testing
        - [Selenium](https://www.hanselman.com/blog/real-browser-integration-testing-with-selenium-standalone-chrome-and-aspnet-core-21)
        - [Puppeteer-Sharp](https://github.com/kblok/puppeteer-sharp)
@@ -196,46 +194,41 @@ If you like or are using this project to learn or start your solution, please gi
     1. Message-Brokers
        - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
        - [Apache Kafka](https://github.com/confluentinc/confluent-kafka-dotnet)
-       - [ActiveMQ](https://github.com/apache/activemq)
-       - [Azure Service Bus](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-messaging-overview)
+       - [Azure Service Bus](https://docs.microsoft.com/azure/service-bus-messaging)
+       - [Amazon SQS](https://aws.amazon.com/sqs)
        - [NetMQ](https://github.com/zeromq/netmq)
     2. Message-Bus
        - [MassTransit](https://github.com/MassTransit/MassTransit)
        - [NServiceBus](https://github.com/Particular/NServiceBus)
        - [EasyNetQ](https://github.com/EasyNetQ/EasyNetQ)
-       - [CAP](https://github.com/dotnetcore/CAP)
     3. API Gateway
        - [Ocelot](https://github.com/ThreeMammals/Ocelot)
        - [YARP](https://github.com/microsoft/reverse-proxy)
     4. Containerization
        - [Docker](https://www.docker.com)
+       - [Podman](https://podman.io)
     5. Orcherstration
        - [Kubernetes](https://kubernetes.io)
          - [Rancher](https://github.com/rancher/rancher)
          - [Kubectl](https://kubernetes.io/docs/reference/kubectl)
          - [K9s](https://github.com/derailed/k9s)
-       - [Docker Swarm](https://docs.docker.com/engine/swarm)
     6. Other
+       - [.NET Aspire](https://learn.microsoft.com/en-us/dotnet/aspire)
        - [Orleans](https://github.com/dotnet/orleans)
        - [Proto.Actor](https://github.com/asynkron/protoactor-dotnet)
-       - [Steeltoe](https://steeltoe.io)
        - [Dapr](https://github.com/dapr/dapr)
-       - [Tye](https://github.com/dotnet/tye)
 
 17. Continuous Integration & Continuous Delivery
     - [GitHub Actions](https://github.com/features/actions)
-    - [Gitlab CI](https://docs.gitlab.com/ee/ci)
     - [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines)
-    - [Travis CI](https://travis-ci.org)
-    - [Jenkins](https://www.jenkins.io)
-    - [Circle CI](https://circleci.com)
-    - [TeamCity](https://www.jetbrains.com/teamcity)
+    - [GitLab CI/CD](https://docs.gitlab.com/ee/ci)
+    - [TeamCity CI/CD](https://www.jetbrains.com/teamcity)
 
 18. Design Patterns
     - Categories
-      - [Creational](https://docs.microsoft.com/azure/architecture/patterns/cqrs)
-      - [Structural](https://www.dofactory.com/net/decorator-design-pattern)
-      - [Behavioral](https://www.dofactory.com/net/strategy-design-pattern)
+      - [Creational](https://refactoring.guru/design-patterns/creational-patterns)
+      - [Structural](https://refactoring.guru/design-patterns/structural-patterns)
+      - [Behavioral](https://refactoring.guru/design-patterns/behavioral-patterns)
     - Tutorials
       - [Pluralsight Learning Path: Design Patterns in C#](https://www.pluralsight.com/paths/design-patterns-in-c)
 
@@ -273,7 +266,6 @@ If you like or are using this project to learn or start your solution, please gi
 20. Client-Side .NET
     - Template Engines
        - [Razor](https://docs.microsoft.com/aspnet/core/mvc/views/razor)
-       - [DotLiquid](https://github.com/dotliquid/dotliquid)
        - [Scriban](https://github.com/lunet-io/scriban)
        - [Fluid](https://github.com/sebastienros/fluid)
     - Frameworks
@@ -281,15 +273,15 @@ If you like or are using this project to learn or start your solution, please gi
        - [.NET MAUI](https://github.com/dotnet/maui)
 
 21. Good to Know
+    - [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
     - [MediatR](https://github.com/jbogard/MediatR)
     - [Fluent Validation](https://github.com/JeremySkinner/FluentValidation)
     - [Polly](https://github.com/App-vNext/Polly)
     - [Benchmark.NET](https://github.com/dotnet/BenchmarkDotNet)
-    - [NodaTime](https://github.com/nodatime/nodatime)
-    - [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
-    - [Nuke](https://github.com/nuke-build/nuke)
-    - [EF Core Bulk Extensions](https://github.com/borisdj/EFCore.BulkExtensions)
     - [Distributed Lock](https://github.com/madelson/DistributedLock)
+    - [EF Core Bulk Extensions](https://github.com/borisdj/EFCore.BulkExtensions)
+    - [Nuke Build](https://github.com/nuke-build/nuke)
+    - [Marten](https://github.com/JasperFx/marten)
 
 
 ## Wrap Up
