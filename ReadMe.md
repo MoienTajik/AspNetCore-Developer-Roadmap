@@ -43,9 +43,10 @@ If you like or are using this project to learn or start your solution, please gi
    - [StyleCop rules](https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/DOCUMENTATION.md)
 
 3. SQL Fundamentals
-   - [Pluralsight Learning Path: Querying Data with T-SQL from SQL Server](https://www.pluralsight.com/paths/querying-data-with-t-sql-from-sql-server)
+   - Tutorials 📚
+     - [Pluralsight Learning Path: Querying Data with T-SQL from SQL Server](https://www.pluralsight.com/paths/querying-data-with-t-sql-from-sql-server)
 
-4. ASP.NET Core Basics
+5. ASP.NET Core Basics
    - [MVC](https://docs.microsoft.com/en-us/aspnet/core/mvc/overview)
    - [Minimal APIs](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis)
    - [REST](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api)
@@ -61,34 +62,32 @@ If you like or are using this project to learn or start your solution, please gi
    - [OIDC](https://openid.net/connect)
    - [Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/razor-pages)
    - [Razor Components](https://docs.microsoft.com/en-us/aspnet/core/blazor/components)
-   - Tutorials
-      - [Pluralsight Learning Path: ASP.NET Core 6](https://www.pluralsight.com/paths/aspnet-core-6)
-      - [Pluralsight Learning Path: ASP.NET Core 6 Web API](https://www.pluralsight.com/paths/aspnet-core-6-web-api)
+   - Tutorials 📚
+      - [From Zero to Hero: REST APIs in .NET](https://dometrain.com/course/from-zero-to-hero-rest-apis-in-asp-net-core/?affcode=1115529_alq6yoqt)
+      - [From Zero to Hero: Minimal APIs in .NET with C#](https://dometrain.com/course/from-zero-to-hero-minimal-apis-in-net-with-c/?affcode=1115529_alq6yoqt)
 
-5. SOLID
+6. SOLID
     - [Single Responsibility Principle (SRP)](https://www.dotnetcurry.com/software-gardening/1148/solid-single-responsibility-principle)
     - [Open-Closed Principle (OCP)](https://www.dotnetcurry.com/software-gardening/1176/solid-open-closed-principle)
     - [Liskov Substitution Principle (LSP)](https://www.dotnetcurry.com/software-gardening/1235/liskov-substitution-principle-lsp-solid-patterns)
     - [Interface Segregation Principle (ISP)](https://www.dotnetcurry.com/software-gardening/1257/interface-segregation-principle-isp-solid-principle)
     - [Dependency Inversion Principle (DIP)](https://www.dotnetcurry.com/software-gardening/1284/dependency-injection-solid-principles)
 
-6. ORM
+7. ORM
     - [Entity Framework Core](https://learn.microsoft.com/en-us/ef/core)
-       - Tutorials
-          - [Pluralsight Learning Path: EF Core 6](https://www.pluralsight.com/paths/ef-core-6)
+       - Tutorials 📚
+          - [From Zero to Hero: Entity Framework Core in .NET](https://dometrain.com/course/from-zero-to-hero-entity-framework-core-in-dotnet/?affcode=1115529_alq6yoqt)
     - [Dapper](https://github.com/StackExchange/Dapper)
 
-7. Dependency Injection
+8. Dependency Injection
     1. DI Containers
        - [Microsoft.Extensions.DependencyInjection](https://docs.microsoft.com/aspnet/core/fundamentals/dependency-injection)
        - [AutoFac](https://autofaccn.readthedocs.io/en/latest/integration/aspnetcore.html)
-       - [Ninject](http://www.ninject.org)
-       - [Castle Windsor](https://github.com/castleproject/Windsor)
-	   - [Simple Injector](https://github.com/simpleinjector/SimpleInjector)
-    2. [Life Cycles](https://docs.microsoft.com/aspnet/core/fundamentals/dependency-injection#service-lifetimes)
-    3. [Scrutor](https://github.com/khellang/Scrutor)
+    2. [Scrutor](https://github.com/khellang/Scrutor)
+    - Tutorials 📚
+       - [From Zero to Hero: Dependency Injection in .NET](https://dometrain.com/course/from-zero-to-hero-dependency-injection-in-net/?affcode=1115529_alq6yoqt) 
 
-8. Databases
+9. Databases
     1. Relational
        - [SQL Server](https://www.microsoft.com/sql-server/sql-server-2019)
        - [PostgreSQL](https://www.postgresql.org)
@@ -111,7 +110,7 @@ If you like or are using this project to learn or start your solution, please gi
           - [CosmosDB](https://docs.microsoft.com/azure/cosmos-db)
           - [DynamoDB](https://aws.amazon.com/dynamodb)
 
-9. Caching
+10. Caching
     - [Memory Cache](https://docs.microsoft.com/aspnet/core/performance/caching/memory)
     - [Distributed Cache](https://docs.microsoft.com/aspnet/core/performance/caching/distributed)
        1. [Redis](https://redis.io/)
@@ -125,11 +124,13 @@ If you like or are using this project to learn or start your solution, please gi
        - [Output Caching](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/output?source=recommendations)
        - [Entity Framework 2nd Level Cache](https://github.com/VahidN/EFCoreSecondLevelCacheInterceptor)
 
-10. Log Frameworks
+11. Log Frameworks
     - [Serilog](https://github.com/serilog/serilog)
     - [NLog](https://github.com/NLog/NLog)
+    - Tutorials 📚
+      - [From Zero to Hero: Logging in .NET](https://dometrain.com/course/from-zero-to-hero-logging-in-dotnet/?affcode=1115529_alq6yoqt)
       
-11. API Clients & Communications
+12. API Clients & Communications
     1. REST
        - [Gridify](https://github.com/alirezanet/Gridify)
        - [OData](https://learn.microsoft.com/en-us/odata/webapi/first-odata-api) 
@@ -141,23 +142,27 @@ If you like or are using this project to learn or start your solution, please gi
     3. GraphQL
         - [HotChocolate](https://github.com/ChilliCream/hotchocolate)
         - [GraphQL-dotnet](https://github.com/graphql-dotnet/graphql-dotnet)
+    - Tutorials 📚
+      - [From Zero to Hero: REST APIs in .NET](https://dometrain.com/course/from-zero-to-hero-rest-apis-in-asp-net-core/?affcode=1115529_alq6yoqt)
+      - [From Zero to Hero: Minimal APIs in .NET with C#](https://dometrain.com/course/from-zero-to-hero-minimal-apis-in-net-with-c/?affcode=1115529_alq6yoqt)
+      - [From Zero to Hero: gRPC in .NET](https://dometrain.com/course/from-zero-to-hero-grpc-in-dotnet/?affcode=1115529_alq6yoqt)
 
-12. Real-Time Communication
+13. Real-Time Communication
     - [SignalR](https://docs.microsoft.com/aspnet/core/signalr)
     - [WebSockets](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/websockets)
    
-13. Object Mapping
+14. Object Mapping
     - [Manual mapping!](https://www.youtube.com/watch?v=U8gSdQN2jWI)
     - [Mapperly](https://github.com/riok/mapperly)
     - [AutoMapper](https://github.com/AutoMapper/AutoMapper)
    
-14. Background Task Scheduler
+15. Background Task Scheduler
     - [Native BackgroundService](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services)
     - [HangFire](https://github.com/HangfireIO/Hangfire)
     - [Quartz](https://github.com/quartznet/quartznet)
     - [Coravel](https://github.com/jamesmh/coravel)    
     
-15. Testing
+16. Testing
     1. Unit Testing
        - Frameworks
           - [xUnit](https://docs.microsoft.com/dotnet/core/testing/unit-testing-with-dotnet-test)
@@ -189,8 +194,12 @@ If you like or are using this project to learn or start your solution, please gi
        - [JMeter](https://github.com/apache/jmeter)
        - [Crank](https://github.com/dotnet/crank)
        - [Bombardier](https://github.com/codesenberg/bombardier)
+    - Tutorials 📚
+      - [From Zero to Hero: Unit testing in C#](https://dometrain.com/course/from-zero-to-hero-unit-testing-in-c/?affcode=1115529_alq6yoqt)
+      - [From Zero to Hero: Integration testing in ASP.NET Core](https://dometrain.com/course/from-zero-to-hero-integration-testing-in-asp-net-core/?affcode=1115529_alq6yoqt)
+      - [From Zero to Hero: Test-Driven Development in C#](https://dometrain.com/course/from-zero-to-hero-test-driven-development-tdd-csharp/?affcode=1115529_alq6yoqt)
 
-16. Microservices
+17. Microservices
     1. Message-Brokers
        - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
        - [Apache Kafka](https://github.com/confluentinc/confluent-kafka-dotnet)
@@ -217,22 +226,26 @@ If you like or are using this project to learn or start your solution, please gi
        - [Orleans](https://github.com/dotnet/orleans)
        - [Proto.Actor](https://github.com/asynkron/protoactor-dotnet)
        - [Dapr](https://github.com/dapr/dapr)
+    - Tutorials 📚
+      - [Getting Started: Microservices Architecture](https://dometrain.com/course/getting-started-microservices-architecture/?affcode=1115529_alq6yoqt)
+      - [Getting Started: Solution Architecture](https://dometrain.com/course/getting-started-solution-architecture/?affcode=1115529_alq6yoqt)
+      - [From Zero to Hero: Docker for Developers](https://dometrain.com/course/from-zero-to-hero-docker/?affcode=1115529_alq6yoqt)
 
-17. Continuous Integration & Continuous Delivery
+18. Continuous Integration & Continuous Delivery
     - [GitHub Actions](https://github.com/features/actions)
     - [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines)
     - [GitLab CI/CD](https://docs.gitlab.com/ee/ci)
     - [TeamCity CI/CD](https://www.jetbrains.com/teamcity)
 
-18. Design Patterns
+19. Design Patterns
     - Categories
       - [Creational](https://refactoring.guru/design-patterns/creational-patterns)
       - [Structural](https://refactoring.guru/design-patterns/structural-patterns)
       - [Behavioral](https://refactoring.guru/design-patterns/behavioral-patterns)
-    - Tutorials
+    - Tutorials 📚
       - [Pluralsight Learning Path: Design Patterns in C#](https://www.pluralsight.com/paths/design-patterns-in-c)
 
-19. Monitoring/Logging/Tracing/Alerting
+20. Monitoring/Logging/Tracing/Alerting
     - Monitoring
        - On-Premises
           - [Prometheus](https://github.com/prometheus/prometheus)
@@ -247,6 +260,8 @@ If you like or are using this project to learn or start your solution, please gi
        - Cloud
           - [Datadog](https://docs.datadoghq.com/logs)
           - [Sentry.io](https://sentry.io/welcome/)
+       - Tutorials 📚
+         - [From Zero to Hero: Logging in .NET](https://dometrain.com/course/from-zero-to-hero-logging-in-dotnet/?affcode=1115529_alq6yoqt)
     - Tracing
        - On-Premises
           - [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-dotnet)
@@ -263,7 +278,7 @@ If you like or are using this project to learn or start your solution, please gi
        - Cloud
           - [Datadog](https://docs.datadoghq.com/monitors)
 
-20. Client-Side .NET
+21. Client-Side .NET
     - Template Engines
        - [Razor](https://docs.microsoft.com/aspnet/core/mvc/views/razor)
        - [Scriban](https://github.com/lunet-io/scriban)
@@ -272,7 +287,7 @@ If you like or are using this project to learn or start your solution, please gi
        - [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
        - [.NET MAUI](https://github.com/dotnet/maui)
 
-21. Good to Know
+22. Good to Know
     - [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
     - [MediatR](https://github.com/jbogard/MediatR)
     - [Fluent Validation](https://github.com/JeremySkinner/FluentValidation)
