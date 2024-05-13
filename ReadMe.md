@@ -216,7 +216,7 @@ If you like or are using this project to learn or start your solution, please gi
     4. Containerization
        - [Docker](https://www.docker.com)
        - [Podman](https://podman.io)
-    5. Orcherstration
+    5. Orchestration
        - [Kubernetes](https://kubernetes.io)
          - [Rancher](https://github.com/rancher/rancher)
          - [Kubectl](https://kubernetes.io/docs/reference/kubectl)
