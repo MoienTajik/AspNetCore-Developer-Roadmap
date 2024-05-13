@@ -1,136 +1,134 @@
-# ASP.NET Core Developer Roadmap
+# ASP.NET Core Dasturchi Yo'l Xaritasi
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![Backers on Open Collective](https://opencollective.com/AspNetCore-Developer-Roadmap/backers/badge.svg)](#backers)
 [![Sponsors on Open Collective](https://opencollective.com/AspNetCore-Developer-Roadmap/sponsors/badge.svg)](#sponsors)
 
-- [Read-me in Traditional Chinese](ReadMe.zh-Hant.md)
-- [Read-me in Simplified Chinese](ReadMe.zh-Hans.md)
-- [Read-me in Turkish](ReadMe-tr.md)
-- [Read-me in Japanese](ReadMe.ja.md)
+- [Read-me An'anaviy Xitoy Tilida](ReadMe.zh-Hant.md)
+- [Read-me Soddalashtirilgan Xitoy Tilida](ReadMe.zh-Hans.md)
+- [Read-me Turk Tilida](ReadMe-tr.md)
+- [Read-me Yapon Tilida](ReadMe.ja.md)
+- [Read-me Rus Tilida](ReadMe.ru.md)
 
-> Roadmap to becoming an [ASP.NET Core](https://docs.microsoft.com/aspnet/core) developer in 2024:
+> 2024 yilda [ASP.NET Core](https://docs.microsoft.com/aspnet/core) dasturchisi bo'lish uchun yo'l xaritasi:
 
-Below you can find a chart demonstrating the paths that you can take and the libraries that you would want to learn to become an ASP.NET Core developer. I made this chart as a tip for everyone who asks me, "What should I learn next as an ASP.NET Core developer?"
+Quyida siz ASP.NET Core dasturchisi bo'lishni o'rganishingiz mumkin bo'lgan yo'llar va kutubxonalarni ko'rsatadigan jadvalni topishingiz mumkin. Men ushbu jadvalni mendan “ASP.NET Core dasturchisi sifatida keyin nimani o‘rganishim kerak?” deb so‘ragan har bir kishi uchun maslahat sifatida tuzdim.
 
 ## Disclaimer
 
-> The purpose of this roadmap is to give you an idea about the landscape. The road map will guide you if you are confused about what to learn next, rather than encouraging you to pick what is hip and trendy. You should grow some understanding of why one tool would be better suited for some cases than the other and remember hip and trendy does not always mean best suited for the job.
+> Ushbu yo'l xaritasining maqsadi sizga landshaft haqida tushuncha berishdir. Yo'l xaritasi sizni nimani o'rganishingiz kerakligi haqida bosh qotirsangiz, sizni zamonaviy bo'lgan narsalarni tanlashga undashdan ko'ra, sizga yo'l ko'rsatadi. Siz nima uchun bir vosita ba'zi holatlar uchun boshqasiga qaraganda yaxshiroq mos kelishini tushunishingiz kerak va esda tutingki, zamonaviysi har doim ham ish uchun eng mos keladi degani emas.
 
-## Give a Star! :star:
+## Yulduzchani Bosing! :star:
 
-If you like or are using this project to learn or start your solution, please give it a star. Thanks!
+Agar siz ushbu loyihani o'rganish yoki yechimingizni boshlash uchun yoqtirgan bo'lsangiz yoki foydalanayotgan bo'lsangiz, unga yulduzchani bosing. Rahmat!
 
-## Roadmap
+## Yo'l Xaritasi
 
-![Roadmap](./aspnetcore-developer-roadmap.png)
+![Yo'l xaritasi](./aspnetcore-developer-roadmap.uz.png)
 
-## Resources
+## Resurslar
 
-1. General Development Skills
-   - Learn [Git](https://git-scm.com/doc), create a few repositories on [GitHub](https://docs.github.com/en/get-started/quickstart), share your code with other people
-   - Know [HTTP(S) protocol](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview), request methods ([GET](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET), [POST](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST), [PUT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT), [PATCH](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PATCH), [DELETE](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/DELETE), [OPTIONS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/OPTIONS), etc.)
-   - What is [TLS](https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/)?
-   - What is [SSL](https://www.cloudflare.com/learning/ssl/what-is-ssl/)?
-   - Don't be afraid of using Google, [Power Searching with Google](http://www.powersearchingwithgoogle.com)
-   - Start using [ChatGPT](https://chat.openai.com/chat)
-   - [Read a few books about algorithms and data structures](https://www.interviewbit.com/blog/data-structures-and-algorithms-books)
+1. Umumiy rivojlanish ko'nikmalari
+   - [Git](https://www.youtube.com/playlist?list=PLd1cTxGen2d42uGivV8rlaUY1LR2s5zHr) ni o'rganing, [GitHub](https://www.youtube.com/watch?v=BtNnhUOCYrI) da bir nechta repositoriyalarni yarating, kodingizni boshqa odamlar bilan baham ko'ring
+   - [HTTP(S) protokol](https://www.youtube.com/watch?v=0mwO6QmtY5A), so'rov usullari ([GET](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET), [POST](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST), [PUT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT), [PATCH](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PATCH), [DELETE](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/DELETE), [OPTIONS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/OPTIONS), va boshqalar)
+   - [TLS](https://www.youtube.com/watch?v=EIoMdjLL2yc) nima?
+   - [SSL](https://www.youtube.com/watch?v=OI3JrPMd25E) nima?
+   - Google'dan foydalanishdan qo'rqmang, [Google yordamida kuchli qidiruv](https://www.youtube.com/watch?v=6mkBrvLM-7g)
+   - [ChatGPT](https://chat.openai.com/chat) dan foydalanishni boshlang
+   - [Algoritmlar va ma'lumotlar tuzilmalari haqida o'rganing](https://www.youtube.com/playlist?list=PL_WK6W0Gn1I7rCQ28pxKwHbSO1EGzB381)
 
 2. C#
-   - [C#](https://www.pluralsight.com/paths/c-12)
-   - [.NET 8](https://devblogs.microsoft.com/dotnet/announcing-dotnet-8)
-   - [.NET CLI](https://docs.microsoft.com/dotnet/core/tools)
-   - [StyleCop rules](https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/DOCUMENTATION.md)
+   - [C#](https://docs.dot-net.uz/c-.net/basic/starter)
+   - [.NET 8](https://docs.dot-net.uz/c-.net/dotnetga-xushkelibsiz)
+   - [.NET CLI](https://docs.dot-net.uz/c-.net/.net-dasturchi/cli)
+   - [StyleCop qoidalari](https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/DOCUMENTATION.md)
 
-3. SQL Fundamentals
-   - Tutorials 📚
-     - [Pluralsight Learning Path: Querying Data with T-SQL from SQL Server](https://www.pluralsight.com/paths/querying-data-with-t-sql-from-sql-server)
+3. SQL Asoslari
+   - Darsliklar 📚
+     - [MS SQL Server (Farkhod Dadajanov)](https://www.youtube.com/watch?v=zNqayVWmAbA&list=PL1538BF8E4A3E5D56)
 
-5. ASP.NET Core Basics
-   - [MVC](https://docs.microsoft.com/en-us/aspnet/core/mvc/overview)
-   - [Minimal APIs](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis)
+5. ASP.NET Core asoslari
+   - [MVC](https://docs.dot-net.uz/c-.net/web-development/asp.net-core-mvc/mvc-nima)
+   - [Minimal APIs](youtube.com/watch?v=cBW2HBsQ5X0&t=2872s)
    - [REST](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api)
-   - [Application Settings & Configurations](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration)
-   - [Middlewares](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware)
-   - [Filters & Attributes](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/filters)
-   - [Authentication](https://docs.microsoft.com/en-us/aspnet/core/security/authentication)
-   - [Authorization](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/introduction)
-   - [IdentityServer](https://identityserver4.readthedocs.io/en/latest)
+   - [Ilova Sozlamalari & Konfiguratsiyalari](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration)
+   - [Middlewares](https://www.youtube.com/watch?v=FCf8GmfuF2U)
+   - [Filtrlar & Attribute-lar](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/filters)
+   - [Autentifikatsiya](https://docs.microsoft.com/en-us/aspnet/core/security/authentication)
+   - [Avtorizatsiya](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/introduction)
+   - [IdentityServer](https://www.youtube.com/watch?v=7mzVukehoXo&t=4360s)
    - [Duende IdentityServer](https://duendesoftware.com)
    - [OpenIddict](https://github.com/openiddict/openiddict-core)
    - [Auth0](https://auth0.com/docs)
    - [OIDC](https://openid.net/connect)
    - [Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/razor-pages)
    - [Razor Components](https://docs.microsoft.com/en-us/aspnet/core/blazor/components)
-   - Tutorials 📚
-      - [From Zero to Hero: REST APIs in .NET](https://dometrain.com/course/from-zero-to-hero-rest-apis-in-asp-net-core/?affcode=1115529_alq6yoqt)
-      - [From Zero to Hero: Minimal APIs in .NET with C#](https://dometrain.com/course/from-zero-to-hero-minimal-apis-in-net-with-c/?affcode=1115529_alq6yoqt)
+   - Darsliklar 📚
+      - [ASP .Net Core batafsil (Farkhod Dadajanov)](https://www.youtube.com/playlist?list=PL_WK6W0Gn1I6OqYlkP_evQKq4K6xFwpu8)
 
 6. SOLID
-    - [Single Responsibility Principle (SRP)](https://www.dotnetcurry.com/software-gardening/1148/solid-single-responsibility-principle)
-    - [Open-Closed Principle (OCP)](https://www.dotnetcurry.com/software-gardening/1176/solid-open-closed-principle)
-    - [Liskov Substitution Principle (LSP)](https://www.dotnetcurry.com/software-gardening/1235/liskov-substitution-principle-lsp-solid-patterns)
-    - [Interface Segregation Principle (ISP)](https://www.dotnetcurry.com/software-gardening/1257/interface-segregation-principle-isp-solid-principle)
-    - [Dependency Inversion Principle (DIP)](https://www.dotnetcurry.com/software-gardening/1284/dependency-injection-solid-principles)
+    - [Yagona Javobgarlik Prinsipi (SRP)](https://docs.dot-net.uz/c-.net/.net-dasturchi/clean-architecture/design-tamoyillari/solid/yagona-masuliyat-tamoyili-srp)
+    - [Ochiqlik-Yopiqlik Prinsipi (OCP)](https://docs.dot-net.uz/c-.net/.net-dasturchi/clean-architecture/design-tamoyillari/solid/ochiq-yopiq-tamoyili-o-cp)
+    - [Liskovning Almashtirish Prinsipi (LSP)](https://docs.dot-net.uz/c-.net/.net-dasturchi/clean-architecture/design-tamoyillari/solid/liskovning-almashtirish-tamoyili-lsp)
+    - [Interfeysni Ajratish Prinsipi (ISP)](https://docs.dot-net.uz/c-.net/.net-dasturchi/clean-architecture/design-tamoyillari/solid/interfeysga-ajratish-tamoyili-isp)
+    - [Bog'liqlik Inversiyasi Prinsipi (DIP)](https://docs.dot-net.uz/c-.net/.net-dasturchi/clean-architecture/design-tamoyillari/solid/qaramlik-inversiya-tamoyili-dip)
 
 7. ORM
-    - [Entity Framework Core](https://learn.microsoft.com/en-us/ef/core)
-       - Tutorials 📚
-          - [From Zero to Hero: Entity Framework Core in .NET](https://dometrain.com/course/from-zero-to-hero-entity-framework-core-in-dotnet/?affcode=1115529_alq6yoqt)
-    - [Dapper](https://github.com/StackExchange/Dapper)
+    - [Entity Framework Core](https://docs.dot-net.uz/c-.net/orm)
+       - Darsliklar 📚
+          - [Entity Framework Core bilan ishlash](https://www.youtube.com/watch?v=6XR2lV3ErNk&t=1s)
+    - [ASP.NET Core da Dapper](https://www.youtube.com/watch?v=sGJmMR16lfI&t=1s)
 
 8. Dependency Injection
-    1. DI Containers
+    1. DI Konteynerlari
        - [Microsoft.Extensions.DependencyInjection](https://docs.microsoft.com/aspnet/core/fundamentals/dependency-injection)
        - [AutoFac](https://autofaccn.readthedocs.io/en/latest/integration/aspnetcore.html)
     2. [Scrutor](https://github.com/khellang/Scrutor)
-    - Tutorials 📚
-       - [From Zero to Hero: Dependency Injection in .NET](https://dometrain.com/course/from-zero-to-hero-dependency-injection-in-net/?affcode=1115529_alq6yoqt) 
+    - Darsliklar 📚
+       - [Dependency Injection haqida (Farkhod Dadajanov)](https://www.youtube.com/watch?v=S7_B2lSrNB4) 
 
-9. Databases
-    1. Relational
-       - [SQL Server](https://www.microsoft.com/sql-server/sql-server-2019)
-       - [PostgreSQL](https://www.postgresql.org)
+9. Ma'lumotlar Bazasi
+    1. Relyatsion
+       - [SQL Server](https://docs.dot-net.uz/database/ms-sql-server)
+       - [PostgreSQL](https://docs.dot-net.uz/database/postgresql)
        - [MariaDB](https://mariadb.org)
-       - [MySQL](https://www.mysql.com)
-    2. Search Engines
+       - [MySQL](https://www.youtube.com/watch?v=9A6bqFUtUz8&list=PLcVkxa4hDY3HMSLeg6QOLftJUhLX2JJP)
+    2. Qidiruv tizimlari
        - [ElasticSearch](https://www.elastic.co)
        - [Meilisearch](https://github.com/meilisearch/meilisearch)
        - [ManticoreSearch](https://github.com/manticoresoftware/manticoresearch)
        - [OpenSearch](https://github.com/opensearch-project/OpenSearch)
     3. NoSQL
-        - On-Premises
-          - [Redis](https://redis.io)
-          - [MongoDB](https://docs.microsoft.com/aspnet/core/tutorials/first-mongo-app)
+        - Mahalliy
+          - [Redis](https://www.youtube.com/watch?v=fCjRbWW4mzM&t=1s)
+          - [MongoDB](https://www.youtube.com/watch?v=Gm0vrNrP45U&list=PL_WK6W0Gn1I7ishKsAaB8JaOVcg6NpndK)
           - [Apache Cassandra](http://cassandra.apache.org)
           - [LiteDB](https://github.com/mbdavid/LiteDB)
           - [RavenDB](https://github.com/ravendb/ravendb)
           - [CouchDB](http://couchdb.apache.org)
-       - Cloud
+       - Bulut
           - [CosmosDB](https://docs.microsoft.com/azure/cosmos-db)
           - [DynamoDB](https://aws.amazon.com/dynamodb)
 
-10. Caching
-    - [Memory Cache](https://docs.microsoft.com/aspnet/core/performance/caching/memory)
-    - [Distributed Cache](https://docs.microsoft.com/aspnet/core/performance/caching/distributed)
-       1. [Redis](https://redis.io/)
+10. Keshlash
+    - [Xotira keshi](https://www.youtube.com/watch?v=fCjRbWW4mzM&t=2s&pp=ygUXa2VzaGxhc2ggTURDIFV6YmVraXN0YW4%3D)
+    - [Tarqatilgan kesh](https://www.youtube.com/watch?v=fCjRbWW4mzM&t=2s&pp=ygUXa2VzaGxhc2ggTURDIFV6YmVraXN0YW4%3D)
+       1. [Redis](https://www.youtube.com/watch?v=fCjRbWW4mzM&t=2s&pp=ygUXa2VzaGxhc2ggTURDIFV6YmVraXN0YW4%3D)
           1. [StackExchange.Redis](https://stackexchange.github.io/StackExchange.Redis)
           2. [EasyCaching](https://github.com/dotnetcore/EasyCaching)
        2. [Memcached](https://memcached.org)
-    - Application-Level
-       - Response Caching
+    - Ilova darajasi
+       - Javobni keshlash
           1. [Built in](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/response)
           2. [Marvin.Cache.Headers](https://github.com/KevinDockx/HttpCacheHeaders)
-       - [Output Caching](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/output?source=recommendations)
-       - [Entity Framework 2nd Level Cache](https://github.com/VahidN/EFCoreSecondLevelCacheInterceptor)
+       - [Chiqishni keshlash](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/output?source=recommendations)
+       - [Entity Framework 2-darajali kesh](https://github.com/VahidN/EFCoreSecondLevelCacheInterceptor)
 
 11. Log Frameworks
-    - [Serilog](https://github.com/serilog/serilog)
+    - [Serilog](https://www.youtube.com/watch?v=RyjuC-TAxHk&t=1s&pp=ygUWU2VyaWxvZyBNREMgVXpiZWtpc3Rhbg%3D%3D)
     - [NLog](https://github.com/NLog/NLog)
-    - Tutorials 📚
-      - [From Zero to Hero: Logging in .NET](https://dometrain.com/course/from-zero-to-hero-logging-in-dotnet/?affcode=1115529_alq6yoqt)
       
-12. API Clients & Communications
+12. API Mijozlari va Aloqalari
     1. REST
        - [Gridify](https://github.com/alirezanet/Gridify)
        - [OData](https://learn.microsoft.com/en-us/odata/webapi/first-odata-api) 
@@ -142,30 +140,30 @@ If you like or are using this project to learn or start your solution, please gi
     3. GraphQL
         - [HotChocolate](https://github.com/ChilliCream/hotchocolate)
         - [GraphQL-dotnet](https://github.com/graphql-dotnet/graphql-dotnet)
-    - Tutorials 📚
+    - Darsliklar 📚
       - [From Zero to Hero: REST APIs in .NET](https://dometrain.com/course/from-zero-to-hero-rest-apis-in-asp-net-core/?affcode=1115529_alq6yoqt)
       - [From Zero to Hero: Minimal APIs in .NET with C#](https://dometrain.com/course/from-zero-to-hero-minimal-apis-in-net-with-c/?affcode=1115529_alq6yoqt)
       - [From Zero to Hero: gRPC in .NET](https://dometrain.com/course/from-zero-to-hero-grpc-in-dotnet/?affcode=1115529_alq6yoqt)
 
-13. Real-Time Communication
-    - [SignalR](https://docs.microsoft.com/aspnet/core/signalr)
-    - [WebSockets](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/websockets)
+13. Real vaqtda aloqa
+    - [SignalR](https://www.youtube.com/watch?v=mj_9_IYBJvY&t=1s&pp=ygUWU2lnbmFsUiBNREMgVXpiZWtpc3Rhbg%3D%3D)
+    - [WebSockets](https://www.youtube.com/watch?v=6Ps7dxJ6qdo&pp=ygUZV2ViU29ja2V0cyBNREMgVXpiZWtpc3Rhbg%3D%3D)
    
-14. Object Mapping
-    - [Manual mapping!](https://www.youtube.com/watch?v=U8gSdQN2jWI)
+14. Obyektni map qilish
+    - [Qo'lda map qilish!](https://www.youtube.com/watch?v=U8gSdQN2jWI)
     - [Mapperly](https://github.com/riok/mapperly)
     - [AutoMapper](https://github.com/AutoMapper/AutoMapper)
    
-15. Background Task Scheduler
+15. Fondagi vazifalarni rejalashtiruvchisi
     - [Native BackgroundService](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services)
     - [HangFire](https://github.com/HangfireIO/Hangfire)
     - [Quartz](https://github.com/quartznet/quartznet)
     - [Coravel](https://github.com/jamesmh/coravel)    
     
-16. Testing
-    1. Unit Testing
+16. Testlash
+    1. Unit Testlash
        - Frameworks
-          - [xUnit](https://docs.microsoft.com/dotnet/core/testing/unit-testing-with-dotnet-test)
+          - [xUnit](https://www.youtube.com/watch?v=DtvNioh9eHo&t=1s&pp=ygUTdGVzdCBNREMgVXpiZWtpc3Rhbg%3D%3D)
           - [NUnit](https://docs.microsoft.com/dotnet/core/testing/unit-testing-with-nunit)
           - [MSTest](https://docs.microsoft.com/dotnet/core/testing/unit-testing-with-mstest)
        - Mocking
@@ -174,34 +172,34 @@ If you like or are using this project to learn or start your solution, please gi
           - [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy)
        - Assertion
           - [FluentAssertion](https://github.com/fluentassertions/fluentassertions)
-       - Fake Data Generators
+       - Soxta ma'lumotlar generatorlari
           - [Bogus](https://github.com/bchavez/Bogus)
           - [AutoFixture](https://github.com/AutoFixture/AutoFixture)
-    2. Integration Testing
+    2. Integratsion Testlash
        - [WebApplicationFactory](https://docs.microsoft.com/aspnet/core/test/integration-tests)
        - [.NET Aspire](https://learn.microsoft.com/en-us/dotnet/aspire)
        - [Test Containers](https://github.com/testcontainers/testcontainers-dotnet)
        - [Respwan](https://github.com/jbogard/Respawn)
-    3. Snapshot Testing
+    3. Snapshot Testlash
        - [Verify](https://github.com/VerifyTests/Verify)
-    4. Behavior Testing
+    4. Xulq-atvor Testing
        - [SpecFlow](https://github.com/techtalk/SpecFlow/tree/DotNetCore)
-    5. E2E Testing
+    5. E2E Testlash
        - [Selenium](https://www.hanselman.com/blog/real-browser-integration-testing-with-selenium-standalone-chrome-and-aspnet-core-21)
        - [Puppeteer-Sharp](https://github.com/kblok/puppeteer-sharp)
-    6. Performance Testing
+    6. Ishlashni Testlash
        - [K6](https://github.com/grafana/k6)
        - [JMeter](https://github.com/apache/jmeter)
        - [Crank](https://github.com/dotnet/crank)
        - [Bombardier](https://github.com/codesenberg/bombardier)
-    - Tutorials 📚
+    - Darsliklar 📚
       - [From Zero to Hero: Unit testing in C#](https://dometrain.com/course/from-zero-to-hero-unit-testing-in-c/?affcode=1115529_alq6yoqt)
       - [From Zero to Hero: Integration testing in ASP.NET Core](https://dometrain.com/course/from-zero-to-hero-integration-testing-in-asp-net-core/?affcode=1115529_alq6yoqt)
       - [From Zero to Hero: Test-Driven Development in C#](https://dometrain.com/course/from-zero-to-hero-test-driven-development-tdd-csharp/?affcode=1115529_alq6yoqt)
 
-17. Microservices
-    1. Message-Brokers
-       - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
+17. Mikroservislar
+    1. Xabar-Brokerlari
+       - [RabbitMQ](https://www.youtube.com/watch?v=8tfAazpwqik&t=1s&pp=ygUXUmFiYml0TVEgTURDIFV6YmVraXN0YW4%3D)
        - [Apache Kafka](https://github.com/confluentinc/confluent-kafka-dotnet)
        - [Azure Service Bus](https://docs.microsoft.com/azure/service-bus-messaging)
        - [Amazon SQS](https://aws.amazon.com/sqs)
@@ -213,81 +211,81 @@ If you like or are using this project to learn or start your solution, please gi
     3. API Gateway
        - [Ocelot](https://github.com/ThreeMammals/Ocelot)
        - [YARP](https://github.com/microsoft/reverse-proxy)
-    4. Containerization
-       - [Docker](https://www.docker.com)
+    4. Konteynerlash
+       - [Docker](https://www.youtube.com/watch?v=trW0gihZ78E&list=PL_WK6W0Gn1I4jcUIwAUkcLM76k08Bqi2K)
        - [Podman](https://podman.io)
-    5. Orchestration
+    5. Orkestratsiya
        - [Kubernetes](https://kubernetes.io)
          - [Rancher](https://github.com/rancher/rancher)
          - [Kubectl](https://kubernetes.io/docs/reference/kubectl)
          - [K9s](https://github.com/derailed/k9s)
-    6. Other
+    6. Boshqa
        - [.NET Aspire](https://learn.microsoft.com/en-us/dotnet/aspire)
        - [Orleans](https://github.com/dotnet/orleans)
        - [Proto.Actor](https://github.com/asynkron/protoactor-dotnet)
        - [Dapr](https://github.com/dapr/dapr)
-    - Tutorials 📚
+    - Darsliklar 📚
       - [Getting Started: Microservices Architecture](https://dometrain.com/course/getting-started-microservices-architecture/?affcode=1115529_alq6yoqt)
       - [Getting Started: Solution Architecture](https://dometrain.com/course/getting-started-solution-architecture/?affcode=1115529_alq6yoqt)
       - [From Zero to Hero: Docker for Developers](https://dometrain.com/course/from-zero-to-hero-docker/?affcode=1115529_alq6yoqt)
 
-18. Continuous Integration & Continuous Delivery
-    - [GitHub Actions](https://github.com/features/actions)
+18. Uzluksiz integratsiya va uzluksiz yetkazib berish
+    - [GitHub Actions](https://www.youtube.com/watch?v=7O4MCfJs8aY&pp=ygUdR2l0SHViIEFjdGlvbnMgTURDIFV6YmVraXN0YW4%3D)
     - [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines)
     - [GitLab CI/CD](https://docs.gitlab.com/ee/ci)
     - [TeamCity CI/CD](https://www.jetbrains.com/teamcity)
 
-19. Design Patterns
-    - Categories
-      - [Creational](https://refactoring.guru/design-patterns/creational-patterns)
-      - [Structural](https://refactoring.guru/design-patterns/structural-patterns)
-      - [Behavioral](https://refactoring.guru/design-patterns/behavioral-patterns)
-    - Tutorials 📚
-      - [Pluralsight Learning Path: Design Patterns in C#](https://www.pluralsight.com/paths/design-patterns-in-c)
+19. Dizayn patternlari
+    - Kategoriyalar
+      - [Yaratuvchanlik](https://refactoring.guru/design-patterns/creational-patterns)
+      - [Strukturaviy](https://refactoring.guru/design-patterns/structural-patterns)
+      - [Xulq-atvor](https://refactoring.guru/design-patterns/behavioral-patterns)
+    - Darsliklar 📚
+      - [Design Pattern (Farkhod Dadajanov)](https://www.youtube.com/watch?v=dreyroBhzL4&list=PL_WK6W0Gn1I6IM4WkC7B62mdslDdhH2fY&pp=iAQB)
 
-20. Monitoring/Logging/Tracing/Alerting
+20. Monitoring/Logging/Kuzatish/Ogohlantirish
     - Monitoring
-       - On-Premises
+       - Mahalliy
           - [Prometheus](https://github.com/prometheus/prometheus)
           - [Grafana](https://github.com/grafana/grafana)
-       - Cloud
+       - Bulut
           - [Datadog](https://www.datadoghq.com)
     - Logging
-       - On-Premises
+       - Mahalliy
           - [ELK Stack](https://www.elastic.co/what-is/elk-stack)
           - [Seq](https://datalust.co/seq)
           - [Sentry.io](https://sentry.io/welcome/)
-       - Cloud
+       - Bulut
           - [Datadog](https://docs.datadoghq.com/logs)
           - [Sentry.io](https://sentry.io/welcome/)
-       - Tutorials 📚
+       - Darsliklar 📚
          - [From Zero to Hero: Logging in .NET](https://dometrain.com/course/from-zero-to-hero-logging-in-dotnet/?affcode=1115529_alq6yoqt)
-    - Tracing
-       - On-Premises
+    - Kuzatish
+       - Mahalliy
           - [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-dotnet)
              - [Jaeger](https://github.com/jaegertracing/jaeger)
              - [Zipkin](https://github.com/openzipkin/zipkin)
              - [Sentry.io](https://sentry.io/welcome/)
-       - Cloud
+       - Bulut
           - [Datadog](https://docs.datadoghq.com/tracing)
           - [Sentry.io](https://sentry.io/welcome/)
-    - Alerting
-       - On-Premises
+    - Ogohlantirish
+       - Mahalliy
           - [Zabbix](https://www.zabbix.com)
           - [Alertmanager](https://github.com/prometheus/alertmanager)
-       - Cloud
+       - Bulut
           - [Datadog](https://docs.datadoghq.com/monitors)
 
-21. Client-Side .NET
-    - Template Engines
+21. .NET Mijoz tomoni
+    - Shablon enjinlari
        - [Razor](https://docs.microsoft.com/aspnet/core/mvc/views/razor)
        - [Scriban](https://github.com/lunet-io/scriban)
        - [Fluid](https://github.com/sebastienros/fluid)
     - Frameworks
-       - [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
+       - [Blazor](https://www.youtube.com/watch?v=fCD4OUM2dxA&t=1s&pp=ygUVQmxhem9yIE1EQyBVemJla2lzdGFu)
        - [.NET MAUI](https://github.com/dotnet/maui)
 
-22. Good to Know
+22. Bilish yaxshi
     - [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
     - [MediatR](https://github.com/jbogard/MediatR)
     - [Fluent Validation](https://github.com/JeremySkinner/FluentValidation)
@@ -301,29 +299,29 @@ If you like or are using this project to learn or start your solution, please gi
 
 ## Wrap Up
 
-If you think the roadmap can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this, so you might want to star this repository to revisit.
+Agar yo'l xaritasini yaxshilash mumkin deb hisoblasangiz, iltimos, har qanday yangilanishlar bilan PRni oching va har qanday muammolarni yuboring. Bundan tashqari, men buni yaxshilashda davom etaman, shuning uchun siz ushbu repository-ni qayta ko'rib chiqish uchun yulduzchani bosib qo'ying.
 
-Idea from : [React Developer RoadMap](https://github.com/adam-golab/react-developer-roadmap)
+[React Dasturcih yo'l xaritasi](https://github.com/adam-golab/react-developer-roadmap) dan g'oya olingan
 
-## Contribution
+## Hissa Qo'shish
 
-Want to contribute? We encourage community feedback and contributions. Please follow our [contributing guidelines](https://github.com/MoienTajik/AspNetCore-Developer-Roadmap/blob/master/CONTRIBUTING.md).
+Hissa qo'shishni xohlaysizmi? Biz hamjamiyatning fikr-mulohazalari va hissalarini qo'llab-quvvatlaymiz. Iltimos, [hissa qoʻshish boʻyicha koʻrsatmalarimizga](https://github.com/MoienTajik/AspNetCore-Developer-Roadmap/blob/master/CONTRIBUTING.md) amal qiling.
 
-## Credits
+## Kreditlar
 
-### Backers
+### Qo'llab-Quvvatlovchilar
 
-Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/AspNetCore-Developer-Roadmap#backer)]
+Barcha qo'llab-quvvatlovchilarimizga rahmat! 🙏 [[Qo'llab-quvvatlovchiga aylaning](https://opencollective.com/AspNetCore-Developer-Roadmap#backer)]
 
 <a href="https://github.com/sponsors/MoienTajik" target="_blank"><img src="https://opencollective.com/AspNetCore-Developer-Roadmap/backers.svg?width=890"></a>
 
-### Sponsors
+### Homiylar
 
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://github.com/sponsors/MoienTajik)]
+Homiy bo'lish orqali ushbu loyihani qo'llab-quvvatlang. Sizning logotipingiz veb-saytingizga havola bilan bu erda ko'rsatiladi. [[Homiy bo'ling](https://github.com/sponsors/MoienTajik)]
 
 <a href="https://github.com/sponsors/MoienTajik" target="_blank"><img src="https://opencollective.com/AspNetCore-Developer-Roadmap/sponsor/0/avatar.svg"></a>
 
 
-## License
+## Litsenziya
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0)
