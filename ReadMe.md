@@ -194,6 +194,9 @@ If you like or are using this project to learn or start your solution, please gi
        - [JMeter](https://github.com/apache/jmeter)
        - [Crank](https://github.com/dotnet/crank)
        - [Bombardier](https://github.com/codesenberg/bombardier)
+    7. Architecture Testing
+       - [ArchUnitNET](https://github.com/TNG/ArchUnitNET)
+       - [NetArchTest](https://github.com/BenMorris/NetArchTest)   
     - Tutorials 📚
       - [From Zero to Hero: Unit testing in C#](https://dometrain.com/course/from-zero-to-hero-unit-testing-in-c/?affcode=1115529_alq6yoqt)
       - [From Zero to Hero: Integration testing in ASP.NET Core](https://dometrain.com/course/from-zero-to-hero-integration-testing-in-asp-net-core/?affcode=1115529_alq6yoqt)
