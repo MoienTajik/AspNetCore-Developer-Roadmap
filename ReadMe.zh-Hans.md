@@ -343,6 +343,20 @@
 - 在Issues中讨论问题
 - 推广此项目
 
+## 赞助者
+
+### 支持者
+
+感谢所有支持者的支持！ 🙏 [[成为支持者](https://opencollective.com/AspNetCore-Developer-Roadmap#backer)]
+
+<a href="https://github.com/sponsors/MoienTajik" target="_blank"><img src="https://opencollective.com/AspNetCore-Developer-Roadmap/backers.svg?width=890"></a>
+
+### 赞助商
+
+通过成为赞助商来支持这个项目。您的标志将显示在这里，并链接到您的网站。[[成为赞助商](https://github.com/sponsors/MoienTajik)]
+
+<a href="https://github.com/sponsors/MoienTajik" target="_blank"><img src="https://opencollective.com/AspNetCore-Developer-Roadmap/sponsor/0/avatar.svg"></a>
+
 ## 许可协议
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="创用 CC 授权条款" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本著作系采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">创用 CC 姓名标示-非商业性-相同方式分享 4.0 国际 授权条款</a>授权.
