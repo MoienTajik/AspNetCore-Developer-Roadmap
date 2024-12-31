@@ -9,7 +9,7 @@
 - [Read-me in Turkish](ReadMe-tr.md)
 - [Read-me in Japanese](ReadMe.ja.md)
 
-> Roadmap to becoming an [ASP.NET Core](https://docs.microsoft.com/aspnet/core) developer in 2024:
+> Roadmap to becoming an [ASP.NET Core](https://docs.microsoft.com/aspnet/core) developer in 2025:
 
 Below you can find a chart demonstrating the paths that you can take and the libraries that you would want to learn to become an ASP.NET Core developer. I made this chart as a tip for everyone who asks me, "What should I learn next as an ASP.NET Core developer?"
 
@@ -53,6 +53,7 @@ If you like or are using this project to learn or start your solution, please gi
    - [Application Settings & Configurations](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration)
    - [Middlewares](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware)
    - [Filters & Attributes](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/filters)
+   - [Background Tasks](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services)
    - [Authentication](https://docs.microsoft.com/en-us/aspnet/core/security/authentication)
    - [Authorization](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/introduction)
    - [IdentityServer](https://identityserver4.readthedocs.io/en/latest)
@@ -60,6 +61,7 @@ If you like or are using this project to learn or start your solution, please gi
    - [OpenIddict](https://github.com/openiddict/openiddict-core)
    - [Auth0](https://auth0.com/docs)
    - [OIDC](https://openid.net/connect)
+   - [Caching](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/overview)
    - [Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/razor-pages)
    - [Razor Components](https://docs.microsoft.com/en-us/aspnet/core/blazor/components)
    - Tutorials 📚
@@ -229,6 +231,7 @@ If you like or are using this project to learn or start your solution, please gi
        - [Orleans](https://github.com/dotnet/orleans)
        - [Proto.Actor](https://github.com/asynkron/protoactor-dotnet)
        - [Dapr](https://github.com/dapr/dapr)
+       - [Akka.NET](https://github.com/akkadotnet/akka.net)
     - Tutorials 📚
       - [Getting Started: Microservices Architecture](https://dometrain.com/course/getting-started-microservices-architecture/?affcode=1115529_alq6yoqt)
       - [Getting Started: Solution Architecture](https://dometrain.com/course/getting-started-solution-architecture/?affcode=1115529_alq6yoqt)
@@ -290,8 +293,12 @@ If you like or are using this project to learn or start your solution, please gi
        - [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
        - [.NET MAUI](https://github.com/dotnet/maui)
 
-22. Good to Know
-    - [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
+22. AI / LLMs
+    - [Semantic Kernel](https://github.com/microsoft/semantic-kernel)
+    - [OpenAI .NET](https://github.com/openai/openai-dotnet)
+
+23. Good to Know
+    - [Scalar](https://github.com/scalar/scalar)
     - [MediatR](https://github.com/jbogard/MediatR)
     - [Fluent Validation](https://github.com/JeremySkinner/FluentValidation)
     - [Polly](https://github.com/App-vNext/Polly)
