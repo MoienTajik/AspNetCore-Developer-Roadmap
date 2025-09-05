@@ -78,7 +78,7 @@
 6. Объектно-реляционное отображение данных (ORM)
     - [Основы платформы сущностей(EF Core)](https://learn.microsoft.com/ru-ru/ef/core)
        - Обучающие материалы 📚
-          - - [From Zero to Hero: Entity Framework Core in .NET](https://dometrain.com/course/from-zero-to-hero-entity-framework-core-in-dotnet/?affcode=1115529_alq6yoqt)
+         - [From Zero to Hero: Entity Framework Core in .NET](https://dometrain.com/course/from-zero-to-hero-entity-framework-core-in-dotnet/?affcode=1115529_alq6yoqt)
     - [Dapper](https://github.com/StackExchange/Dapper)
 
 
