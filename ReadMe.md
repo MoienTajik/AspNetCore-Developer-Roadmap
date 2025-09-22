@@ -309,6 +309,8 @@ If you like or are using this project to learn or start your solution, please gi
     - [Nuke Build](https://github.com/nuke-build/nuke)
     - [Marten](https://github.com/JasperFx/marten)
 
+## Microsoft courses
+Microsoft has some very interesting [online courses](https://learn.microsoft.com/training/browse/) on its technologies. They're all free.
 
 ## Wrap Up
 
