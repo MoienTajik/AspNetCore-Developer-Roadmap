@@ -10,7 +10,7 @@
 - [Read-me на Турецком](ReadMe-tr.md)
 - [Read-me на Японском](ReadMe.ja.md)
 
-> Дорожная карта разработчика [ASP.NET Core](https://docs.microsoft.com/aspnet/core) в 2025:
+> Дорожная карта разработчика [ASP.NET Core](https://docs.microsoft.com/aspnet/core) в 2026:
 На данной карте представлен список технологий и библиотек, которые вам стоит изучить, чтобы стать разработчиком ASP.NET Core. Я создал эту карту в качестве простого руководства для всех, кто спрашивает меня: "Что я должен изучить дальше, чтобы стать разработчиком ASP.NET Core?"
 
 ## Дисклеймер
@@ -33,12 +33,28 @@
    - Что такое [TLS](https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/)?
    - Что такое [SSL](https://www.cloudflare.com/learning/ssl/what-is-ssl/)?
    - Не бойтесь использовать Google, [прокачайте навык гугления](http://www.powersearchingwithgoogle.com)
-   - Начните использовать [ChatGPT](https://chat.openai.com/chat)
    - [Прочтите несколько книг о структурах данных и алгоритмах](https://www.interviewbit.com/blog/data-structures-and-algorithms-books)
+   - AI / LLMs
+      - LLMs
+         - [OpenAI (ChatGPT)](https://chatgpt.com)
+         - [Claude](https://claude.ai)
+         - [Gemini](https://gemini.google.com)
+      - IDE / Tools
+         - [Cursor](https://cursor.com/home)
+            - Modes
+               - Agent
+               - Plan
+               - Ask
+            - [MCPs](https://cursor.com/docs/context/mcp)
+         - [Claude Code](https://code.claude.com/docs/en/overview)
+         - [Lovable](https://lovable.dev)
+      - Libraries
+         - [Semantic Kernel](https://github.com/microsoft/semantic-kernel)
+         - [OpenAI .NET](https://github.com/openai/openai-dotnet)
 
 2. C#
    - [C#](https://www.pluralsight.com/paths/c-10)
-   - [.NET 7](https://devblogs.microsoft.com/dotnet/announcing-dotnet-7)
+   - [.NET 10](https://devblogs.microsoft.com/dotnet/announcing-dotnet-10)
    - Интерфейс командной строки [dotnet CLI](https://docs.microsoft.com/dotnet/core/tools)
    - [Правила StyleCop ](https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/DOCUMENTATION.md)
    
@@ -292,12 +308,8 @@
     - Фреймворки
        - [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
        - [.NET MAUI](https://github.com/dotnet/maui)
-	   
-21. AI / LLMs
-    - [Semantic Kernel](https://github.com/microsoft/semantic-kernel)
-    - [OpenAI .NET](https://github.com/openai/openai-dotnet)
-	
-22. Будет полезным
+        
+21. Будет полезным
     - [Scalar](https://github.com/scalar/scalar)
     - [MediatR](https://github.com/jbogard/MediatR)
     - [Fluent Validation](https://github.com/JeremySkinner/FluentValidation)
