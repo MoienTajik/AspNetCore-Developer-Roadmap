@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/moientajik-aspnetcore-developer-roadmap-badge.png)](https://mseep.ai/app/moientajik-aspnetcore-developer-roadmap)
+
 # ASP.NET Core Developer Roadmap
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
